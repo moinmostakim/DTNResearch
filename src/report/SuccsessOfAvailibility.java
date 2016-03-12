@@ -15,7 +15,7 @@ import java.util.Iterator;
 import java.util.Map;
 import java.util.Set;
 import java.util.TreeMap;
-import routing.AvavibilityRouter;
+import routing.AvailibilityRouter;
 import routing.DirectDeliveryRouter;
 import routing.MessageRouter;
 
@@ -25,7 +25,7 @@ import routing.MessageRouter;
  */
 public class SuccsessOfAvailibility extends Report implements ConnectionListener {
 
-    Map<DTNHost, AvavibilityRouter> hostMapped;
+    Map<DTNHost, AvailibilityRouter> hostMapped;
     Map<DTNHost, DirectDeliveryRouter> hostMapped2;
 
     String router = "";
@@ -54,8 +54,8 @@ public class SuccsessOfAvailibility extends Report implements ConnectionListener
     public void hostsConnected(DTNHost host1, DTNHost host2) {
 
         if (!router.isEmpty() && router.equalsIgnoreCase("AvavibilityRouter")) {
-            hostMapped.put(host1, (AvavibilityRouter) host1.getRouter());
-            hostMapped.put(host2, (AvavibilityRouter) host2.getRouter());
+            hostMapped.put(host1, (AvailibilityRouter) host1.getRouter());
+            hostMapped.put(host2, (AvailibilityRouter) host2.getRouter());
         } else {
             hostMapped2.put(host1, (DirectDeliveryRouter) host1.getRouter());
             hostMapped2.put(host2, (DirectDeliveryRouter) host2.getRouter());
@@ -74,20 +74,20 @@ public class SuccsessOfAvailibility extends Report implements ConnectionListener
 
         if (!router.isEmpty() && router.equalsIgnoreCase("AvavibilityRouter")) {
 
-            Map<DTNHost, AvavibilityRouter> tempMap = new HashMap<>();
+            Map<DTNHost, AvailibilityRouter> tempMap = new HashMap<>();
             tempMap.putAll(hostMapped);
             ValueComparator vc = new ValueComparator(tempMap);
-            TreeMap<DTNHost, AvavibilityRouter> treeMap = new TreeMap<>(vc);
+            TreeMap<DTNHost, AvailibilityRouter> treeMap = new TreeMap<>(vc);
             treeMap.putAll(tempMap);
-            Set<Map.Entry<DTNHost, AvavibilityRouter>> entrySet = treeMap.entrySet();
-            Iterator<Map.Entry<DTNHost, AvavibilityRouter>> iterator = entrySet.iterator();
+            Set<Map.Entry<DTNHost, AvailibilityRouter>> entrySet = treeMap.entrySet();
+            Iterator<Map.Entry<DTNHost, AvailibilityRouter>> iterator = entrySet.iterator();
             int totalsum = 0;
             int totalSuccess = 0;
             double totalLatency = 0;
             while (iterator.hasNext()) {
-                Map.Entry<DTNHost, AvavibilityRouter> next = iterator.next();
+                Map.Entry<DTNHost, AvailibilityRouter> next = iterator.next();
                 DTNHost host = next.getKey();
-                AvavibilityRouter hostRouter = next.getValue();
+                AvailibilityRouter hostRouter = next.getValue();
                 double averageLatencyOfQueryReceived = averageLatencyOfQueryReceived(hostRouter);
                 write(host + " \t " + hostRouter.getTotalQueryObject()
                         + " \t " + hostRouter.getSuccesfullyRetrived()
@@ -96,7 +96,7 @@ public class SuccsessOfAvailibility extends Report implements ConnectionListener
                 totalsum += hostRouter.getTotalQueryObject();
                 totalSuccess += hostRouter.getSuccesfullyRetrived();
             }
-            AvavibilityRouter router = hostMapped.entrySet().iterator().next().getValue();
+            AvailibilityRouter router = hostMapped.entrySet().iterator().next().getValue();
             int bufferSize = router.getBufferSize();
             int noOfReplicas = router.getNoOfReplicas();
             write(hostMapped.size() + " \t " + totalsum + " \t " + totalSuccess + " \t " + (totalLatency / hostMapped.size()) + " \t " + SimClock.getTime() + " \t " + bufferSize + " \t " + noOfReplicas);
@@ -140,7 +140,7 @@ public class SuccsessOfAvailibility extends Report implements ConnectionListener
         }
     }
 
-    public double averageLatencyOfQueryReceived(AvavibilityRouter hostRouter) {
+    public double averageLatencyOfQueryReceived(AvailibilityRouter hostRouter) {
         double result = 0.0;
 
         Set<String> keySet = hostRouter.retrivalTimeOfQuery.keySet();
@@ -182,9 +182,9 @@ public class SuccsessOfAvailibility extends Report implements ConnectionListener
 
 class ValueComparator implements Comparator<DTNHost> {
 
-    Map<DTNHost, AvavibilityRouter> base;
+    Map<DTNHost, AvailibilityRouter> base;
 
-    public ValueComparator(Map<DTNHost, AvavibilityRouter> base) {
+    public ValueComparator(Map<DTNHost, AvailibilityRouter> base) {
         this.base = base;
     }
 
