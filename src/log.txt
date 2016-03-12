@@ -1,0 +1,3757 @@
+Run 1/1
+routerAvavibilityRouter
+Running simulation 'recurrence2AvavibilityRouter'
+30016.0 object O218 created
+O218 [t11, t9, m15, s8, p0]
+30016.0 object O378 created
+O378 [m20, m16, m17, m22, t9]
+30080.0 object O131 created
+O131 [q3, t9, m18, t11, p0]
+30080.0 object O172 created
+O172 [s8, m15, q4, m21, t10]
+30080.0 object O243 created
+O243 [m23, t9, p0, m16, s6]
+30080.0 object O349 created
+O349 [s8, m21, m18, p0, m20]
+30144.0 object O90 created
+O90 [m23, t9, p0, m16, s6]
+30153.5999998417 t9 received replica for O218 from m21
+30189.499999841177 t9 received replica for O90 from q3
+30189.99999984117 t9 received replica for O243 from q3
+30207.19999984092 q3 received replica for O131 from m23
+30207.699999840912 m23 received replica for O243 from q3
+30208.0 object O127 created
+O127 [t10, m14, p0, q3, m12]
+30208.0 object O163 created
+O163 [p1, m20, s6, m13, p0]
+30208.0 object O171 created
+O171 [m12, m18, p1, q5, m24]
+30208.199999840905 m23 received replica for O90 from q3
+30211.599999840855 t9 received replica for O131 from m23
+30229.69999984059 m16 received replica for O243 from q3
+30230.199999840584 m16 received replica for O90 from q3
+30272.0 object O308 created
+O308 [q3, t9, m18, t11, p0]
+30272.0 object O310 created
+O310 [q5, t11, m15, m18, m12]
+30281.799999839834 q3 received replica for O127 from m20
+30285.199999839784 m12 received replica for O127 from m20
+30293.899999839658 t11 received replica for O308 from m23
+30294.39999983965 t11 received replica for O131 from m23
+30296.39999983962 q5 received replica for O310 from s8
+30296.899999839614 s8 received replica for O172 from q5
+30315.399999839345 p0 received replica for O163 from m14
+30336.0 object O1 created
+O1 [s7, q5, s8, m16, s6]
+30336.0 object O2 created
+O2 [m16, t9, q4, m12, s8]
+30336.0 object O84 created
+O84 [m18, m23, m15, p1, q3]
+30336.0 object O237 created
+O237 [m16, m13, t10, m20, m22]
+30336.0 t10 received replica for O237 from m17
+30336.0 object O249 created
+O249 [q3, q4, s7, p0, t10]
+30348.59999983886 p0 received replica for O218 from m21
+30354.29999983878 m18 received replica for O310 from s8
+30435.099999837603 s7 received replica for O249 from s6
+30464.0 object O81 created
+O81 [t10, m14, p0, q3, m12]
+30464.0 object O159 created
+O159 [s7, q5, s8, m16, s6]
+30486.499999836855 t9 received replica for O378 from p0
+30528.0 object O29 created
+O29 [s7, q5, s8, m16, s6]
+30528.0 object O66 created
+O66 []
+30575.099999835566 m12 received replica for O2 from m19
+30592.0 object O180 created
+O180 [m20, m16, m17, t9, m22]
+30612.899999835015 p0 received replica for O249 from s6
+30656.0 object O399 created
+O399 [t10, m14, p0, q3, m12]
+30660.399999834324 m20 received replica for O237 from m17
+30720.0 object O351 created
+O351 [p1, m20, s6, p0, m13]
+30720.0 object O380 created
+O380 [q5, t11, m15, m18, m12]
+30720.0 q5 received replica for O380 from s8
+30757.099999832917 p0 received replica for O243 from q3
+30757.59999983291 p0 received replica for O90 from q3
+30848.0 object O6 created
+O6 [m18, m23, m15, p1, q3]
+30848.0 object O259 created
+O259 [m20, m16, m17, t9, m22]
+30848.0 object O281 created
+O281 [p1, t11, m21, m14, q5]
+30848.0 object O309 created
+O309 [m23, t9, m16, p0, s6]
+30848.0 p0 received replica for O309 from q3
+30901.89999983081 t10 received replica for O172 from q5
+30902.399999830803 q5 received replica for O171 from t10
+30951.49999983009 m12 received replica for O171 from t10
+30976.0 object O290 created
+O290 [p0, m12, s8, t11, p1]
+31014.399999829173 m24 received replica for O171 from t10
+31040.0 object O27 created
+O27 [q4, q5, s8, m18, m12]
+31040.0 object O213 created
+O213 []
+31040.0 object O303 created
+O303 [s8, m15, q4, m21, s7]
+31040.0 object O323 created
+O323 [s8, m21, m18, p0, m20]
+31045.899999828714 t10 received replica for O249 from s6
+31105.499999827847 s8 received replica for O303 from q5
+31119.499999827643 m14 received replica for O281 from m15
+31139.299999827355 q5 received replica for O281 from m15
+31139.799999827348 m15 received replica for O303 from q5
+31140.29999982734 m15 received replica for O172 from q5
+31161.399999827034 m15 received replica for O380 from s8
+31161.899999827026 m15 received replica for O310 from s8
+31168.0 object O12 created
+O12 []
+31168.0 object O337 created
+O337 [m20, m16, m17, t9, m22]
+31181.399999826743 m23 received replica for O84 from m12
+31181.899999826735 m23 received replica for O6 from m12
+31232.0 object O31 created
+O31 [p0, m14, t11, m12, q3]
+31232.0 object O207 created
+O207 [m16, t9, q4, m12, m14]
+31232.0 object O253 created
+O253 [m17, t10, p0, m22, m19]
+31232.0 object O299 created
+O299 [m18, q3, m17, m16, m12]
+31232.0 object O312 created
+O312 [s8, q4, m21, s7, t11]
+31232.0 s8 received replica for O312 from q5
+31333.49999982453 p0 received replica for O131 from m23
+31333.999999824522 p0 received replica for O308 from m23
+31360.0 object O78 created
+O78 [t10, m14, p0, q3, m12]
+31360.0 object O258 created
+O258 [m18, m23, m15, p1, q3]
+31360.0 object O268 created
+O268 [q3, q4, s7, p0, t10]
+31360.0 object O343 created
+O343 [m16, t9, q4, m12, m14]
+31360.0 object O350 created
+O350 [m24, m14, t9, m15, m19]
+31360.0 object O371 created
+O371 [q4, q5, s8, m18, m12]
+31424.0 object O100 created
+O100 [m16, t10, m13, m22, t9]
+31424.0 object O148 created
+O148 [m24, m14, t9, m15, m19]
+31424.0 object O315 created
+O315 [m17, t10, p0, m22, m19]
+31437.79999982301 m12 received replica for O31 from m13
+31508.499999821983 p0 received replica for O268 from s6
+31531.99999982164 s7 received replica for O268 from s6
+31552.0 object O33 created
+O33 [m16, t10, m13, m22, p1]
+31552.0 object O64 created
+O64 [s8, m21, m18, p0, m20]
+31552.0 object O102 created
+O102 [p0, m12, s8, t11, p1]
+31552.0 object O222 created
+O222 []
+31552.0 object O359 created
+O359 [p0, m14, m12, t11, q3]
+31552.0 object O388 created
+O388 [p1, m20, s6, p0, q5]
+31581.199999820925 t11 received replica for O359 from m13
+31581.699999820918 t11 received replica for O31 from m13
+31616.0 object O199 created
+O199 [q5, t11, m15, m18, m12]
+31616.0 q5 received replica for O199 from s8
+31616.0 object O206 created
+O206 [m16, t9, q4, m12, m14]
+31616.0 object O317 created
+O317 [p1, t11, m21, m14, q5]
+31633.899999820158 p1 received replica for O33 from m17
+31675.899999819547 t11 received replica for O102 from m18
+31676.39999981954 t11 received replica for O290 from m18
+31676.899999819532 m18 received replica for O323 from t11
+31677.399999819525 m18 received replica for O64 from t11
+31677.899999819518 m18 received replica for O349 from t11
+31680.0 object O74 created
+O74 [p1, t11, m21, m14, q5]
+31680.0 object O170 created
+O170 [t11, t9, m15, s8, p1]
+31684.49999981942 s8 received replica for O1 from q4
+31684.999999819414 s8 received replica for O29 from q4
+31685.499999819407 s8 received replica for O159 from q4
+31689.699999819346 q5 received replica for O29 from q4
+31690.19999981934 q5 received replica for O1 from q4
+31690.69999981933 q5 received replica for O159 from q4
+31691.199999819324 q4 received replica for O303 from q5
+31691.699999819317 q4 received replica for O172 from q5
+31692.19999981931 q4 received replica for O312 from q5
+31744.0 object O321 created
+O321 [m12, m23, t11, p0, m24]
+31746.799999818515 m12 received replica for O78 from m20
+31747.299999818508 m12 received replica for O399 from m20
+31747.7999998185 m12 received replica for O81 from m20
+31808.0 object O36 created
+O36 []
+31808.0 object O105 created
+O105 [t10, m14, p0, q3, m12]
+31808.0 object O272 created
+O272 [m12, p0, m17, t11, s7]
+31808.599999817616 m14 received replica for O359 from m13
+31809.09999981761 m14 received replica for O31 from m13
+31809.5999998176 m13 received replica for O163 from m14
+31810.099999817594 m13 received replica for O351 from m14
+31840.0 object O250 created
+O250 [s8, m15, q4, m21, s7]
+31840.0 s8 received replica for O250 from q5
+31845.599999817077 m24 received replica for O321 from t9
+31849.199999817025 m23 received replica for O258 from m12
+31872.0 object O169 created
+O169 [p1, t11, m21, m14, q5]
+31872.0 object O302 created
+O302 [m16, t10, m13, m22, p1]
+31872.0query Q381-315 created object O315
+31875.299999816645 m12 received replica for O105 from m20
+31888.0 object O128 created
+O128 [q3, q4, p0, s7, t10]
+31889.99999981643 p1 received replica for O6 from m12
+31890.499999816424 p1 received replica for O84 from m12
+31890.999999816417 p1 received replica for O258 from m12
+31896.29999981634 m23 received replica for O309 from q3
+31896.799999816332 q3 received replica for O308 from m23
+31918.99999981601 m18 received replica for O84 from m12
+31919.499999816002 m18 received replica for O258 from m12
+31919.999999815995 m18 received replica for O6 from m12
+31920.499999815987 m12 received replica for O102 from m18
+31920.99999981598 m12 received replica for O290 from m18
+31936.0 object O79 created
+O79 [t10, m14, p0, q3, s8]
+31936.69999981575 t10 received replica for O78 from m20
+31937.199999815744 t10 received replica for O79 from m20
+31937.699999815737 t10 received replica for O105 from m20
+31938.19999981573 t10 received replica for O399 from m20
+31938.699999815723 t10 received replica for O81 from m20
+31939.199999815715 t10 received replica for O127 from m20
+31945.999999815616 s6 received replica for O159 from q4
+31946.49999981561 s6 received replica for O1 from q4
+31946.9999998156 s6 received replica for O29 from q4
+31947.499999815594 q4 received replica for O249 from s6
+31947.999999815587 q4 received replica for O268 from s6
+31948.49999981558 q4 received replica for O128 from s6
+32000.0 object O160 created
+O160 [t11, t9, m15, s8, p1]
+32009.799999814688 p1 received replica for O302 from m17
+32028.99999981441 m20 received replica for O349 from t11
+32029.4999998144 m20 received replica for O64 from t11
+32029.999999814394 m20 received replica for O323 from t11
+32053.399999814053 m14 received replica for O81 from m20
+32053.899999814046 m14 received replica for O105 from m20
+32054.39999981404 m14 received replica for O399 from m20
+32054.89999981403 m14 received replica for O127 from m20
+32055.399999814024 m14 received replica for O78 from m20
+32055.899999814017 m14 received replica for O79 from m20
+32056.39999981401 m20 received replica for O351 from m14
+32056.899999814003 m20 received replica for O163 from m14
+32057.399999813995 m20 received replica for O388 from m14
+32060.099999813956 q3 received replica for O105 from m20
+32060.59999981395 q3 received replica for O81 from m20
+32061.09999981394 q3 received replica for O78 from m20
+32061.599999813934 q3 received replica for O399 from m20
+32062.099999813927 q3 received replica for O79 from m20
+32064.0query Q354-163 created object O163
+32084.4999998136 m14 received replica for O350 from p1
+32084.999999813594 m14 received replica for O148 from p1
+32085.499999813586 p1 received replica for O388 from m14
+32085.99999981358 p1 received replica for O351 from m14
+32086.49999981357 p1 received replica for O163 from m14
+32094.999999813448 m13 responding query Q354-163 for O163
+32095 Object retrieved for Q354-163 object O163
+32128.0 object O69 created
+O69 [m23, t9, m16, m17, p0]
+32160.699999812492 s7 received replica for O272 from m22
+32192.0 object O231 created
+O231 [m20, m16, m17, t9, m22]
+32192.0 object O276 created
+O276 [s8, m21, m20, m18, p0]
+32195.89999981198 t10 received replica for O268 from s6
+32196.399999811973 t10 received replica for O128 from s6
+32253.799999811137 m16 received replica for O159 from q4
+32254.29999981113 m16 received replica for O29 from q4
+32254.799999811123 m16 received replica for O1 from q4
+32256.0 object O25 created
+O25 []
+32256.0 object O241 created
+O241 [m16, t9, q4, m12, m14]
+32266.59999981095 q3 received replica for O299 from m24
+32284.899999810685 p0 received replica for O349 from t11
+32285.399999810677 p0 received replica for O323 from t11
+32285.89999981067 p0 received replica for O64 from t11
+32286.399999810663 p0 received replica for O276 from t11
+32289.799999810613 t9 received replica for O69 from q3
+32290.299999810606 t9 received replica for O309 from q3
+32290.999999810596 p0 received replica for O128 from s6
+32320.0 object O103 created
+O103 [t10, m14, q3, p0, s8]
+32320.0 object O289 created
+O289 [m16, t10, m13, m22, p1]
+32320.0 object O292 created
+O292 [m17, t10, p0, m22, m19]
+32320.0query Q61-171 created object O171
+32338.09999980991 s8 received replica for O27 from s7
+32338.599999809903 s8 received replica for O371 from s7
+32369.199999809458 q5 received replica for O371 from s7
+32369.69999980945 q5 received replica for O27 from s7
+32370.199999809443 s7 received replica for O312 from q5
+32370.699999809436 s7 received replica for O303 from q5
+32371.19999980943 s7 received replica for O250 from q5
+32384.0 object O107 created
+O107 [m12, m23, t11, p0, m24]
+32384.0 object O109 created
+O109 [t11, t9, m15, s8, p1]
+32384.0 object O347 created
+O347 [q3, t9, m18, p0, t11]
+32384.0 object O373 created
+O373 [m16, t10, m13, m22, p1]
+32448.0 object O157 created
+O157 [m18, m12, p1, m24, m22]
+32448.0 object O375 created
+O375 [q3, t9, m19, m18, p0]
+32451.699999808257 t11 received replica for O281 from m15
+32452.19999980825 t11 received replica for O169 from m15
+32452.699999808243 t11 received replica for O317 from m15
+32453.199999808236 t11 received replica for O74 from m15
+32455.6999998082 t11 received replica for O347 from m23
+32456.699999808185 p1 received replica for O289 from m17
+32457.199999808177 p1 received replica for O373 from m17
+32512.0 object O71 created
+O71 [q4, q5, s8, m18, m22]
+32512.0 object O181 created
+O181 [m16, t10, m13, m22, s6]
+32512.0 object O305 created
+O305 [t11, t9, m15, s8, p1]
+32512.0query Q281-249 created object O249
+32526.599999807167 m15 received replica for O305 from m21
+32527.09999980716 m15 received replica for O160 from m21
+32527.599999807153 m15 received replica for O218 from m21
+32528.099999807146 m15 received replica for O109 from m21
+32528.59999980714 m15 received replica for O170 from m21
+32529.09999980713 m21 received replica for O169 from m15
+32529.599999807124 m21 received replica for O74 from m15
+32530.099999807117 m21 received replica for O317 from m15
+32530.59999980711 m21 received replica for O281 from m15
+32561.49999980666 p0 received replica for O69 from q3
+32576.0 object O164 created
+O164 [q5, t11, m15, m18, m12]
+32587.69999980628 p0 received replica for O347 from m23
+32588.19999980627 p0 received replica for O375 from m23
+32590.499999806238 q5 received replica for O164 from s8
+32606.09999980601 t10 responding query Q281-249 for O249
+32606 Object retrieved for Q281-249 object O249
+32698.29999980467 m14 received replica for O103 from m20
+32704.0 object O194 created
+O194 [p0, m12, s8, t11, p1]
+32714.499999804433 m12 received replica for O359 from m13
+32737.099999804104 m18 received replica for O71 from s7
+32737.599999804097 m18 received replica for O27 from s7
+32738.09999980409 m18 received replica for O371 from s7
+32768.0 object O47 created
+O47 [s8, m15, q4, m21, s7]
+32768.0 s8 received replica for O47 from q5
+32768.0 object O366 created
+O366 [m18, m23, m15, p1, q3]
+32802.29999980316 m12 received replica for O27 from s7
+32802.79999980315 m12 received replica for O371 from s7
+32827.49999980279 m13 received replica for O100 from m17
+32827.999999802785 m13 received replica for O33 from m17
+32828.49999980278 m13 received replica for O181 from m17
+32828.99999980277 m13 received replica for O373 from m17
+32829.49999980276 m13 received replica for O302 from m17
+32829.999999802756 m13 received replica for O237 from m17
+32830.49999980275 m13 received replica for O289 from m17
+32832.0 object O306 created
+O306 [m16, t10, m13, m22, p1]
+32832.0 m13 received replica for O306 from m17
+32835.19999980268 m12 received replica for O107 from t9
+32835.69999980267 m12 received replica for O321 from t9
+32847.899999802496 q3 received replica for O103 from m20
+32896.0 object O125 created
+O125 [p1, s6, p0, m13, m20]
+32910.99999980158 m22 received replica for O378 from p0
+32911.49999980157 m22 received replica for O259 from p0
+32911.99999980156 m22 received replica for O231 from p0
+32912.499999801556 m22 received replica for O337 from p0
+32912.99999980155 m22 received replica for O180 from p0
+32913.49999980154 p0 received replica for O272 from m22
+32960.0 object O267 created
+O267 [q3, q4, p0, s7, s8]
+32970.79999980071 m16 received replica for O302 from m17
+32971.2999998007 m16 received replica for O33 from m17
+32971.79999980069 m16 received replica for O289 from m17
+32972.299999800685 m16 received replica for O373 from m17
+32972.79999980068 m16 received replica for O181 from m17
+32973.29999980067 m16 received replica for O100 from m17
+32973.79999980066 m16 received replica for O237 from m17
+32974.299999800656 m16 received replica for O306 from m17
+32974.79999980065 m17 received replica for O315 from m16
+32975.29999980064 m17 received replica for O253 from m16
+32975.799999800634 m17 received replica for O292 from m16
+33024.0 object O135 created
+O135 [p1, s6, p0, m13, m20]
+33024.0 object O161 created
+O161 [m18, m12, p1, m24, m22]
+33024.0 object O177 created
+O177 [s8, m15, q4, m21, s7]
+33047.59999979959 s6 received replica for O388 from m14
+33048.09999979958 s6 received replica for O351 from m14
+33048.599999799575 s6 received replica for O135 from m14
+33049.09999979957 s6 received replica for O163 from m14
+33049.59999979956 s6 received replica for O125 from m14
+33059.89999979941 m23 received replica for O321 from t9
+33060.3999997994 m23 received replica for O107 from t9
+33060.899999799396 t9 received replica for O375 from m23
+33061.39999979939 t9 received replica for O347 from m23
+33061.89999979938 t9 received replica for O308 from m23
+33064.99999979934 q4 received replica for O241 from m19
+33065.49999979933 q4 received replica for O207 from m19
+33065.99999979932 q4 received replica for O343 from m19
+33066.499999799315 q4 received replica for O206 from m19
+33066.99999979931 q4 received replica for O2 from m19
+33088.0 object O99 created
+O99 [m12, m23, t11, p0, m24]
+33088.0 m23 received replica for O99 from t9
+33088.0 object O108 created
+O108 [p0, t11, m14, m12, q3]
+33088.0 object O175 created
+O175 [s8, m21, m20, m18, p0]
+33152.0 object O314 created
+O314 [m12, p0, s7, m17, t11]
+33160.599999797945 t9 received replica for O148 from p1
+33161.09999979794 t9 received replica for O350 from p1
+33234.899999796864 p0 received replica for O267 from s6
+33258.59999979652 s7 received replica for O128 from s6
+33259.09999979651 s7 received replica for O267 from s6
+33280.0 object O381 created
+O381 [p0, m12, s8, t11, p1]
+33302.199999795885 t11 received replica for O108 from m13
+33342.099999795304 t9 received replica for O109 from m21
+33342.5999997953 t9 received replica for O160 from m21
+33343.09999979529 t9 received replica for O170 from m21
+33343.59999979528 t9 received replica for O305 from m21
+33344.0 object O146 created
+O146 [p0, m12, s8, t11, p1]
+33344.0 object O247 created
+O247 [s8, m15, q4, m21, s7]
+33344.0 object O251 created
+O251 [p0, m12, s8, t11, p1]
+33344.0 object O260 created
+O260 [m14, t10, q3, p0, s8]
+33344.0 object O294 created
+O294 []
+33348.299999795214 t10 received replica for O260 from m20
+33348.79999979521 t10 received replica for O103 from m20
+33375.59999979482 t9 received replica for O207 from m19
+33376.09999979481 t9 received replica for O343 from m19
+33376.5999997948 t9 received replica for O241 from m19
+33377.099999794795 t9 received replica for O2 from m19
+33377.59999979479 t9 received replica for O206 from m19
+33399.799999794464 m22 received replica for O161 from t10
+33400.29999979446 m22 received replica for O157 from t10
+33408.0 object O155 created
+O155 [p1, t11, m21, m14, q5]
+33408.0 object O166 created
+O166 [q5, t11, m15, m18, m12]
+33408.0 object O389 created
+O389 [q3, t9, m19, m18, p0]
+33435.59999979394 p1 received replica for O306 from m17
+33467.59999979348 m12 received replica for O314 from m22
+33468.09999979347 m12 received replica for O272 from m22
+33472.0 object O229 created
+O229 [p0, m12, s8, t11, p1]
+33472.0query Q10-81 created object O81
+33487.89999979318 t9 received replica for O337 from p0
+33488.399999793175 t9 received replica for O259 from p0
+33488.89999979317 t9 received replica for O180 from p0
+33489.19999979316 q5 received replica for O388 from m14
+33489.39999979316 t9 received replica for O231 from p0
+33489.89999979315 p0 received replica for O107 from t9
+33490.399999793146 p0 received replica for O321 from t9
+33490.89999979314 p0 received replica for O99 from t9
+33516.09999979277 m12 responding query Q61-171 for O171
+33516.09999979277 m12 received replica for O157 from t10
+33516.599999792765 m12 received replica for O161 from t10
+33517 Object retrieved for Q61-171 object O171
+33520.59999979271 s8 received replica for O247 from q5
+33521.0999997927 s8 received replica for O177 from q5
+33521.59999979269 q5 received replica for O166 from s8
+33536.0 object O15 created
+O15 [m23, m16, t9, m12, m14]
+33536.0 object O358 created
+O358 [t11, t9, m15, p0, s8]
+33545.79999979234 m15 received replica for O366 from m12
+33546.29999979233 m15 received replica for O258 from m12
+33552.69999979224 p1 received replica for O170 from m21
+33553.19999979223 p1 received replica for O305 from m21
+33553.699999792225 p1 received replica for O109 from m21
+33554.19999979222 p1 received replica for O160 from m21
+33560.69999979212 q4 received replica for O247 from q5
+33561.199999792116 q4 received replica for O177 from q5
+33561.69999979211 q4 received replica for O47 from q5
+33562.1999997921 q4 received replica for O250 from q5
+33600.0 object O20 created
+O20 [t10, p0, m17, m22, m19]
+33600.0 object O57 created
+O57 [m18, m12, p1, m24, m23]
+33600.0 object O201 created
+O201 []
+33600.0 object O264 created
+O264 [m20, m16, m22, m17, t10]
+33609.09999979142 s8 received replica for O79 from m20
+33609.19999979142 m12 received replica for O299 from m24
+33609.59999979141 s8 received replica for O103 from m20
+33610.099999791404 s8 received replica for O260 from m20
+33654.39999979076 m14 responding query Q10-81 for O81
+33654.39999979076 m20 received replica for O125 from m14
+33654.89999979075 m20 received replica for O135 from m14
+33655 Object retrieved for Q10-81 object O81
+33655.89999979074 m14 received replica for O260 from m20
+33664.0 object O40 created
+O40 [m12, p0, s7, m17, t11]
+33664.0query Q260-281 created object O281
+33728.0 object O95 created
+O95 [m12, p0, m23, t11, m24]
+33728.0 object O110 created
+O110 [q4, q5, s8, m18, m12]
+33728.0 object O278 created
+O278 [p0, m14, m12, q3, m23]
+33735.89999978957 s8 received replica for O64 from t11
+33736.399999789566 s8 received replica for O276 from t11
+33736.89999978956 s8 received replica for O175 from t11
+33737.39999978955 s8 received replica for O349 from t11
+33737.899999789544 s8 received replica for O323 from t11
+33738.39999978954 t11 received replica for O380 from s8
+33738.89999978953 t11 received replica for O199 from s8
+33739.39999978952 t11 received replica for O164 from s8
+33739.899999789515 t11 received replica for O310 from s8
+33740.39999978951 t11 received replica for O166 from s8
+33741.999999789485 m20 received replica for O175 from t11
+33742.49999978948 m20 received replica for O276 from t11
+33746.699999789416 t11 received replica for O312 from q5
+33747.6999997894 t10 received replica for O100 from m17
+33748.199999789394 t10 received replica for O181 from m17
+33748.69999978939 t10 received replica for O289 from m17
+33749.19999978938 t10 received replica for O373 from m17
+33749.69999978937 t10 received replica for O306 from m17
+33750.199999789365 t10 received replica for O33 from m17
+33750.69999978936 t10 received replica for O302 from m17
+33754.19999978931 m18 received replica for O299 from m24
+33756.99999978927 q4 received replica for O267 from s6
+33776.09999978899 m17 received replica for O180 from p0
+33776.59999978898 m17 received replica for O259 from p0
+33777.099999788974 m17 received replica for O337 from p0
+33777.59999978897 m17 received replica for O264 from p0
+33778.09999978896 m17 received replica for O231 from p0
+33778.59999978895 m17 received replica for O378 from p0
+33792.0 object O76 created
+O76 [s7, s6, q5, m16, s8]
+33792.0 s8 received replica for O76 from q4
+33792.0 object O277 created
+O277 [m12, p0, s7, m17, t11]
+33792.0 object O344 created
+O344 [m23, m16, t9, m12, m14]
+33792.0query Q131-321 created object O321
+33792.69999978875 m19 received replica for O292 from m16
+33793.19999978874 m19 received replica for O20 from m16
+33793.69999978873 m19 received replica for O253 from m16
+33794.199999788725 m19 received replica for O315 from m16
+33794.69999978872 m16 received replica for O241 from m19
+33795.19999978871 m16 received replica for O344 from m19
+33795.6999997887 m16 received replica for O15 from m19
+33796.199999788696 m16 received replica for O206 from m19
+33796.69999978869 m16 received replica for O343 from m19
+33797.19999978868 m16 received replica for O207 from m19
+33797.699999788674 m16 received replica for O2 from m19
+33811.299999788476 p0 responding query Q131-321 for O321
+33811 Object retrieved for Q131-321 object O321
+33811.79999978847 p0 received replica for O95 from t9
+33826.89999978825 t11 received replica for O146 from m18
+33827.39999978824 t11 received replica for O194 from m18
+33827.899999788235 t11 received replica for O251 from m18
+33828.39999978823 t11 received replica for O229 from m18
+33828.89999978822 t11 received replica for O381 from m18
+33829.39999978821 m18 received replica for O276 from t11
+33829.899999788206 m18 received replica for O175 from t11
+33845.29999978798 m12 received replica for O110 from s7
+33845.49999978798 m24 received replica for O57 from t10
+33845.99999978797 m24 received replica for O161 from t10
+33846.499999787964 m24 received replica for O157 from t10
+33856.0 object O113 created
+O113 [m12, p0, s7, m17, t11]
+33856.0 object O152 created
+O152 [q5, t11, m15, m18, m12]
+33856.0 object O182 created
+O182 [m20, m16, m22, m17, t9]
+33856.0 object O282 created
+O282 [p0, m14, m12, q3, m23]
+33879.399999787485 m18 received replica for O110 from s7
+33887.09999978737 m17 received replica for O299 from m24
+33891.19999978731 t9 received replica for O358 from m21
+33903.99999978713 m13 received replica for O125 from m14
+33904.49999978712 m13 received replica for O135 from m14
+33904.99999978711 m14 received replica for O108 from m13
+33905.499999787105 m14 received replica for O278 from m13
+33905.9999997871 m14 received replica for O282 from m13
+33925.499999786814 m17 responding query Q381-315 for O315
+33925.499999786814 m17 received replica for O20 from m16
+33926 Object retrieved for Q381-315 object O315
+33950.99999978644 q3 received replica for O282 from m13
+33951.499999786436 q3 received replica for O278 from m13
+33951.99999978643 q3 received replica for O31 from m13
+33952.49999978642 q3 received replica for O359 from m13
+33952.999999786414 q3 received replica for O108 from m13
+33981.799999785995 q3 received replica for O260 from m20
+33984.0 object O200 created
+O200 [m20, m16, m22, m17, t9]
+33984.0 object O262 created
+O262 [q3, q4, p0, s7, s8]
+34017.39999978548 p0 received replica for O262 from s6
+34048.0 object O117 created
+O117 [q5, t11, m15, q4, m18]
+34048.0 object O393 created
+O393 [s8, m21, m20, m18, p0]
+34059.79999978486 m18 received replica for O393 from t11
+34112.0 object O186 created
+O186 [m18, m17, m12, m16, q5]
+34112.0 object O210 created
+O210 [m18, m23, p1, q3, m15]
+34127.29999978388 s8 received replica for O110 from s7
+34127.79999978387 s8 received replica for O71 from s7
+34137.49999978373 m12 received replica for O251 from m18
+34137.99999978372 m12 received replica for O194 from m18
+34138.499999783715 m12 received replica for O381 from m18
+34138.99999978371 m12 received replica for O146 from m18
+34139.4999997837 m12 received replica for O229 from m18
+34139.99999978369 m18 received replica for O210 from m12
+34140.499999783686 m18 received replica for O366 from m12
+34176.0 object O257 created
+O257 [m24, m14, m15, m19, t10]
+34187.699999783 s7 received replica for O177 from q5
+34188.19999978299 s7 received replica for O47 from q5
+34188.699999782984 s7 received replica for O247 from q5
+34189.19999978298 q5 received replica for O110 from s7
+34189.69999978297 q5 received replica for O71 from s7
+34198.59999978284 s8 received replica for O290 from m18
+34199.09999978283 s8 received replica for O381 from m18
+34199.599999782826 s8 received replica for O229 from m18
+34200.09999978282 s8 received replica for O146 from m18
+34200.59999978281 s8 received replica for O194 from m18
+34201.099999782804 s8 received replica for O102 from m18
+34201.5999997828 s8 received replica for O251 from m18
+34202.09999978279 m18 received replica for O166 from s8
+34202.59999978278 m18 received replica for O152 from s8
+34203.099999782775 m18 received replica for O199 from s8
+34203.59999978277 m18 received replica for O380 from s8
+34204.09999978276 m18 received replica for O164 from s8
+34204.59999978275 m18 received replica for O117 from s8
+34240.0 object O336 created
+O336 [m20, m16, m22, m17, t9]
+34265.39999978187 m24 received replica for O148 from p1
+34265.89999978186 m24 received replica for O257 from p1
+34266.399999781854 m24 received replica for O350 from p1
+34304.0 object O11 created
+O11 [m16, t10, m13, m22, p1]
+34304.0 object O215 created
+O215 [s8, m15, q4, m21, m24]
+34315.19999978114 p0 received replica for O113 from m22
+34315.699999781136 p0 received replica for O314 from m22
+34316.19999978113 p0 received replica for O40 from m22
+34316.69999978112 p0 received replica for O277 from m22
+34317.199999781114 m22 received replica for O264 from p0
+34317.69999978111 m22 received replica for O200 from p0
+34318.1999997811 m22 received replica for O182 from p0
+34318.69999978109 m22 received replica for O336 from p0
+34353.99999978058 m18 received replica for O186 from m24
+34358.69999978051 p0 received replica for O358 from m21
+34368.0 object O372 created
+O372 [p1, q5, m20, p0, m13]
+34373.89999978029 t10 received replica for O264 from p0
+34402.59999977987 t9 received replica for O200 from p0
+34403.099999779864 t9 received replica for O182 from p0
+34403.59999977986 t9 received replica for O336 from p0
+34432.0 object O301 created
+O301 [q5, t11, m15, q4, m18]
+34432.0 object O369 created
+O369 [m18, m12, m24, p1, m23]
+34432.0 object O391 created
+O391 [q5, t11, m15, q4, m18]
+34454.09999977912 m13 received replica for O372 from m14
+34458.799999779054 s6 received replica for O181 from m17
+34477.09999977879 m14 received replica for O257 from p1
+34477.59999977878 p1 received replica for O135 from m14
+34478.09999977877 p1 received replica for O125 from m14
+34478.599999778766 p1 received replica for O372 from m14
+34487.99999977863 p0 received replica for O102 from m18
+34488.49999977862 p0 received replica for O229 from m18
+34488.999999778614 p0 received replica for O381 from m18
+34489.09999977861 q5 received replica for O152 from s8
+34489.49999977861 p0 received replica for O146 from m18
+34489.599999778606 q5 received replica for O391 from s8
+34489.9999997786 p0 received replica for O251 from m18
+34490.0999997786 q5 received replica for O301 from s8
+34490.49999977859 p0 received replica for O290 from m18
+34490.59999977859 q5 received replica for O117 from s8
+34490.999999778585 p0 received replica for O194 from m18
+34491.099999778584 s8 received replica for O215 from q5
+34496.0 object O230 created
+O230 [q3, t9, m19, m18, p0]
+34496.0 object O328 created
+O328 [m24, m15, t9, m14, m19]
+34496.0 m14 received replica for O328 from p1
+34496.0 object O355 created
+O355 [q4, q5, s8, m18, m22]
+34496.0 object O377 created
+O377 [t9, t11, m15, p0, p1]
+34517.3999997782 t11 responding query Q260-281 for O281
+34517 Object retrieved for Q260-281 object O281
+34517.899999778194 t11 received replica for O155 from m15
+34528.0 object O92 created
+O92 [q5, p1, m20, p0, m19]
+34560.0 object O195 created
+O195 [s7, s6, q5, s8, m16]
+34567.899999777466 t11 received replica for O160 from m21
+34568.39999977746 t11 received replica for O170 from m21
+34568.89999977745 t11 received replica for O377 from m21
+34569.399999777444 t11 received replica for O305 from m21
+34569.89999977744 t11 received replica for O358 from m21
+34570.39999977743 t11 received replica for O109 from m21
+34570.89999977742 t11 received replica for O218 from m21
+34571.399999777415 m21 received replica for O276 from t11
+34571.89999977741 m21 received replica for O64 from t11
+34572.3999997774 m21 received replica for O175 from t11
+34572.89999977739 m21 received replica for O393 from t11
+34573.399999777386 m21 received replica for O323 from t11
+34573.89999977738 m21 received replica for O349 from t11
+34594.99999977707 m23 received replica for O282 from m13
+34595.499999777065 m23 received replica for O278 from m13
+34624.0 object O227 created
+O227 [q3, q4, p0, s7, s8]
+34624.0 object O283 created
+O283 [m12, s7, m17, t11, s6]
+34641.499999776395 t9 received replica for O15 from m19
+34641.99999977639 t9 received replica for O344 from m19
+34644.69999977635 p1 received replica for O194 from m18
+34645.19999977634 p1 received replica for O381 from m18
+34645.699999776334 p1 received replica for O251 from m18
+34646.19999977633 p1 received replica for O146 from m18
+34646.69999977632 p1 received replica for O229 from m18
+34647.19999977631 p1 received replica for O290 from m18
+34647.699999776305 p1 received replica for O102 from m18
+34688.0 object O28 created
+O28 [s8, m15, q4, m21, m24]
+34688.0 object O70 created
+O70 [m16, t10, m13, m22, p1]
+34688.0query Q268-336 created object O336
+34710.999999775384 p0 received replica for O377 from m21
+34752.0 object O61 created
+O61 [s7, s6, q5, s8, m16]
+34752.0 object O185 created
+O185 [m23, m16, m17, p0, s6]
+34784.0query Q276-250 created object O250
+34804.59999977402 m22 received replica for O71 from s7
+34805.099999774015 m22 received replica for O355 from s7
+34805.59999977401 s7 received replica for O283 from m22
+34806.099999774 s7 received replica for O40 from m22
+34806.59999977399 s7 received replica for O314 from m22
+34807.099999773985 s7 received replica for O113 from m22
+34807.59999977398 s7 received replica for O277 from m22
+34816.0 object O59 created
+O59 [m12, m23, p1, m21, p0]
+34816.0 object O141 created
+O141 [q5, p1, m20, p0, m19]
+34816.0 object O300 created
+O300 [s8, m21, m20, m18, m19]
+34844.59999977344 m18 received replica for O389 from m23
+34845.09999977343 m18 received replica for O131 from m23
+34845.599999773425 m18 received replica for O347 from m23
+34846.09999977342 m18 received replica for O375 from m23
+34846.59999977341 m18 received replica for O230 from m23
+34847.0999997734 m18 received replica for O308 from m23
+34880.0 object O49 created
+O49 [m12, m23, p1, m21, p0]
+34880.0 object O193 created
+O193 [m23, t9, m16, m17, p0]
+34880.0 object O313 created
+O313 [s8, m21, m20, m18, m19]
+34911.99999977246 m16 received replica for O11 from m17
+34912.49999977245 m16 received replica for O70 from m17
+34969.49999977162 p0 received replica for O227 from s6
+34989.69999977133 t9 responding query Q268-336 for O336
+34989.69999977133 p0 received replica for O59 from t9
+34990.19999977132 p0 received replica for O49 from t9
+34991 Object retrieved for Q268-336 object O336
+35008.0 object O273 created
+O273 [p0, m14, m12, q3, m23]
+35012.99999977099 p1 received replica for O377 from m21
+35038.099999770624 s7 received replica for O262 from s6
+35038.59999977062 s7 received replica for O227 from s6
+35058.49999977033 m24 received replica for O95 from t9
+35058.99999977032 m24 received replica for O99 from t9
+35059.49999977031 m24 received replica for O107 from t9
+35066.799999770206 m20 received replica for O372 from m14
+35067.2999997702 m20 received replica for O92 from m14
+35067.79999977019 m20 received replica for O141 from m14
+35072.0 object O41 created
+O41 [m18, m12, m24, p1, q3]
+35072.0 object O50 created
+O50 [m23, m16, t11, t9, m12]
+35072.0 object O140 created
+O140 [m16, t10, m13, m22, p1]
+35104.0query Q246-1 created object O1
+35136.0 object O48 created
+O48 [m24, m15, t9, m14, m22]
+35136.0 object O261 created
+O261 [m12, s7, p1, m17, t11]
+35155.29999976892 m16 responding query Q246-1 for O1
+35155.29999976892 m16 received replica for O76 from q4
+35155.79999976891 m16 received replica for O61 from q4
+35156.299999768904 m16 received replica for O195 from q4
+35157 Object retrieved for Q246-1 object O1
+35168.0 object O354 created
+O354 [t9, t11, m15, p1, s8]
+35189.299999768424 t10 received replica for O140 from m17
+35189.69999976842 t9 received replica for O377 from m21
+35189.79999976842 t10 received replica for O11 from m17
+35190.19999976841 t9 received replica for O354 from m21
+35190.29999976841 t10 received replica for O70 from m17
+35190.6999997684 m21 received replica for O49 from t9
+35191.199999768396 m21 received replica for O59 from t9
+35200.0 object O150 created
+O150 [m24, m15, t9, m14, m22]
+35200.0 object O238 created
+O238 [m12, m23, p0, p1, m21]
+35200.0 m21 received replica for O238 from t9
+35200.0 object O331 created
+O331 [q3, q4, p0, s7, s8]
+35232.499999767795 p1 received replica for O261 from m22
+35232.99999976779 m22 received replica for O150 from p1
+35233.49999976778 m22 received replica for O48 from p1
+35264.0 object O329 created
+O329 [m18, m12, m24, p1, q3]
+35264.69999976733 p1 received replica for O354 from m21
+35275.29999976717 t9 received replica for O48 from p1
+35275.799999767165 t9 received replica for O328 from p1
+35276.29999976716 t9 received replica for O150 from p1
+35276.79999976715 p1 received replica for O59 from t9
+35277.29999976714 p1 received replica for O238 from t9
+35277.799999767136 p1 received replica for O49 from t9
+35281.19999976709 m13 received replica for O70 from m17
+35281.69999976708 m13 received replica for O140 from m17
+35282.19999976707 m13 received replica for O11 from m17
+35286.29999976701 s8 responding query Q276-250 for O250
+35286.29999976701 s8 received replica for O28 from q5
+35287 Object retrieved for Q276-250 object O250
+35300.39999976681 m12 received replica for O186 from m24
+35328.0 object O23 created
+O23 [m18, m17, m16, q5, p0]
+35328.0 object O51 created
+O51 [m18, m23, p1, q3, m15]
+35359.39999976595 q5 received replica for O61 from q4
+35359.89999976594 q5 received replica for O195 from q4
+35360.399999765934 q5 received replica for O76 from q4
+35360.89999976593 q4 received replica for O28 from q5
+35361.39999976592 q4 received replica for O215 from q5
+35380.199999765646 s8 received replica for O61 from q4
+35380.69999976564 s8 received replica for O195 from q4
+35381.19999976563 q4 received replica for O301 from s8
+35381.699999765624 q4 received replica for O117 from s8
+35382.19999976562 q4 received replica for O391 from s8
+35385.699999765566 m12 received replica for O282 from m13
+35386.19999976556 m12 received replica for O273 from m13
+35386.69999976555 m12 received replica for O278 from m13
+35387.199999765544 m12 received replica for O108 from m13
+35392.0 object O17 created
+O17 [m24, m15, t9, m14, m22]
+35392.0 object O120 created
+O120 []
+35392.0 object O187 created
+O187 [m23, t9, m16, m17, p0]
+35392.0 object O219 created
+O219 [s8, m15, q4, m21, m24]
+35392.0 s8 received replica for O219 from q5
+35392.49999976547 q4 received replica for O219 from q5
+35456.0 object O62 created
+O62 [s7, s6, q5, s8, m20]
+35456.0 s8 received replica for O62 from q4
+35456.0 object O132 created
+O132 [m23, t9, m16, m17, p0]
+35456.0query Q81-48 created object O48
+35484.099999764134 m22 responding query Q81-48 for O48
+35484.099999764134 m22 received replica for O17 from p1
+35485 Object retrieved for Q81-48 object O48
+35515.49999976368 p0 received replica for O185 from q3
+35515.99999976367 p0 received replica for O193 from q3
+35516.49999976366 p0 received replica for O187 from q3
+35516.999999763655 p0 received replica for O132 from q3
+35524.69999976354 s6 received replica for O61 from q4
+35525.199999763536 s6 received replica for O62 from q4
+35525.69999976353 s6 received replica for O76 from q4
+35526.19999976352 s6 received replica for O195 from q4
+35526.699999763514 q4 received replica for O262 from s6
+35527.19999976351 q4 received replica for O331 from s6
+35527.6999997635 q4 received replica for O227 from s6
+35580.999999762724 m23 received replica for O210 from m12
+35581.49999976272 m23 received replica for O366 from m12
+35581.99999976271 m23 received replica for O51 from m12
+35584.0 object O8 created
+O8 [q3, q4, p0, s7, m17]
+35584.0 object O242 created
+O242 [m14, q3, p0, m12, s8]
+35584.0 object O256 created
+O256 [p0, m12, m14, q3, m24]
+35584.0 object O296 created
+O296 [m14, q3, p0, m12, s8]
+35584.0 object O385 created
+O385 [m23, m16, t11, t9, m12]
+35648.0 object O13 created
+O13 [s7, s6, q5, s8, m20]
+35648.0 object O212 created
+O212 [p1, m21, m14, q5, p0]
+35667.59999976146 q5 received replica for O13 from q4
+35668.099999761456 q5 received replica for O62 from q4
+35682.09999976125 m19 received replica for O389 from m23
+35682.599999761245 m19 received replica for O230 from m23
+35683.09999976124 m19 received replica for O375 from m23
+35683.59999976123 m23 received replica for O15 from m19
+35684.09999976122 m23 received replica for O50 from m19
+35684.599999761216 m23 received replica for O385 from m19
+35685.09999976121 m23 received replica for O344 from m19
+35686.19999976119 m20 received replica for O62 from q4
+35686.699999761186 m20 received replica for O13 from q4
+35692.7999997611 m19 received replica for O300 from t11
+35693.29999976109 m19 received replica for O313 from t11
+35693.79999976108 t11 received replica for O385 from m19
+35694.299999761075 t11 received replica for O50 from m19
+35703.39999976094 s8 received replica for O13 from q4
+35712.0 object O188 created
+O188 [m18, m17, m16, m12, q5]
+35712.0 object O266 created
+O266 [q3, t9, p0, m19, s6]
+35712.0 m19 received replica for O266 from m23
+35712.0 object O316 created
+O316 [q5, t11, m15, q4, m18]
+35712.0 q4 received replica for O316 from s8
+35712.49999976081 q5 received replica for O316 from s8
+35751.999999760235 p0 received replica for O8 from s6
+35752.49999976023 p0 received replica for O331 from s6
+35776.0 object O38 created
+O38 [t9, t11, m15, p1, s8]
+35809.4999997594 m16 received replica for O132 from q3
+35809.99999975939 m16 received replica for O69 from q3
+35810.499999759384 m16 received replica for O193 from q3
+35810.99999975938 m16 received replica for O187 from q3
+35811.49999975937 m16 received replica for O185 from q3
+35811.99999975936 m16 received replica for O309 from q3
+35829.599999759106 t11 received replica for O354 from m21
+35830.0999997591 t11 received replica for O38 from m21
+35830.59999975909 m21 received replica for O313 from t11
+35831.099999759084 m21 received replica for O300 from t11
+35840.0query Q227-261 created object O261
+35845.29999975888 t9 received replica for O100 from m17
+35859.299999758674 m16 received replica for O385 from m19
+35859.79999975867 m16 received replica for O50 from m19
+35868.59999975854 p1 received replica for O38 from m21
+35871.1999997585 q3 received replica for O347 from m23
+35871.69999975849 q3 received replica for O389 from m23
+35872.199999758486 q3 received replica for O375 from m23
+35872.69999975848 q3 received replica for O230 from m23
+35873.19999975847 q3 received replica for O266 from m23
+35873.699999758464 m23 received replica for O185 from q3
+35874.19999975846 m23 received replica for O132 from q3
+35874.69999975845 m23 received replica for O187 from q3
+35875.19999975844 m23 received replica for O69 from q3
+35875.699999758435 m23 received replica for O193 from q3
+35904.0 object O156 created
+O156 [m20, m16, m17, t10, m22]
+35904.0 object O279 created
+O279 [t10, m16, m13, m22, p1]
+35904.0query Q7-358 created object O358
+35908.699999757955 m14 received replica for O242 from m20
+35909.19999975795 m14 received replica for O296 from m20
+35920.49999975778 s8 received replica for O355 from s7
+35933.499999757594 t11 received replica for O272 from m22
+35933.99999975759 t11 received replica for O261 from m22
+35934.49999975758 t11 received replica for O314 from m22
+35934.99999975757 t11 received replica for O283 from m22
+35935.499999757565 t11 received replica for O40 from m22
+35935.99999975756 t11 received replica for O113 from m22
+35936.49999975755 t11 received replica for O277 from m22
+35949.899999757356 m12 received replica for O277 from m22
+35950.39999975735 m12 received replica for O40 from m22
+35950.89999975734 m12 received replica for O113 from m22
+35951.399999757334 m12 received replica for O283 from m22
+35951.89999975733 m12 received replica for O261 from m22
+35960.4999997572 q5 received replica for O355 from s7
+35968.0 object O396 created
+O396 [s7, s6, q5, s8, m20]
+36032.0 object O235 created
+O235 [q3, q4, p0, s7, m17]
+36037.99999975607 t9 received replica for O132 from q3
+36038.499999756066 t9 received replica for O187 from q3
+36038.99999975606 t9 received replica for O193 from q3
+36059.69999975576 m23 received replica for O369 from t10
+36060.19999975575 m23 received replica for O57 from t10
+36096.0 object O14 created
+O14 [p0, m12, s8, t11, p1]
+36096.0 object O244 created
+O244 [p0, m12, s8, t11, p1]
+36096.0 object O334 created
+O334 [m20, m16, m17, t10, m22]
+36109.79999975503 p1 responding query Q227-261 for O261
+36110 Object retrieved for Q227-261 object O261
+36131.19999975472 m14 received replica for O256 from m13
+36131.69999975471 m14 received replica for O273 from m13
+36131.79999975471 m18 received replica for O57 from t10
+36132.2999997547 m18 received replica for O369 from t10
+36132.799999754694 m18 received replica for O171 from t10
+36133.29999975469 m18 received replica for O157 from t10
+36133.79999975468 m18 received replica for O329 from t10
+36134.29999975467 m18 received replica for O161 from t10
+36134.799999754665 m18 received replica for O41 from t10
+36159.9999997543 s8 received replica for O296 from m20
+36160.0 object O111 created
+O111 [m23, t9, m16, m17, p0]
+36160.0 object O196 created
+O196 [s8, q3, m15, q4, m21]
+36160.49999975429 s8 received replica for O242 from m20
+36160.99999975428 s8 received replica for O196 from q5
+36224.0 object O203 created
+O203 [p0, m12, s8, t11, p1]
+36224.0 object O311 created
+O311 [t9, t11, p1, m15, s8]
+36224.0 object O335 created
+O335 [p0, m12, m14, q3, m24]
+36271.29999975268 p1 received replica for O311 from m21
+36279.59999975256 s8 received replica for O2 from m19
+36282.69999975251 p0 received replica for O111 from q3
+36288.0 object O252 created
+O252 [t10, p0, m22, m17, m19]
+36307.999999752145 m14 received replica for O335 from m13
+36352.0 object O55 created
+O55 [t9, t11, m15, s8, p0]
+36352.0 object O362 created
+O362 [m18, m22, m12, m24, p1]
+36391.69999975093 s8 received replica for O313 from t11
+36392.19999975092 s8 received replica for O300 from t11
+36392.69999975091 s8 received replica for O393 from t11
+36393.199999750905 t11 received replica for O117 from s8
+36393.6999997509 t11 received replica for O391 from s8
+36394.19999975089 t11 received replica for O316 from s8
+36394.69999975088 t11 received replica for O152 from s8
+36395.199999750876 t11 received replica for O301 from s8
+36416.0 object O18 created
+O18 [m18, m17, m15, m16, m12]
+36416.0 m15 received replica for O18 from m24
+36416.0 object O98 created
+O98 [m21, s8, m20, m18, m19]
+36416.0 s8 received replica for O98 from t11
+36416.0 object O198 created
+O198 [q3, t9, m19, p0, s6]
+36426.099999750426 m18 received replica for O51 from m12
+36426.59999975042 m12 received replica for O14 from m18
+36427.09999975041 m12 received replica for O244 from m18
+36427.599999750404 m12 received replica for O203 from m18
+36434.399999750305 m17 received replica for O252 from m16
+36434.8999997503 m16 received replica for O279 from m17
+36435.39999975029 m16 received replica for O140 from m17
+36463.999999749874 m22 received replica for O362 from t10
+36540.59999974876 m12 received replica for O59 from t9
+36541.09999974875 m12 received replica for O99 from t9
+36541.599999748745 m12 received replica for O238 from t9
+36542.09999974874 m12 received replica for O95 from t9
+36542.59999974873 m12 received replica for O49 from t9
+36608.0 object O367 created
+O367 [m18, m17, m15, m16, m12]
+36608.0 m15 received replica for O367 from m24
+36608.0query Q251-186 created object O186
+36640.0 object O142 created
+O142 [m12, s7, p1, m17, s6]
+36657.89999974705 m12 received replica for O256 from m13
+36658.399999747046 m12 received replica for O335 from m13
+36695.6999997465 t9 responding query Q7-358 for O358
+36695.6999997465 t9 received replica for O55 from m21
+36696.199999746495 t9 received replica for O311 from m21
+36696.69999974649 t9 received replica for O38 from m21
+36697 Object retrieved for Q7-358 object O358
+36720.299999746145 p0 received replica for O256 from m13
+36720.79999974614 p0 received replica for O335 from m13
+36721.29999974613 p0 received replica for O278 from m13
+36721.79999974612 p0 received replica for O108 from m13
+36722.299999746116 p0 received replica for O31 from m13
+36722.79999974611 p0 received replica for O359 from m13
+36723.2999997461 p0 received replica for O273 from m13
+36723.799999746094 p0 received replica for O282 from m13
+36729.69999974601 p0 received replica for O235 from s6
+36736.0 object O26 created
+O26 [t9, t11, m15, p1, s8]
+36736.0 t9 received replica for O26 from m21
+36736.0 object O304 created
+O304 [p0, s8, m12, t11, p1]
+36736.0 object O307 created
+O307 [m24, m15, t9, m14, m19]
+36736.0query Q208-111 created object O111
+36774.499999745356 m18 received replica for O362 from t10
+36800.0 object O80 created
+O80 [q4, q5, s8, m18, m22]
+36800.0 object O153 created
+O153 []
+36800.0 object O202 created
+O202 [t10, p0, m22, m19, q3]
+36800.0 object O254 created
+O254 [q5, p1, p0, m20, m19]
+36800.0query Q214-266 created object O266
+36836.99999974445 q5 received replica for O254 from m14
+36837.49999974444 q5 received replica for O92 from m14
+36837.99999974443 q5 received replica for O372 from m14
+36838.499999744425 q5 received replica for O141 from m14
+36840.599999744394 s7 received replica for O331 from s6
+36841.09999974439 s7 received replica for O8 from s6
+36841.59999974438 s7 received replica for O235 from s6
+36864.0 object O184 created
+O184 [p1, m21, m14, m24, q5]
+36864.0 object O361 created
+O361 [p1, m21, m14, m24, q5]
+36922.8999997432 m12 received replica for O362 from t10
+36923.39999974319 m12 received replica for O329 from t10
+36923.89999974318 m12 received replica for O41 from t10
+36924.399999743175 m12 received replica for O369 from t10
+36924.89999974317 m12 received replica for O57 from t10
+36928.0 object O65 created
+O65 [m14, q3, p0, m12, m13]
+36928.0 object O119 created
+O119 [t10, m16, m13, m22, p1]
+36928.0 object O134 created
+O134 [t10, m16, m13, m22, p1]
+36928.0 object O286 created
+O286 [m14, q3, p0, m12, m13]
+36958.99999974267 t10 received replica for O257 from p1
+36959.499999742664 p1 received replica for O329 from t10
+36959.99999974266 p1 received replica for O171 from t10
+36960.49999974265 p1 received replica for O41 from t10
+36960.99999974264 p1 received replica for O362 from t10
+36961.499999742635 p1 received replica for O157 from t10
+36961.99999974263 p1 received replica for O161 from t10
+36962.49999974262 p1 received replica for O369 from t10
+36962.99999974261 p1 received replica for O57 from t10
+36975.899999742425 p1 received replica for O26 from m21
+36992.0 object O46 created
+O46 [m15, m18, m17, m16, m12]
+36992.0 object O94 created
+O94 [m18, m23, p1, q3, m15]
+36992.0 object O179 created
+O179 [m20, m16, m17, t10, m22]
+37000.89999974206 p1 received replica for O94 from m12
+37001.399999742054 p1 received replica for O210 from m12
+37001.89999974205 p1 received replica for O51 from m12
+37002.39999974204 p1 received replica for O366 from m12
+37024.799999741714 m24 received replica for O335 from m13
+37025.29999974171 m24 received replica for O256 from m13
+37054.39999974128 q3 received replica for O196 from q5
+37056.0 object O178 created
+O178 [m21, s8, m20, m18, m19]
+37056.0 object O239 created
+O239 [m14, q3, p0, m12, m13]
+37056.0 object O320 created
+O320 [q5, t11, m15, q4, m18]
+37076.49999974096 p0 received replica for O23 from m24
+37088.0 object O326 created
+O326 [m18, m22, p1, m12, m24]
+37140.199999740034 t9 received replica for O111 from q3
+37184.0 object O154 created
+O154 [m21, s8, m20, m18, m19]
+37184.0 object O197 created
+O197 [m23, t11, m16, t9, m12]
+37184.0 object O228 created
+O228 [s7, s6, q5, s8, m20]
+37184.0 object O352 created
+O352 [m12, s7, p1, m17, s6]
+37184.0query Q365-343 created object O343
+37188.79999973933 m18 received replica for O326 from t10
+37243.09999973854 p0 received replica for O55 from m21
+37248.0 object O318 created
+O318 [q5, t11, m15, q4, m18]
+37271.99999973812 m21 received replica for O155 from m15
+37272.49999973811 m21 received replica for O212 from m15
+37272.9999997381 m21 received replica for O184 from m15
+37273.499999738095 m21 received replica for O361 from m15
+37273.99999973809 m15 received replica for O38 from m21
+37274.49999973808 m15 received replica for O358 from m21
+37274.99999973807 m15 received replica for O55 from m21
+37275.499999738066 m15 received replica for O354 from m21
+37275.99999973806 m15 received replica for O26 from m21
+37276.49999973805 m15 received replica for O377 from m21
+37276.999999738044 m15 received replica for O311 from m21
+37280.0 object O205 created
+O205 [m23, t11, m16, t9, m12]
+37312.0 object O129 created
+O129 [q4, q5, s8, m18, m22]
+37312.0 object O270 created
+O270 [p0, s8, m12, t11, p1]
+37325.699999737335 p0 responding query Q208-111 for O111
+37326 Object retrieved for Q208-111 object O111
+37338.59999973715 s6 received replica for O13 from q4
+37339.09999973714 s6 received replica for O396 from q4
+37339.59999973713 s6 received replica for O228 from q4
+37340.099999737125 q4 received replica for O235 from s6
+37340.59999973712 q4 received replica for O8 from s6
+37354.69999973691 m21 received replica for O98 from t11
+37355.199999736906 m21 received replica for O178 from t11
+37355.6999997369 m21 received replica for O154 from t11
+37356.19999973689 t11 received replica for O26 from m21
+37356.699999736884 t11 received replica for O55 from m21
+37357.19999973688 t11 received replica for O311 from m21
+37376.0 object O54 created
+O54 [m20, m16, m17, t10, m22]
+37376.0 object O139 created
+O139 []
+37376.0 object O145 created
+O145 [p1, m14, m24, m21, q5]
+37376.0query Q174-212 created object O212
+37406.59999973616 p0 received replica for O393 from t11
+37407.09999973615 p0 received replica for O175 from t11
+37434.899999735746 m22 received replica for O326 from t10
+37435.79999973573 s6 received replica for O283 from m22
+37436.299999735726 s6 received replica for O352 from m22
+37436.79999973572 s6 received replica for O142 from m22
+37437.699999735705 q3 responding query Q214-266 for O266
+37437.699999735705 q3 received replica for O198 from m23
+37438.1999997357 m23 received replica for O111 from q3
+37439 Object retrieved for Q214-266 object O266
+37440.0 object O269 created
+O269 [m12, m21, p1, m23, p0]
+37440.0query Q294-253 created object O253
+37450.89999973551 t10 received replica for O334 from p0
+37451.399999735506 t10 received replica for O156 from p0
+37451.8999997355 t10 received replica for O179 from p0
+37452.39999973549 t10 received replica for O54 from p0
+37504.0 object O225 created
+O225 [m12, s7, p1, s6, m17]
+37518.099999734535 p0 received replica for O266 from m23
+37518.59999973453 p0 received replica for O389 from m23
+37519.09999973452 p0 received replica for O198 from m23
+37519.59999973451 p0 received replica for O230 from m23
+37519.79999973451 m24 received replica for O17 from p1
+37520.2999997345 m24 received replica for O328 from p1
+37520.799999734496 m24 received replica for O150 from p1
+37521.29999973449 m24 received replica for O307 from p1
+37521.79999973448 m24 received replica for O48 from p1
+37522.49999973447 s6 received replica for O266 from m23
+37522.999999734464 s6 received replica for O198 from m23
+37526.59999973441 s8 received replica for O228 from q4
+37527.099999734404 s8 received replica for O396 from q4
+37527.5999997344 q4 received replica for O320 from s8
+37528.09999973439 q4 received replica for O318 from s8
+37530.89999973435 m16 received replica for O367 from m24
+37531.39999973434 m16 received replica for O46 from m24
+37531.899999734334 m16 received replica for O18 from m24
+37532.39999973433 m16 received replica for O23 from m24
+37532.89999973432 m16 received replica for O188 from m24
+37533.39999973431 m16 received replica for O186 from m24
+37533.899999734305 m16 received replica for O299 from m24
+37561.7999997339 m23 received replica for O273 from m13
+37568.0 object O89 created
+O89 [t10, m16, m13, m22, p1]
+37568.0 object O255 created
+O255 [q5, t11, m15, q4, m18]
+37586.199999733544 m16 received replica for O111 from q3
+37586.29999973354 q4 received replica for O196 from q5
+37586.69999973354 q3 received replica for O202 from m16
+37586.799999733536 q5 received replica for O228 from q4
+37587.29999973353 q5 received replica for O396 from q4
+37621.59999973303 p1 received replica for O326 from t10
+37628.99999973292 m18 received replica for O129 from s7
+37629.499999732914 m18 received replica for O355 from s7
+37629.99999973291 m18 received replica for O80 from s7
+37660.69999973246 s8 received replica for O129 from s7
+37661.19999973245 s8 received replica for O80 from s7
+37680.79999973217 m20 received replica for O178 from t11
+37681.29999973216 m20 received replica for O154 from t11
+37681.79999973215 m20 received replica for O393 from t11
+37682.299999732146 m20 received replica for O300 from t11
+37682.79999973214 m20 received replica for O313 from t11
+37683.29999973213 m20 received replica for O98 from t11
+37684.69999973211 m18 received replica for O316 from s8
+37685.1999997321 m18 received replica for O320 from s8
+37685.699999732096 m18 received replica for O318 from s8
+37686.19999973209 m18 received replica for O391 from s8
+37686.69999973208 m18 received replica for O255 from s8
+37687.199999732075 m18 received replica for O301 from s8
+37687.69999973207 m24 received replica for O369 from t10
+37687.69999973207 s8 received replica for O244 from m18
+37688.19999973206 m24 received replica for O41 from t10
+37688.19999973206 s8 received replica for O203 from m18
+37688.69999973205 m24 received replica for O362 from t10
+37688.69999973205 s8 received replica for O14 from m18
+37689.199999732045 m24 received replica for O326 from t10
+37689.199999732045 s8 received replica for O304 from m18
+37689.69999973204 s8 received replica for O270 from m18
+37689.69999973204 m24 received replica for O329 from t10
+37696.0 object O106 created
+O106 [m18, p1, m23, q3, m15]
+37696.0 object O226 created
+O226 [q5, p1, p0, m20, m19]
+37696.0 object O327 created
+O327 [m18, p1, m23, q3, m15]
+37744.799999731236 q5 received replica for O80 from s7
+37745.29999973123 q5 received replica for O129 from s7
+37760.0 object O376 created
+O376 [q5, p1, p0, m20, m19]
+37817.19999973018 m22 received replica for O11 from m17
+37817.699999730175 m22 received replica for O306 from m17
+37818.19999973017 m22 received replica for O134 from m17
+37818.69999973016 m22 received replica for O70 from m17
+37819.199999730154 m22 received replica for O89 from m17
+37819.69999973015 m22 received replica for O140 from m17
+37820.19999973014 m22 received replica for O119 from m17
+37820.69999973013 m22 received replica for O181 from m17
+37821.199999730125 m22 received replica for O279 from m17
+37821.69999973012 m17 received replica for O40 from m22
+37822.19999973011 m17 received replica for O261 from m22
+37822.6999997301 m17 received replica for O225 from m22
+37823.199999730095 m17 received replica for O142 from m22
+37823.69999973009 m17 received replica for O352 from m22
+37824.0 object O144 created
+O144 [t10, p0, m22, q3, m19]
+37824.19999973008 m17 received replica for O113 from m22
+37824.69999973007 m17 received replica for O277 from m22
+37825.199999730066 m17 received replica for O272 from m22
+37825.69999973006 m17 received replica for O283 from m22
+37826.19999973005 m17 received replica for O314 from m22
+37888.0 object O217 created
+O217 [m23, t9, m17, p0, m16]
+37888.0 object O397 created
+O397 [m14, q3, p0, m12, m13]
+37952.0 object O143 created
+O143 [q4, q5, m22, s8, t9]
+37952.0 object O192 created
+O192 [t10, p0, m22, q3, m19]
+37960.2999997281 s6 received replica for O225 from m22
+37964.19999972804 m16 received replica for O54 from p0
+37964.699999728036 m16 received replica for O337 from p0
+37965.19999972803 m16 received replica for O264 from p0
+37965.69999972802 m16 received replica for O179 from p0
+37966.199999728015 m16 received replica for O231 from p0
+37966.69999972801 m16 received replica for O334 from p0
+37967.099999728 t11 received replica for O99 from t9
+37967.199999728 m16 received replica for O336 from p0
+37967.599999727994 t11 received replica for O95 from t9
+37967.69999972799 m16 received replica for O182 from p0
+37968.09999972799 t11 received replica for O107 from t9
+37968.199999727985 m16 received replica for O156 from p0
+37968.59999972798 t11 received replica for O321 from t9
+37968.69999972798 m16 received replica for O200 from p0
+37969.19999972797 p0 received replica for O20 from m16
+37969.69999972796 p0 received replica for O253 from m16
+37970.199999727956 p0 received replica for O252 from m16
+37970.69999972795 p0 received replica for O144 from m16
+37971.19999972794 p0 received replica for O315 from m16
+37971.699999727934 p0 received replica for O192 from m16
+37972.19999972793 p0 received replica for O292 from m16
+37972.69999972792 p0 received replica for O202 from m16
+38015.699999727294 q5 received replica for O212 from m15
+38016.0 object O30 created
+O30 [s7, s6, q5, s8, m20]
+38016.0 object O291 created
+O291 [m15, t9, m24, m14, m19]
+38016.19999972729 q5 received replica for O74 from m15
+38016.69999972728 q5 received replica for O361 from m15
+38017.19999972727 q5 received replica for O169 from m15
+38017.699999727265 q5 received replica for O184 from m15
+38018.19999972726 q5 received replica for O317 from m15
+38018.69999972725 q5 received replica for O145 from m15
+38019.19999972724 q5 received replica for O155 from m15
+38019.699999727236 m15 received replica for O28 from q5
+38020.19999972723 m15 received replica for O215 from q5
+38020.69999972722 m15 received replica for O177 from q5
+38021.199999727214 m15 received replica for O250 from q5
+38021.69999972721 m15 received replica for O196 from q5
+38022.1999997272 m15 received replica for O219 from q5
+38022.69999972719 m15 received replica for O47 from q5
+38023.199999727185 m15 received replica for O247 from q5
+38092.89999972617 p0 received replica for O217 from q3
+38111.4999997259 m12 received replica for O270 from m18
+38111.99999972589 m12 received replica for O304 from m18
+38112.499999725886 m18 received replica for O94 from m12
+38112.99999972588 m18 received replica for O327 from m12
+38113.49999972587 m18 received replica for O106 from m12
+38144.0 object O58 created
+O58 [m18, p1, m23, q3, m15]
+38144.0 object O96 created
+O96 [q4, q5, m22, s8, t9]
+38144.0 object O147 created
+O147 [t10, m16, m13, m22, p1]
+38144.0 object O223 created
+O223 [s8, q3, q4, m15, m21]
+38144.0 m15 received replica for O223 from q5
+38154.79999972527 m12 responding query Q251-186 for O186
+38154.79999972527 m12 received replica for O18 from m24
+38155.29999972526 m12 received replica for O46 from m24
+38155.799999725255 m12 received replica for O367 from m24
+38156.29999972525 m12 received replica for O188 from m24
+38157 Object retrieved for Q251-186 object O186
+38217.19999972436 t10 received replica for O252 from m16
+38217.699999724355 t10 received replica for O202 from m16
+38218.19999972435 t10 received replica for O292 from m16
+38218.69999972434 t10 received replica for O315 from m16
+38219.19999972433 t10 received replica for O192 from m16
+38219.699999724326 t10 received replica for O20 from m16
+38220.19999972432 t10 received replica for O144 from m16
+38220.69999972431 t10 received replica for O253 from m16
+38272.0 object O190 created
+O190 [t10, m16, m13, m22, p1]
+38272.0 object O368 created
+O368 [m12, s7, p1, m17, s6]
+38284.79999972338 m20 received replica for O182 from p0
+38285.29999972337 m20 received replica for O336 from p0
+38285.799999723364 m20 received replica for O179 from p0
+38286.29999972336 m20 received replica for O54 from p0
+38286.79999972335 m20 received replica for O334 from p0
+38287.29999972334 m20 received replica for O231 from p0
+38287.799999723335 m20 received replica for O264 from p0
+38288.29999972333 m20 received replica for O156 from p0
+38288.79999972332 m20 received replica for O200 from p0
+38289.29999972331 p0 received replica for O242 from m20
+38289.799999723306 p0 received replica for O103 from m20
+38290.2999997233 p0 received replica for O286 from m20
+38290.79999972329 p0 received replica for O260 from m20
+38291.299999723284 p0 received replica for O296 from m20
+38291.79999972328 p0 received replica for O105 from m20
+38292.29999972327 p0 received replica for O79 from m20
+38292.79999972326 p0 received replica for O397 from m20
+38293.299999723255 p0 received replica for O239 from m20
+38293.79999972325 p0 received replica for O65 from m20
+38336.0 object O32 created
+O32 [s8, q3, m15, q4, m21]
+38336.0 object O88 created
+O88 []
+38336.0 object O173 created
+O173 [m23, t9, q5, p0, m17]
+38348.69999972245 m15 received replica for O58 from m12
+38349.19999972244 m15 received replica for O94 from m12
+38349.699999722434 m15 received replica for O6 from m12
+38350.19999972243 m15 received replica for O106 from m12
+38350.69999972242 m15 received replica for O327 from m12
+38351.19999972241 m15 received replica for O84 from m12
+38351.699999722405 m15 received replica for O258 from m12
+38352.1999997224 m15 received replica for O210 from m12
+38352.69999972239 m15 received replica for O51 from m12
+38353.19999972238 m12 received replica for O206 from m19
+38353.699999722376 m12 received replica for O241 from m19
+38354.19999972237 m12 received replica for O385 from m19
+38354.69999972236 m12 received replica for O343 from m19
+38354.89999972236 q5 responding query Q174-212 for O212
+38354.89999972236 m15 received replica for O32 from q5
+38355.199999722354 m12 received replica for O344 from m19
+38355 Object retrieved for Q174-212 object O212
+38355.69999972235 m12 received replica for O197 from m19
+38356.19999972234 m12 received replica for O15 from m19
+38356.69999972233 m12 received replica for O205 from m19
+38357.199999722325 m12 received replica for O50 from m19
+38375.89999972205 q5 received replica for O226 from m14
+38376.399999722045 q5 received replica for O376 from m14
+38381.49999972197 m14 received replica for O155 from m15
+38381.999999721964 m14 received replica for O184 from m15
+38382.49999972196 m14 received replica for O317 from m15
+38382.99999972195 m14 received replica for O145 from m15
+38383.49999972194 m14 received replica for O74 from m15
+38383.999999721935 m14 received replica for O169 from m15
+38384.49999972193 m14 received replica for O212 from m15
+38384.99999972192 m14 received replica for O361 from m15
+38450.599999720966 m18 received replica for O23 from m24
+38451.09999972096 m18 received replica for O188 from m24
+38451.59999972095 m18 received replica for O367 from m24
+38452.099999720944 m18 received replica for O18 from m24
+38452.59999972094 m18 received replica for O46 from m24
+38464.0 object O130 created
+O130 [s7, s6, q5, s8, m20]
+38464.0 object O133 created
+O133 []
+38466.59999972073 m13 received replica for O134 from m17
+38467.099999720725 m13 received replica for O119 from m17
+38467.39999972072 s6 received replica for O130 from q4
+38467.59999972072 m13 received replica for O89 from m17
+38467.899999720714 s6 received replica for O30 from q4
+38468.09999972071 m13 received replica for O279 from m17
+38468.5999997207 m13 received replica for O147 from m17
+38469.099999720696 m13 received replica for O190 from m17
+38510.499999720094 m12 responding query Q365-343 for O343
+38510 Object retrieved for Q365-343 object O343
+38528.0 object O52 created
+O52 [p0, s8, t11, p1, m19]
+38528.0 object O263 created
+O263 [m18, p1, m12, q3, m22]
+38528.0 m22 received replica for O263 from t10
+38584.49999971902 m19 received replica for O254 from m14
+38584.99999971901 m19 received replica for O226 from m14
+38585.499999719 m19 received replica for O141 from m14
+38585.999999718995 m19 received replica for O376 from m14
+38586.49999971899 m19 received replica for O92 from m14
+38586.99999971898 m14 received replica for O15 from m19
+38587.49999971897 m14 received replica for O207 from m19
+38587.999999718966 m14 received replica for O344 from m19
+38588.49999971896 m14 received replica for O343 from m19
+38588.99999971895 m14 received replica for O206 from m19
+38589.499999718944 m14 received replica for O241 from m19
+38610.699999718636 m17 received replica for O368 from m22
+38611.19999971863 m22 received replica for O147 from m17
+38611.69999971862 m22 received replica for O190 from m17
+38613.79999971859 m19 received replica for O52 from m18
+38656.0 object O68 created
+O68 [s7, q5, s6, s8, m20]
+38656.0 object O284 created
+O284 [m12, s7, p1, m17, s6]
+38656.0 object O364 created
+O364 [m12, s7, p1, m17, s6]
+38703.19999971729 m23 received replica for O269 from t9
+38703.69999971728 m23 received replica for O238 from t9
+38704.199999717275 m23 received replica for O59 from t9
+38704.69999971727 m23 received replica for O95 from t9
+38705.19999971726 m23 received replica for O49 from t9
+38705.69999971725 t9 received replica for O198 from m23
+38706.199999717246 t9 received replica for O230 from m23
+38706.69999971724 t9 received replica for O266 from m23
+38707.19999971723 t9 received replica for O389 from m23
+38713.899999717134 s8 received replica for O178 from t11
+38714.39999971713 s8 received replica for O154 from t11
+38714.89999971712 t11 received replica for O318 from s8
+38715.39999971711 t11 received replica for O320 from s8
+38715.899999717105 t11 received replica for O255 from s8
+38719.399999717054 m12 received replica for O326 from t10
+38719.89999971705 m12 received replica for O263 from t10
+38720.0 object O44 created
+O44 [s8, q3, m15, q4, m21]
+38720.0 object O82 created
+O82 [q5, t11, m15, m17, q4]
+38720.0 t11 received replica for O82 from s8
+38720.0query Q11-223 created object O223
+38720.0query Q264-106 created object O106
+38778.79999971619 s6 received replica for O368 from m22
+38779.29999971618 s6 received replica for O364 from m22
+38779.799999716175 s6 received replica for O284 from m22
+38784.0 object O63 created
+O63 [m15, m17, m18, m12, q5]
+38784.0 object O72 created
+O72 [q3, q4, p0, s7, m17]
+38784.0 object O224 created
+O224 [m23, t11, m16, m12, t9]
+38784.0 object O370 created
+O370 [m15, t9, m24, m14, m16]
+38808.89999971575 m22 received replica for O20 from m16
+38809.399999715744 m22 received replica for O202 from m16
+38809.89999971574 m22 received replica for O292 from m16
+38810.39999971573 m22 received replica for O315 from m16
+38810.89999971572 m22 received replica for O192 from m16
+38811.399999715715 m22 received replica for O253 from m16
+38811.89999971571 m22 received replica for O252 from m16
+38812.3999997157 m22 received replica for O144 from m16
+38848.0 object O158 created
+O158 [m12, m21, p1, p0, t11]
+38848.0 object O234 created
+O234 [q3, q4, p0, s7, m17]
+38869.99999971486 p1 received replica for O368 from m22
+38870.499999714855 p1 received replica for O142 from m22
+38870.99999971485 p1 received replica for O352 from m22
+38871.49999971484 p1 received replica for O225 from m22
+38871.99999971483 p1 received replica for O284 from m22
+38872.499999714826 p1 received replica for O364 from m22
+38907.699999714314 m15 received replica for O301 from s8
+38908.19999971431 m15 received replica for O318 from s8
+38908.6999997143 m15 received replica for O152 from s8
+38909.19999971429 m15 received replica for O320 from s8
+38909.699999714285 m15 received replica for O117 from s8
+38910.19999971428 m15 received replica for O82 from s8
+38910.69999971427 m15 received replica for O255 from s8
+38911.19999971426 m15 received replica for O316 from s8
+38911.699999714256 m15 received replica for O391 from s8
+38911.799999714254 q5 received replica for O173 from q3
+38912.29999971425 q3 received replica for O223 from q5
+38912.79999971424 q3 received replica for O44 from q5
+38913.29999971423 q3 received replica for O32 from q5
+38928.0 object O35 created
+O35 [m14, q3, m12, m13, s8]
+38934.59999971392 m18 received replica for O63 from m24
+38976.0 object O124 created
+O124 [m18, p1, m23, q3, m15]
+38976.0 object O165 created
+O165 [q3, q4, p0, s7, m17]
+38976.0 object O189 created
+O189 [p0, s8, t11, p1, m12]
+38989.19999971313 q3 received replica for O165 from s6
+38989.69999971312 q3 received replica for O234 from s6
+38990.19999971311 q3 received replica for O262 from s6
+38990.699999713106 q3 received replica for O331 from s6
+38991.1999997131 q3 received replica for O128 from s6
+38991.69999971309 q3 received replica for O235 from s6
+38992.199999713084 q3 received replica for O227 from s6
+38992.69999971308 q3 received replica for O72 from s6
+38993.19999971307 q3 received replica for O267 from s6
+38993.69999971306 q3 received replica for O8 from s6
+38994.199999713055 s6 received replica for O309 from q3
+38994.69999971305 s6 received replica for O185 from q3
+39040.0query Q23-309 created object O309
+39073.6999997119 m17 received replica for O111 from q3
+39074.19999971189 m17 received replica for O187 from q3
+39074.699999711884 m17 received replica for O69 from q3
+39075.19999971188 m17 received replica for O193 from q3
+39075.69999971187 m17 received replica for O173 from q3
+39076.19999971186 m17 received replica for O132 from q3
+39076.699999711855 m17 received replica for O217 from q3
+39077.19999971185 m17 received replica for O185 from q3
+39082.799999711766 m17 received replica for O165 from s6
+39083.29999971176 m17 received replica for O8 from s6
+39083.79999971175 m17 received replica for O234 from s6
+39084.299999711744 m17 received replica for O72 from s6
+39084.79999971174 m17 received replica for O235 from s6
+39104.0 object O4 created
+O4 [p1, q5, m24, m21, m14]
+39117.299999711264 m16 received replica for O370 from p1
+39168.0 object O209 created
+O209 [t10, m16, m22, m13, p1]
+39168.0 object O322 created
+O322 [q3, t9, p0, m19, m18]
+39183.099999710306 p0 responding query Q23-309 for O309
+39183.099999710306 p0 received replica for O173 from q3
+39184 Object retrieved for Q23-309 object O309
+39196.199999710116 p0 received replica for O72 from s6
+39196.69999971011 p0 received replica for O234 from s6
+39197.1999997101 p0 received replica for O165 from s6
+39213.79999970986 m14 received replica for O4 from m15
+39232.0 object O236 created
+O236 [m18, p1, m23, q3, m15]
+39232.0 object O339 created
+O339 [t9, t11, m15, s8, p1]
+39232.0 object O379 created
+O379 [m21, s8, m18, m19, m20]
+39238.3999997095 m15 responding query Q11-223 for O223
+39238.3999997095 q5 received replica for O4 from m15
+39239 Object retrieved for Q11-223 object O223
+39239.39999970949 m15 received replica for O44 from q5
+39247.099999709375 m19 received replica for O379 from t11
+39247.59999970937 m19 received replica for O98 from t11
+39248.09999970936 m19 received replica for O178 from t11
+39248.59999970935 m19 received replica for O154 from t11
+39249.099999709346 t11 received replica for O197 from m19
+39249.59999970934 t11 received replica for O205 from m19
+39250.09999970933 t11 received replica for O224 from m19
+39274.39999970898 t9 received replica for O217 from q3
+39274.89999970897 t9 received replica for O173 from q3
+39296.0 object O400 created
+O400 [q5, t11, m15, m17, q4]
+39296.0query Q230-154 created object O154
+39297.999999708634 t10 responding query Q294-253 for O253
+39298 Object retrieved for Q294-253 object O253
+39312.0query Q29-128 created object O128
+39320.7999997083 m18 received replica for O263 from t10
+39321.399999708294 s8 received replica for O68 from q4
+39321.89999970829 s8 received replica for O130 from q4
+39322.39999970828 s8 received replica for O30 from q4
+39322.89999970827 q4 received replica for O400 from s8
+39323.399999708265 q4 received replica for O82 from s8
+39323.89999970826 q4 received replica for O255 from s8
+39328.0 object O24 created
+O24 [p0, s8, t11, p1, m12]
+39349.79999970788 m18 received replica for O322 from m23
+39360.0 object O214 created
+O214 [p0, m14, m20, m12, q3]
+39372.99999970754 q3 received replica for O397 from m20
+39373.499999707536 q3 received replica for O239 from m20
+39373.99999970753 q3 received replica for O286 from m20
+39374.49999970752 q3 received replica for O65 from m20
+39374.999999707514 q3 received replica for O296 from m20
+39375.49999970751 q3 received replica for O242 from m20
+39375.9999997075 q3 received replica for O35 from m20
+39398.999999707165 s8 received replica for O143 from s7
+39399.49999970716 s8 received replica for O96 from s7
+39424.0 object O104 created
+O104 [m15, m17, m18, m12, q5]
+39464.0query Q368-197 created object O197
+39467.49999970617 q5 received replica for O130 from q4
+39467.99999970616 q5 received replica for O68 from q4
+39468.49999970615 q5 received replica for O30 from q4
+39468.69999970615 p1 received replica for O263 from t10
+39468.999999706146 q4 received replica for O44 from q5
+39469.49999970614 q4 received replica for O32 from q5
+39469.99999970613 q4 received replica for O223 from q5
+39473.799999706076 m19 responding query Q230-154 for O154
+39473.799999706076 t11 responding query Q368-197 for O197
+39474 Object retrieved for Q368-197 object O197
+39474 Object retrieved for Q230-154 object O154
+39484.49999970592 m15 received replica for O400 from s8
+39488.0 object O168 created
+O168 [m23, m16, m12, m14, t9]
+39530.69999970525 m19 received replica for O192 from m16
+39531.19999970524 m19 received replica for O144 from m16
+39531.69999970523 m19 received replica for O252 from m16
+39532.199999705226 m19 received replica for O202 from m16
+39532.69999970522 m16 received replica for O205 from m19
+39533.19999970521 m16 received replica for O224 from m19
+39533.699999705204 m16 received replica for O168 from m19
+39534.1999997052 m16 received replica for O197 from m19
+39547.29999970501 m17 received replica for O400 from s8
+39547.799999705 m17 received replica for O82 from s8
+39552.0 object O87 created
+O87 [m20, m16, m17, m22, t9]
+39552.0 object O183 created
+O183 [m20, m16, m17, m22, t9]
+39552.0 object O390 created
+O390 [m12, m21, p1, p0, t11]
+39552.0query Q364-130 created object O130
+39559.89999970482 t9 received replica for O87 from p0
+39560.399999704816 t9 received replica for O183 from p0
+39560.89999970481 p0 received replica for O390 from t9
+39561.3999997048 p0 received replica for O238 from t9
+39561.899999704794 p0 received replica for O269 from t9
+39562.39999970479 p0 received replica for O158 from t9
+39580.09999970453 q5 received replica for O143 from s7
+39580.59999970452 q5 received replica for O96 from s7
+39624.999999703876 s8 received replica for O52 from m18
+39625.49999970387 s8 received replica for O189 from m18
+39625.99999970386 s8 received replica for O24 from m18
+39633.299999703755 m20 received replica for O87 from p0
+39633.79999970375 m20 received replica for O183 from p0
+39680.0 object O208 created
+O208 [p0, t11, s8, p1, m12]
+39680.0 object O387 created
+O387 [m14, q3, m12, m13, s8]
+39680.0query Q191-381 created object O381
+39680.0query Q200-40 created object O40
+39744.0query Q206-301 created object O301
+39747.69999970209 m15 responding query Q206-301 for O301
+39748 Object retrieved for Q206-301 object O301
+39793.399999701425 t10 received replica for O190 from m17
+39793.89999970142 t10 received replica for O279 from m17
+39794.39999970141 t10 received replica for O89 from m17
+39794.8999997014 t10 received replica for O134 from m17
+39795.399999701396 t10 received replica for O209 from m17
+39795.89999970139 t10 received replica for O119 from m17
+39796.39999970138 t10 received replica for O147 from m17
+39804.499999701264 m12 received replica for O168 from m19
+39804.99999970126 m12 received replica for O224 from m19
+39808.0 object O53 created
+O53 [s7, q5, s6, m20, m16]
+39808.0 object O101 created
+O101 [q5, t11, m15, m17, q4]
+39808.0 object O360 created
+O360 [q3, q4, p0, s7, s8]
+39856.599999700506 s8 responding query Q191-381 for O381
+39856.599999700506 s8 received replica for O208 from m18
+39857 Object retrieved for Q191-381 object O381
+39872.0 object O211 created
+O211 [m21, s8, m18, m20, m19]
+39872.0 m19 received replica for O211 from t11
+39936.0 object O151 created
+O151 [q3, t9, p0, m19, m24]
+39942.89999969925 s7 responding query Q200-40 for O40
+39942.89999969925 m22 received replica for O143 from s7
+39943 Object retrieved for Q200-40 object O40
+39943.899999699235 m22 received replica for O80 from s7
+39944.39999969923 m22 received replica for O96 from s7
+39944.89999969922 m22 received replica for O129 from s7
+39945.39999969921 s7 received replica for O284 from m22
+39945.899999699206 s7 received replica for O364 from m22
+39946.3999996992 s7 received replica for O225 from m22
+39946.89999969919 s7 received replica for O142 from m22
+39947.399999699184 s7 received replica for O261 from m22
+39947.89999969918 s7 received replica for O368 from m22
+39948.39999969917 s7 received replica for O352 from m22
+39990.89999969855 m17 received replica for O101 from s8
+40000.0 object O42 created
+O42 [t10, m16, m22, m13, p1]
+40000.0 object O240 created
+O240 [m12, m21, p1, p0, t11]
+40000.0query Q127-31 created object O31
+40000.79999969841 t11 received replica for O158 from t9
+40001.2999996984 t11 received replica for O240 from t9
+40001.79999969839 t11 received replica for O390 from t9
+40009.799999698276 m18 responding query Q264-106 for O106
+40009.799999698276 m12 received replica for O189 from m18
+40010 Object retrieved for Q264-106 object O106
+40010.79999969826 m12 received replica for O208 from m18
+40011.299999698254 m12 received replica for O24 from m18
+40011.79999969825 m18 received replica for O236 from m12
+40012.29999969824 m18 received replica for O124 from m12
+40012.79999969823 m18 received replica for O58 from m12
+40012.89999969823 m16 received replica for O53 from q4
+40027.99999969801 t9 received replica for O224 from m19
+40028.499999698004 t9 received replica for O205 from m19
+40028.999999698 t9 received replica for O50 from m19
+40029.49999969799 t9 received replica for O168 from m19
+40029.99999969798 t9 received replica for O197 from m19
+40030.499999697975 t9 received replica for O385 from m19
+40047.599999697726 m12 responding query Q127-31 for O31
+40047.599999697726 m12 received replica for O214 from m13
+40048 Object retrieved for Q127-31 object O31
+40063.2999996975 m24 received replica for O291 from p1
+40063.79999969749 m24 received replica for O370 from p1
+40064.0 object O93 created
+O93 [m15, t9, m14, m16, m21]
+40064.0 object O162 created
+O162 [p0, m14, m20, q3, m12]
+40089.19999969712 m20 received replica for O211 from t11
+40089.69999969711 m20 received replica for O379 from t11
+40091.19999969709 m18 received replica for O104 from m24
+40117.49999969671 p0 responding query Q29-128 for O128
+40117 Object retrieved for Q29-128 object O128
+40117.9999996967 p0 received replica for O360 from s6
+40128.0 object O216 created
+O216 [p1, q5, m19, p0, m20]
+40192.0 object O114 created
+O114 [s8, q3, m15, q4, m21]
+40192.0 object O174 created
+O174 [t11, m23, m16, t9, m14]
+40192.0 object O353 created
+O353 [t11, m23, m16, t9, m14]
+40228.79999969509 p0 received replica for O162 from m13
+40229.29999969508 p0 received replica for O214 from m13
+40256.0 object O325 created
+O325 [m12, m21, p1, p0, q4]
+40269.2999996945 m12 received replica for O239 from m20
+40269.79999969449 m12 received replica for O35 from m20
+40270.299999694485 m12 received replica for O296 from m20
+40270.79999969448 m12 received replica for O242 from m20
+40271.29999969447 m12 received replica for O397 from m20
+40271.79999969446 m12 received replica for O387 from m20
+40272.299999694456 m12 received replica for O65 from m20
+40272.79999969445 m12 received replica for O286 from m20
+40280.79999969433 s6 responding query Q364-130 for O130
+40280.79999969433 s6 received replica for O53 from q4
+40281.299999694325 s6 received replica for O68 from q4
+40281.79999969432 q4 received replica for O360 from s6
+40282.29999969431 q4 received replica for O165 from s6
+40282.7999996943 q4 received replica for O234 from s6
+40283 Object retrieved for Q364-130 object O130
+40283.79999969429 q4 received replica for O72 from s6
+40310.6999996939 m15 received replica for O339 from m21
+40311.19999969389 m21 received replica for O4 from m15
+40311.69999969388 m21 received replica for O145 from m15
+40312.79999969387 t11 received replica for O353 from m19
+40313.29999969386 t11 received replica for O174 from m19
+40320.0 object O297 created
+O297 [m15, t9, m14, m16, m24]
+40340.29999969347 m24 received replica for O297 from p1
+40352.69999969329 s7 received replica for O165 from s6
+40353.19999969328 s7 received replica for O72 from s6
+40353.69999969327 s7 received replica for O234 from s6
+40354.199999693265 s7 received replica for O360 from s6
+40381.79999969286 m16 received replica for O93 from p1
+40382.299999692856 m16 received replica for O297 from p1
+40384.0 object O7 created
+O7 [p1, q5, m19, p0, m20]
+40384.0 object O56 created
+O56 []
+40384.0 object O118 created
+O118 [p1, m18, m23, q3, m15]
+40384.0 object O245 created
+O245 []
+40384.0 object O338 created
+O338 [p1, q5, m19, p0, m20]
+40384.0query Q126-213 created object O213
+40448.0 object O16 created
+O16 [p0, t11, s8, p1, m19]
+40448.0 object O60 created
+O60 []
+40448.0 object O246 created
+O246 [p0, t10, m19, m22, q3]
+40448.0query Q346-143 created object O143
+40512.0 object O83 created
+O83 [q3, t9, p0, m19, m24]
+40512.0 object O112 created
+O112 [m12, m21, p1, p0, q4]
+40512.0 object O288 created
+O288 [q5, t11, m15, m17, q4]
+40512.0 object O332 created
+O332 [p1, q5, m24, m21, p0]
+40569.299999690134 m17 received replica for O288 from s8
+40576.0query Q5-147 created object O147
+40582.399999689944 m21 received replica for O332 from m15
+40640.0 object O85 created
+O85 [p0, t10, m19, m22, q3]
+40640.0 object O136 created
+O136 [p1, q5, m24, m21, p0]
+40640.0 m21 received replica for O136 from m15
+40640.0 object O232 created
+O232 [m18, m12, m22, p1, m14]
+40640.0 object O275 created
+O275 [m12, s7, p1, m17, p0]
+40640.0 object O395 created
+O395 [m23, s6, t9, p0, m17]
+40704.0 object O37 created
+O37 [p1, m18, m23, q3, m15]
+40715.19999968801 p1 received replica for O232 from t10
+40730.19999968779 q5 received replica for O136 from m15
+40730.699999687786 q5 received replica for O332 from m15
+40731.19999968778 m15 received replica for O114 from q5
+40756.099999687416 m20 received replica for O130 from q4
+40756.59999968741 m20 received replica for O30 from q4
+40757.0999996874 m20 received replica for O68 from q4
+40757.599999687394 m20 received replica for O228 from q4
+40758.09999968739 m20 received replica for O396 from q4
+40758.59999968738 m20 received replica for O53 from q4
+40768.0 object O126 created
+O126 [p1, m18, m23, q3, m15]
+40777.8999996871 q3 received replica for O114 from q5
+40807.49999968667 q3 received replica for O322 from m23
+40807.99999968666 q3 received replica for O151 from m23
+40808.49999968665 q3 received replica for O83 from m23
+40808.999999686646 m23 received replica for O395 from q3
+40809.49999968664 m23 received replica for O217 from q3
+40809.99999968663 m23 received replica for O173 from q3
+40832.0 object O167 created
+O167 [m21, s8, m18, m20, m19]
+40832.0 object O221 created
+O221 [m12, m21, p1, p0, q4]
+40832.0query Q370-129 created object O129
+40854.29999968599 t10 received replica for O246 from m16
+40854.79999968598 t10 received replica for O85 from m16
+40866.899999685804 m21 received replica for O28 from q5
+40867.3999996858 m21 received replica for O215 from q5
+40867.89999968579 m21 received replica for O219 from q5
+40868.39999968578 m21 received replica for O32 from q5
+40868.899999685775 m21 received replica for O114 from q5
+40869.39999968577 m21 received replica for O247 from q5
+40869.89999968576 m21 received replica for O44 from q5
+40870.39999968575 m21 received replica for O196 from q5
+40870.899999685746 m21 received replica for O223 from q5
+40896.0 object O121 created
+O121 [m12, s7, p1, m17, p0]
+40896.0 object O293 created
+O293 [m15, t9, m16, m14, m24]
+40896.0 m16 received replica for O293 from p1
+40896.0 object O382 created
+O382 [s8, q3, m15, q4, m21]
+40896.0 m21 received replica for O382 from q5
+40899.89999968532 q3 received replica for O382 from q5
+40952.19999968456 m22 received replica for O232 from t10
+40960.0query Q134-349 created object O349
+41018.79999968359 q5 received replica for O7 from m14
+41019.299999683586 q5 received replica for O338 from m14
+41019.79999968358 q5 received replica for O216 from m14
+41024.0 object O176 created
+O176 [m15, m16, m17, m18, m12]
+41024.0 object O295 created
+O295 [m16, m15, t9, m14, m24]
+41049.19999968315 p0 received replica for O395 from q3
+41060.69999968298 q4 received replica for O288 from s8
+41061.199999682976 q4 received replica for O101 from s8
+41068.59999968287 m15 received replica for O288 from s8
+41069.09999968286 m15 received replica for O101 from s8
+41084.09999968264 m19 received replica for O16 from m18
+41085.09999968263 m18 received replica for O37 from m12
+41085.59999968262 m18 received replica for O126 from m12
+41086.099999682614 m18 received replica for O118 from m12
+41088.0 object O220 created
+O220 [m15, m16, m17, m18, m12]
+41088.0 object O298 created
+O298 [p1, m19, p0, q5, m20]
+41088.0 object O319 created
+O319 [m15, m16, m17, m18, m12]
+41117.39999968216 s8 responding query Q346-143 for O143
+41117.39999968216 s8 responding query Q370-129 for O129
+41117 Object retrieved for Q370-129 object O129
+41118 Object retrieved for Q346-143 object O143
+41152.0 object O19 created
+O19 [p1, m19, p0, q5, m20]
+41152.0 object O122 created
+O122 [p0, t11, s8, p1, t9]
+41152.0 object O287 created
+O287 [q5, t11, m15, m12, q4]
+41161.19999968152 m22 responding query Q5-147 for O147
+41161.19999968152 m22 received replica for O42 from m17
+41161.699999681514 m22 received replica for O209 from m17
+41162.19999968151 m17 received replica for O364 from m22
+41162.6999996815 m17 received replica for O275 from m22
+41163.19999968149 m17 received replica for O121 from m22
+41163.699999681485 m17 received replica for O284 from m22
+41164 Object retrieved for Q5-147 object O147
+41175.399999681315 m16 received replica for O319 from m24
+41175.89999968131 m16 received replica for O220 from m24
+41176.3999996813 m16 received replica for O176 from m24
+41183.3999996812 m14 received replica for O232 from t10
+41268.199999679964 p0 received replica for O85 from m16
+41268.69999967996 p0 received replica for O246 from m16
+41269.19999967995 m16 received replica for O183 from p0
+41269.69999967994 m16 received replica for O87 from p0
+41272.7999996799 m15 received replica for O382 from q5
+41278.499999679814 q4 received replica for O114 from q5
+41278.99999967981 q4 received replica for O382 from q5
+41279.4999996798 q5 received replica for O53 from q4
+41280.0 object O149 created
+O149 [q3, p0, q4, s7, s8]
+41280.0 object O274 created
+O274 [t9, t11, s8, p1, p0]
+41280.0 object O374 created
+O374 [s6, t9, m17, p0, m16]
+41280.0 object O386 created
+O386 [p1, q5, m24, m21, p0]
+41280.0 q5 received replica for O386 from m15
+41299.49999967951 q5 received replica for O298 from m14
+41299.9999996795 q5 received replica for O19 from m14
+41300.79999967949 p1 received replica for O325 from t9
+41301.29999967948 p1 received replica for O221 from t9
+41301.799999679475 p1 received replica for O390 from t9
+41302.29999967947 p1 received replica for O158 from t9
+41302.79999967946 p1 received replica for O112 from t9
+41303.29999967945 p1 received replica for O240 from t9
+41303.799999679446 p1 received replica for O269 from t9
+41304.29999967944 t9 received replica for O295 from p1
+41304.79999967943 t9 received replica for O307 from p1
+41305.299999679424 t9 received replica for O93 from p1
+41305.79999967942 t9 received replica for O291 from p1
+41306.29999967941 t9 received replica for O293 from p1
+41306.7999996794 t9 received replica for O370 from p1
+41307.299999679395 t9 received replica for O17 from p1
+41307.79999967939 t9 received replica for O297 from p1
+41315.09999967928 m12 received replica for O287 from s8
+41344.0 object O341 created
+O341 [p0, m14, m20, q3, m12]
+41344.0query Q190-8 created object O8
+41401.79999967802 s8 received replica for O339 from m21
+41402.29999967801 s8 received replica for O354 from m21
+41402.799999678005 s8 received replica for O274 from m21
+41403.299999678 s8 received replica for O358 from m21
+41403.79999967799 s8 received replica for O38 from m21
+41404.29999967798 s8 received replica for O55 from m21
+41404.799999677976 s8 received replica for O311 from m21
+41405.29999967797 s8 received replica for O305 from m21
+41405.79999967796 s8 received replica for O26 from m21
+41405.79999967796 m18 received replica for O232 from t10
+41408.0 object O10 created
+O10 [p1, m23, q3, m18, m15]
+41408.0 object O73 created
+O73 [m15, m16, m17, m18, m12]
+41408.0 object O138 created
+O138 [p0, m14, m20, q3, m12]
+41408.0 object O285 created
+O285 [t10, m16, m13, m22, p1]
+41435.59999967753 s8 received replica for O16 from m18
+41436.09999967752 s8 received replica for O122 from m18
+41451.2999996773 m22 received replica for O285 from m17
+41472.0 object O365 created
+O365 [q3, p0, q4, s7, s8]
+41497.09999967663 m19 received replica for O246 from m16
+41497.599999676626 m19 received replica for O85 from m16
+41498.09999967662 m16 received replica for O174 from m19
+41498.59999967661 m16 received replica for O353 from m19
+41500.99999967658 m21 received replica for O386 from m15
+41531.999999676125 p0 received replica for O325 from t9
+41532.49999967612 p0 received replica for O112 from t9
+41532.99999967611 p0 received replica for O221 from t9
+41533.4999996761 p0 received replica for O240 from t9
+41536.0 object O97 created
+O97 [m15, m16, m17, m18, m12]
+41536.0 object O248 created
+O248 [p1, q5, m19, p0, m20]
+41536.0 object O342 created
+O342 [q3, t9, p0, m19, m24]
+41538.799999676026 m24 received replica for O293 from p1
+41539.29999967602 m24 received replica for O295 from p1
+41578.099999675454 m12 received replica for O232 from t10
+41664.0 object O77 created
+O77 [m12, s7, p1, m17, p0]
+41664.0query Q87-23 created object O23
+41695.39999967375 m20 responding query Q134-349 for O349
+41695 Object retrieved for Q134-349 object O349
+41695.89999967374 m20 received replica for O167 from t11
+41734.99999967317 m15 received replica for O287 from s8
+41778.099999672544 p1 received replica for O121 from m22
+41778.59999967254 p1 received replica for O275 from m22
+41779.09999967253 p1 received replica for O77 from m22
+41792.0 object O3 created
+O3 [p0, t10, m19, m22, q3]
+41792.0 object O39 created
+O39 [m16, m15, m14, m21, m19]
+41792.0 object O116 created
+O116 [m20, m16, m17, m22, t10]
+41792.0 object O324 created
+O324 [t10, m16, m13, p1, m22]
+41792.0 object O392 created
+O392 [p0, t11, s8, p1, t9]
+41792.0query Q56-145 created object O145
+41816.39999967199 p0 received replica for O374 from q3
+41856.0 object O345 created
+O345 [t10, m16, m13, p1, m22]
+41856.0 object O363 created
+O363 [p1, m23, q3, m18, m15]
+41856.0query Q145-223 created object O223
+41869.19999967122 p0 responding query Q190-8 for O8
+41869 Object retrieved for Q190-8 object O8
+41869.69999967121 p0 received replica for O149 from s6
+41870.199999671204 p0 received replica for O365 from s6
+41880.79999967105 q3 received replica for O360 from s6
+41881.29999967104 q3 received replica for O365 from s6
+41881.799999671035 q3 received replica for O149 from s6
+41882.29999967103 s6 received replica for O395 from q3
+41882.79999967102 s6 received replica for O374 from q3
+41885.999999670974 p0 responding query Q87-23 for O23
+41886 Object retrieved for Q87-23 object O23
+41920.0 object O123 created
+O123 [m16, m15, m14, m21, m19]
+41920.0 object O204 created
+O204 [q3, t9, p0, m19, m24]
+41920.0 object O280 created
+O280 [m12, s7, m17, p0, p1]
+41956.19999966995 m15 responding query Q145-223 for O223
+41956.19999966995 q5 responding query Q56-145 for O145
+41956 Object retrieved for Q56-145 object O145
+41957 Object retrieved for Q145-223 object O223
+41994.69999966939 t9 received replica for O322 from m23
+41995.199999669385 t9 received replica for O151 from m23
+41995.69999966938 t9 received replica for O204 from m23
+41996.19999966937 t9 received replica for O342 from m23
+41996.69999966936 t9 received replica for O83 from m23
+42048.0 object O75 created
+O75 [m21, s8, m18, m20, m19]
+42048.0 object O137 created
+O137 [t11, m23, m16, t9, m14]
+42048.0 object O348 created
+O348 [p0, t11, s8, p1, t9]
+42048.0query Q278-239 created object O239
+42059.99999966844 m22 received replica for O345 from m17
+42060.499999668435 m22 received replica for O324 from m17
+42060.99999966843 m17 received replica for O77 from m22
+42061.49999966842 m17 received replica for O280 from m22
+42062.19999966841 q4 received replica for O365 from s6
+42062.6999996684 q4 received replica for O149 from s6
+42087.199999668046 s8 received replica for O75 from t11
+42087.69999966804 s8 received replica for O167 from t11
+42088.19999966803 s8 received replica for O211 from t11
+42088.699999668024 s8 received replica for O379 from t11
+42089.19999966802 t11 received replica for O101 from s8
+42089.69999966801 t11 received replica for O288 from s8
+42090.199999668 t11 received replica for O287 from s8
+42090.699999667995 t11 received replica for O400 from s8
+42102.399999667825 q5 received replica for O248 from m14
+42112.0 object O34 created
+O34 [q4, q5, m21, m22, t9]
+42119.499999667576 t9 received replica for O122 from m18
+42119.99999966757 t9 received replica for O348 from m18
+42120.49999966756 t9 received replica for O392 from m18
+42176.0 object O115 created
+O115 [m12, m21, p0, q4, s6]
+42176.0 object O346 created
+O346 [m15, m16, m17, m18, m12]
+42180.39999966669 s6 received replica for O115 from t9
+42188.69999966657 m15 received replica for O10 from m12
+42189.19999966656 m15 received replica for O126 from m12
+42189.699999666555 m15 received replica for O118 from m12
+42190.19999966655 m15 received replica for O363 from m12
+42190.69999966654 m15 received replica for O236 from m12
+42191.19999966653 m15 received replica for O124 from m12
+42191.699999666525 m15 received replica for O37 from m12
+42242.79999966578 s8 received replica for O348 from m18
+42243.299999665775 s8 received replica for O392 from m18
+42304.0 object O357 created
+O357 [m12, s7, p0, p1, s6]
+42304.0 object O384 created
+O384 [m21, s8, m18, m20, m19]
+42337.499999664404 t11 received replica for O274 from m21
+42337.9999996644 t11 received replica for O339 from m21
+42338.49999966439 m21 received replica for O379 from t11
+42338.99999966438 m21 received replica for O384 from t11
+42339.499999664375 m20 received replica for O75 from t11
+42339.99999966437 m21 received replica for O211 from t11
+42340.49999966436 m20 received replica for O384 from t11
+42340.99999966435 m21 received replica for O167 from t11
+42341.499999664346 m21 received replica for O75 from t11
+42351.899999664194 m19 received replica for O384 from t11
+42352.39999966419 m19 received replica for O167 from t11
+42352.89999966418 m19 received replica for O75 from t11
+42353.39999966417 t11 received replica for O137 from m19
+42368.0 object O233 created
+O233 [p1, m23, q3, m18, p0]
+42368.0 object O265 created
+O265 [s7, q5, s6, m16, q3]
+42432.0 object O191 created
+O191 [s8, q3, m15, q4, m21]
+42432.0 object O330 created
+O330 [m16, m15, m14, m21, m19]
+42496.0 object O5 created
+O5 [t11, m23, m16, t9, m14]
+42496.0 object O394 created
+O394 [q4, q5, m21, m22, t9]
+42522.59999966171 q3 received replica for O3 from m16
+42523.0999996617 q3 received replica for O144 from m16
+42523.599999661696 q3 received replica for O246 from m16
+42524.09999966169 q3 received replica for O85 from m16
+42524.59999966168 q3 received replica for O192 from m16
+42525.099999661674 m16 received replica for O217 from q3
+42525.59999966167 m16 received replica for O374 from q3
+42531.69999966158 t10 received replica for O116 from p0
+42560.0 object O21 created
+O21 [p0, t11, s8, p1, t9]
+42560.0 object O340 created
+O340 [p0, t11, s8, p1, t9]
+42560.0 object O383 created
+O383 [q5, t11, m15, m12, q4]
+42560.0query Q36-192 created object O192
+42560.0query Q107-277 created object O277
+42613.599999660386 q3 received replica for O191 from q5
+42622.89999966025 m16 received replica for O265 from q4
+42624.0 object O86 created
+O86 [p0, m14, m20, q3, m12]
+42624.0 object O398 created
+O398 [s7, q5, s6, q3, m16]
+42624.0 m16 received replica for O398 from q4
+42624.0query Q77-330 created object O330
+42624.0query Q263-52 created object O52
+42630.199999660144 q3 received replica for O363 from m12
+42630.69999966014 q3 received replica for O10 from m12
+42631.19999966013 q3 received replica for O124 from m12
+42631.69999966012 q3 received replica for O236 from m12
+42632.199999660115 q3 received replica for O126 from m12
+42632.69999966011 q3 received replica for O37 from m12
+42633.1999996601 q3 received replica for O118 from m12
+42633.69999966009 q3 received replica for O58 from m12
+42634.199999660086 q3 received replica for O233 from m12
+42650.49999965985 m17 responding query Q107-277 for O277
+42650 Object retrieved for Q107-277 object O277
+42686.599999659324 s7 received replica for O398 from q4
+42687.09999965932 s7 received replica for O53 from q4
+42687.59999965931 s7 received replica for O396 from q4
+42688.0 object O333 created
+O333 []
+42688.0999996593 s7 received replica for O62 from q4
+42688.599999659295 s7 received replica for O228 from q4
+42689.09999965929 s7 received replica for O68 from q4
+42689.59999965928 s7 received replica for O30 from q4
+42690.09999965927 s7 received replica for O265 from q4
+42690.599999659265 s7 received replica for O13 from q4
+42691.09999965926 s7 received replica for O130 from q4
+42691.59999965925 q4 received replica for O355 from s7
+42692.09999965924 q4 received replica for O143 from s7
+42692.599999659236 q4 received replica for O71 from s7
+42693.09999965923 q4 received replica for O394 from s7
+42693.59999965922 q4 received replica for O371 from s7
+42694.099999659215 q4 received replica for O110 from s7
+42694.59999965921 q4 received replica for O96 from s7
+42695.0999996592 q4 received replica for O34 from s7
+42695.59999965919 q4 received replica for O129 from s7
+42696.099999659185 q4 received replica for O80 from s7
+42704.0query Q274-6 created object O6
+42738.49999965857 m15 responding query Q274-6 for O6
+42738 Object retrieved for Q274-6 object O6
+42752.0 object O9 created
+O9 [t9, t11, s8, p1, q5]
+42752.0query Q289-276 created object O276
+42803.59999965762 m15 received replica for O383 from s8
+42805.299999657596 m23 received replica for O233 from m12
+42805.79999965759 m23 received replica for O118 from m12
+42806.29999965758 m23 received replica for O236 from m12
+42806.799999657575 m23 received replica for O363 from m12
+42807.29999965757 m23 received replica for O58 from m12
+42807.79999965756 m23 received replica for O10 from m12
+42808.29999965755 m23 received replica for O37 from m12
+42808.799999657545 m23 received replica for O124 from m12
+42809.29999965754 m23 received replica for O126 from m12
+42809.79999965753 m12 received replica for O383 from s8
+42816.0 object O22 created
+O22 []
+42816.0 object O43 created
+O43 [s8, q3, m15, q4, m21]
+42816.0 object O67 created
+O67 [q5, t11, m15, q4, m14]
+42816.0 m15 received replica for O67 from s8
+42816.0query Q258-52 created object O52
+42816.0query Q343-355 created object O355
+42845.199999657016 q4 received replica for O287 from s8
+42845.69999965701 q4 received replica for O67 from s8
+42846.199999657 q4 received replica for O383 from s8
+42880.0 object O45 created
+O45 [m18, p1, m22, m12, q5]
+42880.0 object O271 created
+O271 [q5, t11, m15, q4, m12]
+42880.0 q4 received replica for O271 from s8
+42880.0 object O356 created
+O356 [m15, m16, m17, m18, m12]
+42897.19999965626 s8 responding query Q343-355 for O355
+42897 Object retrieved for Q343-355 object O355
+42947.79999965552 m12 received replica for O45 from t10
+42960.699999655335 m15 received replica for O191 from q5
+42961.19999965533 m15 received replica for O43 from q5
+42979.49999965506 q3 received replica for O335 from m13
+42979.999999655054 q3 received replica for O256 from m13
+42980.49999965505 q3 received replica for O138 from m13
+42980.99999965504 q3 received replica for O273 from m13
+42981.49999965503 q3 received replica for O86 from m13
+42981.999999655025 q3 received replica for O214 from m13
+42982.49999965502 q3 received replica for O162 from m13
+42982.99999965501 q3 received replica for O341 from m13
+42984.19999965499 m12 received replica for O271 from s8
+43008.0 object O91 created
+O91 [p0, t10, m19, m22, q3]
+43028.59999965435 q4 received replica for O325 from t9
+43029.09999965434 q4 received replica for O112 from t9
+43029.59999965433 q4 received replica for O221 from t9
+43030.099999654325 q4 received replica for O115 from t9
+43069.59999965375 m18 received replica for O10 from m12
+43070.09999965374 m18 received replica for O233 from m12
+43070.599999653736 m18 received replica for O363 from m12
+43076.799999653646 t9 received replica for O34 from s7
+43077.29999965364 t9 received replica for O143 from s7
+43077.79999965363 t9 received replica for O394 from s7
+43078.299999653624 t9 received replica for O96 from s7
+43122.899999652975 q5 received replica for O265 from q4
+43123.39999965297 q5 received replica for O398 from q4
+43123.89999965296 q4 received replica for O43 from q5
+43124.39999965295 q4 received replica for O191 from q5
+43183.79999965209 q5 received replica for O45 from t10
+43196.6999996519 p0 received replica for O341 from m13
+43197.19999965189 p0 received replica for O86 from m13
+43197.699999651886 p0 received replica for O138 from m13
+43208.19999965173 q5 received replica for O394 from s7
+43208.699999651726 q5 received replica for O34 from s7
+43217.1999996516 q3 responding query Q278-239 for O239
+43217 Object retrieved for Q278-239 object O239
+43217.699999651595 q3 received replica for O387 from m20
+43229.19999965143 m22 received replica for O45 from t10
+43246.499999651176 m22 received replica for O394 from s7
+43246.99999965117 m22 received replica for O34 from s7
+43247.49999965116 s7 received replica for O280 from m22
+43247.999999651154 s7 received replica for O121 from m22
+43248.49999965115 s7 received replica for O275 from m22
+43248.99999965114 s7 received replica for O77 from m22
+43249.49999965113 s7 received replica for O357 from m22
+43252.99999965108 m12 received replica for O115 from t9
+43253.499999651074 m12 received replica for O390 from t9
+43253.99999965107 m12 received replica for O158 from t9
+43254.49999965106 m12 received replica for O269 from t9
+43254.99999965105 m12 received replica for O240 from t9
+43255.499999651045 m12 received replica for O221 from t9
+43255.99999965104 m12 received replica for O112 from t9
+43256.49999965103 m12 received replica for O325 from t9
+43299.8999996504 q3 received replica for O43 from q5
+43344.59999964975 m12 received replica for O357 from m22
+43345.09999964974 m12 received replica for O368 from m22
+43345.39999964974 m15 received replica for O356 from m24
+43345.599999649734 m12 received replica for O77 from m22
+43345.89999964973 m15 received replica for O46 from m24
+43346.09999964973 m12 received replica for O364 from m22
+43346.39999964972 m15 received replica for O97 from m24
+43346.59999964972 m12 received replica for O275 from m22
+43346.69999964972 t9 received replica for O21 from m18
+43346.899999649715 m15 received replica for O176 from m24
+43347.09999964971 m12 received replica for O225 from m22
+43347.19999964971 t9 received replica for O340 from m18
+43347.39999964971 m15 received replica for O346 from m24
+43347.599999649705 m12 received replica for O280 from m22
+43347.8999996497 m15 received replica for O63 from m24
+43348.0999996497 m12 received replica for O121 from m22
+43348.39999964969 m15 received replica for O104 from m24
+43348.59999964969 m12 received replica for O284 from m22
+43348.899999649686 m15 received replica for O220 from m24
+43349.39999964968 m15 received replica for O319 from m24
+43349.89999964967 m15 received replica for O73 from m24
+43350.399999649664 m24 received replica for O361 from m15
+43350.89999964966 m24 received replica for O386 from m15
+43351.39999964965 m24 received replica for O145 from m15
+43351.89999964964 m24 received replica for O332 from m15
+43352.399999649635 m24 received replica for O4 from m15
+43352.89999964963 m24 received replica for O184 from m15
+43353.39999964962 m24 received replica for O136 from m15
+43377.099999649276 m19 responding query Q36-192 for O192
+43377.099999649276 m19 received replica for O3 from m16
+43377.59999964927 m19 received replica for O91 from m16
+43378.09999964926 m16 received replica for O137 from m19
+43379 Object retrieved for Q36-192 object O192
+43379.09999964925 m16 received replica for O5 from m19
+43408.59999964882 s6 received replica for O357 from m22
+43422.499999648615 m21 received replica for O43 from q5
+43422.99999964861 m21 received replica for O191 from q5
+43423.4999996486 q5 received replica for O9 from m21
+43424.79999964858 p0 received replica for O332 from m15
+43425.299999648574 p0 received replica for O212 from m15
+43425.79999964857 p0 received replica for O386 from m15
+43426.29999964856 p0 received replica for O136 from m15
+43456.0query Q44-248 created object O248
+43456.0query Q215-315 created object O315
+43512.9999996473 t9 received replica for O137 from m19
+43513.49999964729 t9 received replica for O5 from m19
+43513.99999964728 t9 received replica for O174 from m19
+43514.499999647276 t9 received replica for O353 from m19
+43629.999999645595 p0 responding query Q289-276 for O276
+43630 Object retrieved for Q289-276 object O276
+43682.59999964483 s8 responding query Q258-52 for O52
+43682.59999964483 s8 responding query Q263-52 for O52
+43683 Object retrieved for Q263-52 object O52
+43683 Object retrieved for Q258-52 object O52
+43683.599999644815 s8 received replica for O21 from m18
+43684.09999964481 s8 received replica for O340 from m18
+43760.0999996437 p1 received replica for O254 from m14
+43760.599999643695 p1 received replica for O338 from m14
+43761.09999964369 p1 received replica for O19 from m14
+43761.59999964368 p1 received replica for O226 from m14
+43762.09999964367 p1 received replica for O216 from m14
+43762.599999643666 p1 received replica for O141 from m14
+43763.09999964366 p1 received replica for O248 from m14
+43763.59999964365 p1 received replica for O298 from m14
+43764.099999643644 p1 received replica for O376 from m14
+43764.59999964364 p1 received replica for O7 from m14
+43765.09999964363 m14 received replica for O39 from p1
+43765.59999964362 m14 received replica for O307 from p1
+43766.099999643615 m14 received replica for O123 from p1
+43766.59999964361 m14 received replica for O330 from p1
+43767.0999996436 m14 received replica for O295 from p1
+43767.59999964359 m14 received replica for O297 from p1
+43768.099999643586 m14 received replica for O93 from p1
+43768.59999964358 m14 received replica for O293 from p1
+43769.09999964357 m14 received replica for O370 from p1
+43769.599999643564 m14 received replica for O291 from p1
+43898.29999964169 s8 received replica for O9 from m21
+43904.0query Q80-136 created object O136
+43920.0query Q290-35 created object O35
+43920.59999964137 t9 received replica for O374 from q3
+43921.09999964136 t9 received replica for O395 from q3
+44011.499999640044 s8 received replica for O365 from s6
+44011.99999964004 s8 received replica for O331 from s6
+44012.49999964003 s8 received replica for O360 from s6
+44012.99999964002 s8 received replica for O227 from s6
+44013.499999640015 s8 received replica for O149 from s6
+44061.89999963931 t11 received replica for O5 from m19
+44106.899999638656 p1 received replica for O324 from m17
+44107.39999963865 p1 received replica for O285 from m17
+44107.89999963864 p1 received replica for O209 from m17
+44108.09999963864 p0 responding query Q80-136 for O136
+44108 Object retrieved for Q80-136 object O136
+44108.399999638634 p1 received replica for O42 from m17
+44108.89999963863 p1 received replica for O147 from m17
+44109.39999963862 p1 received replica for O190 from m17
+44109.89999963861 p1 received replica for O89 from m17
+44110.399999638605 p1 received replica for O119 from m17
+44110.8999996386 p1 received replica for O134 from m17
+44111.39999963859 p1 received replica for O345 from m17
+44131.699999638295 m17 received replica for O97 from m24
+44132.19999963829 m17 received replica for O356 from m24
+44132.69999963828 m17 received replica for O46 from m24
+44133.19999963827 m17 received replica for O73 from m24
+44133.699999638266 m17 received replica for O346 from m24
+44134.19999963826 m17 received replica for O176 from m24
+44134.69999963825 m17 received replica for O104 from m24
+44135.199999638244 m17 received replica for O63 from m24
+44135.69999963824 m17 received replica for O319 from m24
+44136.19999963823 m17 received replica for O220 from m24
+44218.79999963703 p0 responding query Q215-315 for O315
+44218.79999963703 p0 received replica for O91 from m16
+44219.29999963702 p0 received replica for O3 from m16
+44219.79999963701 m16 received replica for O116 from p0
+44220 Object retrieved for Q215-315 object O315
+44224.0query Q58-16 created object O16
+44240.59999963671 p0 received replica for O115 from t9
+44288.0query Q93-133 created object O133
+44288.0query Q395-259 created object O259
+44352.0query Q235-42 created object O42
+44456.39999963357 m18 received replica for O45 from t10
+44464.39999963345 m24 received replica for O342 from m23
+44464.899999633446 m24 received replica for O83 from m23
+44465.39999963344 m24 received replica for O151 from m23
+44465.89999963343 m24 received replica for O204 from m23
+44474.9999996333 t11 received replica for O67 from s8
+44475.49999963329 t11 received replica for O271 from s8
+44475.999999633284 t11 received replica for O383 from s8
+44476.49999963328 s8 received replica for O384 from t11
+44505.19999963286 m22 responding query Q235-42 for O42
+44505 Object retrieved for Q235-42 object O42
+44601.799999631454 p1 received replica for O45 from t10
+44608.0query Q386-301 created object O301
+44672.0query Q84-72 created object O72
+44690.79999963016 q4 responding query Q386-301 for O301
+44691 Object retrieved for Q386-301 object O301
+44703.89999962997 m14 responding query Q77-330 for O330
+44703.89999962997 p1 responding query Q44-248 for O248
+44704 Object retrieved for Q44-248 object O248
+44704 Object retrieved for Q77-330 object O330
+44710.899999629866 m16 received replica for O39 from p1
+44711.39999962986 m16 received replica for O330 from p1
+44711.89999962985 m16 received replica for O295 from p1
+44712.399999629844 m16 received replica for O123 from p1
+44736.0query Q150-183 created object O183
+44736.0query Q245-123 created object O123
+44737.39999962948 m21 received replica for O34 from s7
+44737.89999962947 m21 received replica for O394 from s7
+44800.0query Q144-400 created object O400
+44832.0query Q95-250 created object O250
+44864.0query Q106-264 created object O264
+44912.399999626934 m12 received replica for O162 from m13
+44912.89999962693 m12 received replica for O138 from m13
+44913.39999962692 m12 received replica for O86 from m13
+44913.89999962691 m12 received replica for O341 from m13
+44923.79999962677 m19 received replica for O83 from m23
+44924.29999962676 m19 received replica for O198 from m23
+44924.79999962675 m19 received replica for O204 from m23
+44925.299999626746 m19 received replica for O342 from m23
+44925.79999962674 m19 received replica for O322 from m23
+44926.29999962673 m19 received replica for O151 from m23
+44926.799999626724 m23 received replica for O353 from m19
+44927.29999962672 m23 received replica for O205 from m19
+44927.79999962671 m23 received replica for O224 from m19
+44928.0query Q138-32 created object O32
+44928.2999996267 m23 received replica for O197 from m19
+44928.799999626695 m23 received replica for O5 from m19
+44929.29999962669 m23 received replica for O168 from m19
+44929.79999962668 m23 received replica for O137 from m19
+44930.29999962667 m23 received replica for O174 from m19
+44937.099999626575 s7 responding query Q95-250 for O250
+44937 Object retrieved for Q95-250 object O250
+44959.39999962625 m16 responding query Q245-123 for O123
+44959 Object retrieved for Q245-123 object O123
+44975.19999962602 s8 responding query Q58-16 for O16
+44975 Object retrieved for Q58-16 object O16
+44994.199999625744 q4 responding query Q138-32 for O32
+44994 Object retrieved for Q138-32 object O32
+45003.19999962561 q4 responding query Q144-400 for O400
+45003 Object retrieved for Q144-400 object O400
+45071.49999962462 q3 received replica for O342 from m23
+45071.99999962461 q3 received replica for O204 from m23
+45095.199999624274 m16 received replica for O356 from m24
+45095.69999962427 m16 received replica for O97 from m24
+45096.19999962426 m16 received replica for O346 from m24
+45096.69999962425 m16 received replica for O73 from m24
+45120.0query Q124-253 created object O253
+45184.0query Q98-135 created object O135
+45184.0query Q142-199 created object O199
+45200.79999962274 t10 responding query Q124-253 for O253
+45200.79999962274 t10 received replica for O91 from m16
+45201.29999962273 t10 received replica for O3 from m16
+45202 Object retrieved for Q124-253 object O253
+45252.69999962198 p0 responding query Q84-72 for O72
+45253 Object retrieved for Q84-72 object O72
+45289.89999962144 p0 received replica for O322 from m23
+45290.39999962143 p0 received replica for O83 from m23
+45290.899999621426 p0 received replica for O151 from m23
+45291.39999962142 p0 received replica for O342 from m23
+45291.89999962141 p0 received replica for O204 from m23
+45317.49999962104 m20 responding query Q98-135 for O135
+45317.49999962104 m14 received replica for O397 from m20
+45317.99999962103 m14 received replica for O387 from m20
+45318 Object retrieved for Q98-135 object O135
+45318.99999962102 m14 received replica for O239 from m20
+45319.49999962101 m14 received replica for O65 from m20
+45319.999999621 m14 received replica for O35 from m20
+45320.499999620995 m14 received replica for O286 from m20
+45320.99999962099 m20 received replica for O19 from m14
+45321.49999962098 m20 received replica for O298 from m14
+45321.99999962097 m20 received replica for O376 from m14
+45322.499999620966 m20 received replica for O226 from m14
+45322.99999962096 m20 received replica for O248 from m14
+45323.49999962095 m20 received replica for O216 from m14
+45323.999999620944 m20 received replica for O7 from m14
+45324.49999962094 m20 received replica for O338 from m14
+45324.99999962093 m20 received replica for O254 from m14
+45394.099999619924 m17 received replica for O374 from q3
+45394.59999961992 m17 received replica for O395 from q3
+45424.59999961948 m19 received replica for O7 from m14
+45425.09999961947 m19 received replica for O338 from m14
+45425.599999619466 m19 received replica for O248 from m14
+45426.09999961946 m19 received replica for O216 from m14
+45426.59999961945 m19 received replica for O19 from m14
+45427.099999619444 m19 received replica for O298 from m14
+45427.59999961944 m14 received replica for O168 from m19
+45428.09999961943 m14 received replica for O137 from m19
+45428.59999961942 m14 received replica for O353 from m19
+45429.099999619415 m14 received replica for O174 from m19
+45429.59999961941 m14 received replica for O5 from m19
+45440.0query Q27-134 created object O134
+45481.79999961865 q3 received replica for O329 from t10
+45482.29999961864 q3 received replica for O263 from t10
+45482.79999961863 q3 received replica for O41 from t10
+45494.49999961846 t10 responding query Q27-134 for O134
+45494.49999961846 t10 received replica for O324 from m17
+45494.999999618456 t10 received replica for O285 from m17
+45495.49999961845 t10 received replica for O345 from m17
+45495.99999961844 t10 received replica for O42 from m17
+45496 Object retrieved for Q27-134 object O134
+45504.0query Q266-43 created object O43
+45551.69999961763 t11 responding query Q142-199 for O199
+45552 Object retrieved for Q142-199 object O199
+45564.89999961744 t9 received replica for O339 from m21
+45565.39999961743 t9 received replica for O9 from m21
+45565.899999617424 t9 received replica for O274 from m21
+45566.39999961742 m21 received replica for O240 from t9
+45566.89999961741 m21 received replica for O269 from t9
+45567.3999996174 m21 received replica for O158 from t9
+45567.899999617395 m21 received replica for O115 from t9
+45568.0query Q19-208 created object O208
+45568.39999961739 m21 received replica for O221 from t9
+45568.89999961738 m21 received replica for O112 from t9
+45569.39999961737 m21 received replica for O325 from t9
+45632.0query Q305-23 created object O23
+45696.0query Q133-78 created object O78
+45696.0query Q189-20 created object O20
+45824.0query Q28-20 created object O20
+45824.0query Q139-285 created object O285
+45842.2999996134 m20 received replica for O341 from m13
+45842.799999613395 m20 received replica for O162 from m13
+45843.29999961339 m20 received replica for O214 from m13
+45843.79999961338 m20 received replica for O86 from m13
+45844.29999961337 m20 received replica for O138 from m13
+45844.799999613366 m13 received replica for O286 from m20
+45845.29999961336 m13 received replica for O387 from m20
+45845.79999961335 m13 received replica for O65 from m20
+45846.299999613344 m13 received replica for O397 from m20
+45846.79999961334 m13 received replica for O35 from m20
+45847.29999961333 m13 received replica for O239 from m20
+45887.399999612746 t9 responding query Q150-183 for O183
+45887.399999612746 t9 responding query Q395-259 for O259
+45887 Object retrieved for Q395-259 object O259
+45888 Object retrieved for Q150-183 object O183
+45952.0query Q286-290 created object O290
+45952.0query Q390-156 created object O156
+45956.0query Q358-359 created object O359
+46016.0query Q261-101 created object O101
+46016.0query Q327-87 created object O87
+46038.49999961055 m21 responding query Q266-43 for O43
+46038 Object retrieved for Q266-43 object O43
+46136.59999960912 m16 responding query Q305-23 for O23
+46137 Object retrieved for Q305-23 object O23
+46144.0query Q350-104 created object O104
+46199.499999608204 t10 responding query Q28-20 for O20
+46199.499999608204 t10 responding query Q189-20 for O20
+46199 Object retrieved for Q189-20 object O20
+46200 Object retrieved for Q28-20 object O20
+46208.0query Q146-49 created object O49
+46245.99999960753 m14 responding query Q358-359 for O359
+46246 Object retrieved for Q358-359 object O359
+46246.49999960752 m14 received replica for O162 from m13
+46246.99999960751 m14 received replica for O341 from m13
+46247.499999607506 m14 received replica for O138 from m13
+46247.9999996075 m14 received replica for O86 from m13
+46248.49999960749 m14 received replica for O214 from m13
+46272.0query Q123-238 created object O238
+46272.0query Q161-284 created object O284
+46344.99999960609 t11 responding query Q261-101 for O101
+46345 Object retrieved for Q261-101 object O101
+46346.09999960607 s8 responding query Q19-208 for O208
+46346.09999960607 s8 responding query Q286-290 for O290
+46346 Object retrieved for Q286-290 object O290
+46347 Object retrieved for Q19-208 object O208
+46363.09999960582 m18 received replica for O313 from t11
+46363.599999605816 m18 received replica for O75 from t11
+46364.09999960581 m18 received replica for O178 from t11
+46364.5999996058 m18 received replica for O154 from t11
+46365.099999605794 m18 received replica for O379 from t11
+46365.59999960579 m18 received replica for O167 from t11
+46366.09999960578 m18 received replica for O98 from t11
+46366.59999960577 m18 received replica for O211 from t11
+46367.099999605765 m18 received replica for O384 from t11
+46367.59999960576 t11 received replica for O21 from m18
+46368.0query Q103-324 created object O324
+46368.09999960575 t11 received replica for O340 from m18
+46368.59999960574 t11 received replica for O52 from m18
+46369.099999605736 t11 received replica for O392 from m18
+46369.59999960573 t11 received replica for O348 from m18
+46370.09999960572 t11 received replica for O16 from m18
+46370.599999605714 t11 received replica for O24 from m18
+46371.09999960571 t11 received replica for O208 from m18
+46371.5999996057 t11 received replica for O122 from m18
+46372.09999960569 t11 received replica for O189 from m18
+46528.0query Q149-366 created object O366
+46592.0query Q185-300 created object O300
+46622.699999602046 m19 received replica for O291 from p1
+46623.19999960204 m19 received replica for O330 from p1
+46623.69999960203 m19 received replica for O39 from p1
+46624.199999602024 m19 received replica for O123 from p1
+46624.69999960202 m19 received replica for O307 from p1
+46656.0query Q47-243 created object O243
+46656.0query Q387-396 created object O396
+46699.89999960092 m13 responding query Q290-35 for O35
+46700 Object retrieved for Q290-35 object O35
+46836.59999959893 q5 responding query Q387-396 for O396
+46837 Object retrieved for Q387-396 object O396
+46868.49999959847 s7 responding query Q161-284 for O284
+46868 Object retrieved for Q161-284 object O284
+46874.899999598376 m17 responding query Q106-264 for O264
+46874.899999598376 m17 received replica for O334 from p0
+46875.39999959837 m17 received replica for O87 from p0
+46875.89999959836 m17 received replica for O116 from p0
+46876.399999598354 m17 received replica for O179 from p0
+46876.89999959835 m17 received replica for O183 from p0
+46877.39999959834 m17 received replica for O156 from p0
+46877.89999959833 m17 received replica for O54 from p0
+46878.399999598325 m17 received replica for O336 from p0
+46879 Object retrieved for Q106-264 object O264
+46936.899999597474 m18 responding query Q149-366 for O366
+46937 Object retrieved for Q149-366 object O366
+47006.79999959646 s8 responding query Q185-300 for O300
+47007 Object retrieved for Q185-300 object O300
+47058.19999959571 p1 responding query Q103-324 for O324
+47058.19999959571 p1 responding query Q139-285 for O285
+47058 Object retrieved for Q139-285 object O285
+47059 Object retrieved for Q103-324 object O324
+47104.0query Q188-309 created object O309
+47168.0query Q78-126 created object O126
+47205.09999959357 q3 responding query Q78-126 for O126
+47205 Object retrieved for Q78-126 object O126
+47265.39999959269 m17 responding query Q390-156 for O156
+47265.39999959269 m17 responding query Q327-87 for O87
+47265 Object retrieved for Q390-156 object O156
+47266 Object retrieved for Q327-87 object O87
+47296.0query Q171-79 created object O79
+47307.29999959208 t11 received replica for O9 from m21
+47406.99999959063 m12 responding query Q146-49 for O49
+47406.99999959063 m12 responding query Q123-238 for O238
+47407 Object retrieved for Q123-238 object O238
+47407 Object retrieved for Q146-49 object O49
+47422.699999590404 p0 responding query Q188-309 for O309
+47422.699999590404 p0 responding query Q47-243 for O243
+47423 Object retrieved for Q188-309 object O309
+47423 Object retrieved for Q47-243 object O243
+47488.0query Q244-144 created object O144
+47653.499999587046 m12 responding query Q133-78 for O78
+47653 Object retrieved for Q133-78 object O78
+47739.89999958579 m24 received replica for O219 from q5
+47740.39999958578 m24 received replica for O28 from q5
+47740.899999585774 q5 received replica for O104 from m24
+47741.39999958577 q5 received replica for O63 from m24
+47806.39999958482 p0 responding query Q171-79 for O79
+47806.39999958482 m20 received replica for O116 from p0
+47807 Object retrieved for Q171-79 object O79
+47808.0query Q292-320 created object O320
+47810.59999958476 s6 received replica for O265 from q4
+47811.09999958475 s6 received replica for O398 from q4
+47813.19999958472 m19 responding query Q244-144 for O144
+47813 Object retrieved for Q244-144 object O144
+47880.79999958374 m21 received replica for O390 from t9
+47881.29999958373 m21 received replica for O325 from t9
+48141.19999957995 p0 received replica for O274 from m21
+48164.29999957961 m22 received replica for O156 from p0
+48164.799999579605 m22 received replica for O54 from p0
+48165.2999995796 m22 received replica for O116 from p0
+48165.79999957959 m22 received replica for O183 from p0
+48166.29999957958 m22 received replica for O334 from p0
+48166.799999579576 m22 received replica for O179 from p0
+48167.29999957957 m22 received replica for O87 from p0
+48167.79999957956 p0 received replica for O121 from m22
+48168.299999579554 p0 received replica for O275 from m22
+48168.79999957955 p0 received replica for O357 from m22
+48169.29999957954 p0 received replica for O280 from m22
+48169.79999957953 p0 received replica for O77 from m22
+48256.0query Q223-306 created object O306
+48256.0query Q300-351 created object O351
+48352.0query Q357-24 created object O24
+48384.0query Q271-1 created object O1
+48423.39999957584 m16 responding query Q223-306 for O306
+48423 Object retrieved for Q223-306 object O306
+48423.899999575835 m16 received replica for O285 from m17
+48424.39999957583 m16 received replica for O134 from m17
+48424.89999957582 m16 received replica for O89 from m17
+48425.39999957581 m16 received replica for O345 from m17
+48425.899999575806 m16 received replica for O42 from m17
+48426.3999995758 m16 received replica for O209 from m17
+48426.89999957579 m16 received replica for O190 from m17
+48427.399999575784 m16 received replica for O147 from m17
+48427.89999957578 m16 received replica for O324 from m17
+48444.79999957553 q5 responding query Q350-104 for O104
+48445 Object retrieved for Q350-104 object O104
+48463.89999957525 m14 received replica for O67 from s8
+48661.79999957237 q5 responding query Q271-1 for O1
+48662 Object retrieved for Q271-1 object O1
+48704.0query Q282-207 created object O207
+48704.79999957175 t9 responding query Q282-207 for O207
+48705 Object retrieved for Q282-207 object O207
+48710.79999957166 q4 responding query Q292-320 for O320
+48711 Object retrieved for Q292-320 object O320
+48749.99999957109 t11 responding query Q357-24 for O24
+48750 Object retrieved for Q357-24 object O24
+48856.199999569544 p0 received replica for O233 from m12
+48896.0query Q287-229 created object O229
+49013.499999567255 q5 received replica for O67 from s8
+49013.99999956725 q5 received replica for O287 from s8
+49014.49999956724 q5 received replica for O271 from s8
+49014.99999956723 q5 received replica for O101 from s8
+49015.499999567226 q5 received replica for O383 from s8
+49015.99999956722 q5 received replica for O400 from s8
+49016.49999956721 q5 received replica for O288 from s8
+49016.999999567204 s8 received replica for O114 from q5
+49017.4999995672 s8 received replica for O191 from q5
+49017.99999956719 s8 received replica for O382 from q5
+49018.49999956718 s8 received replica for O43 from q5
+49018.999999567175 s8 received replica for O32 from q5
+49019.49999956717 s8 received replica for O44 from q5
+49019.99999956716 s8 received replica for O223 from q5
+49098.19999956602 p1 received replica for O212 from m15
+49098.699999566015 p1 received replica for O145 from m15
+49099.19999956601 p1 received replica for O184 from m15
+49099.699999566 p1 received replica for O386 from m15
+49100.19999956599 p1 received replica for O361 from m15
+49100.699999565986 p1 received replica for O332 from m15
+49101.19999956598 p1 received replica for O4 from m15
+49101.69999956597 p1 received replica for O136 from m15
+49102.199999565964 m15 received replica for O93 from p1
+49102.69999956596 m15 received replica for O293 from p1
+49103.19999956595 m15 received replica for O295 from p1
+49103.69999956594 m15 received replica for O291 from p1
+49104.199999565935 m15 received replica for O123 from p1
+49104.69999956593 m15 received replica for O297 from p1
+49105.19999956592 m15 received replica for O39 from p1
+49105.69999956591 m15 received replica for O370 from p1
+49106.199999565906 m15 received replica for O330 from p1
+49152.0query Q234-269 created object O269
+49334.59999956258 m18 received replica for O176 from m24
+49335.099999562575 m18 received replica for O319 from m24
+49335.59999956257 m18 received replica for O220 from m24
+49336.09999956256 m18 received replica for O356 from m24
+49336.59999956255 m18 received replica for O346 from m24
+49337.099999562546 m18 received replica for O97 from m24
+49337.59999956254 m18 received replica for O73 from m24
+49389.59999956178 m15 received replica for O271 from s8
+49396.999999561674 m21 responding query Q234-269 for O269
+49397 Object retrieved for Q234-269 object O269
+49408.0query Q265-218 created object O218
+49418.899999561356 m12 responding query Q287-229 for O229
+49419 Object retrieved for Q287-229 object O229
+49467.29999956065 m15 responding query Q265-218 for O218
+49467 Object retrieved for Q265-218 object O218
+49534.09999955968 m12 received replica for O356 from m24
+49534.59999955967 m12 received replica for O73 from m24
+49535.099999559665 m12 received replica for O346 from m24
+49535.59999955966 m12 received replica for O63 from m24
+49536.09999955965 m12 received replica for O319 from m24
+49536.59999955964 m12 received replica for O176 from m24
+49537.099999559636 m12 received replica for O220 from m24
+49537.59999955963 m12 received replica for O97 from m24
+49538.09999955962 m12 received replica for O104 from m24
+49604.09999955866 p1 received replica for O280 from m22
+49604.59999955865 p1 received replica for O357 from m22
+49664.0query Q86-212 created object O212
+49856.0query Q60-147 created object O147
+49916.0query Q184-196 created object O196
+49976.49999955324 s7 received replica for O365 from s6
+49976.999999553234 s7 received replica for O149 from s6
+49984.0query Q385-130 created object O130
+50046.89999955222 s6 responding query Q385-130 for O130
+50047 Object retrieved for Q385-130 object O130
+50048.0query Q259-278 created object O278
+50149.99999955072 q3 received replica for O91 from m16
+50188.99999955015 s8 responding query Q184-196 for O196
+50189 Object retrieved for Q184-196 object O196
+50240.0query Q320-14 created object O14
+50368.0query Q45-353 created object O353
+50368.0query Q193-329 created object O329
+50422.49999954675 m16 responding query Q45-353 for O353
+50422 Object retrieved for Q45-353 object O353
+50624.0query Q57-11 created object O11
+50624.0query Q204-168 created object O168
+50624.0query Q295-161 created object O161
+50688.0query Q316-388 created object O388
+50709.499999542575 p0 received replica for O16 from m18
+50709.99999954257 p0 received replica for O340 from m18
+50710.49999954256 p0 received replica for O21 from m18
+50710.99999954255 p0 received replica for O189 from m18
+50711.499999542546 p0 received replica for O392 from m18
+50711.99999954254 p0 received replica for O24 from m18
+50712.49999954253 p0 received replica for O122 from m18
+50712.999999542524 p0 received replica for O208 from m18
+50713.49999954252 p0 received replica for O348 from m18
+50715.699999542485 m16 responding query Q204-168 for O168
+50716 Object retrieved for Q204-168 object O168
+50758.999999541855 q3 responding query Q193-329 for O329
+50759 Object retrieved for Q193-329 object O329
+50944.0query Q3-286 created object O286
+51072.0query Q186-138 created object O138
+51072.0query Q366-367 created object O367
+51133.7999995364 m22 responding query Q57-11 for O11
+51133.7999995364 m22 responding query Q60-147 for O147
+51134 Object retrieved for Q57-11 object O11
+51134 Object retrieved for Q60-147 object O147
+51136.0query Q65-223 created object O223
+51136.0query Q224-327 created object O327
+51200.0query Q99-187 created object O187
+51264.0query Q22-314 created object O314
+51336.39999953345 m15 responding query Q366-367 for O367
+51336 Object retrieved for Q366-367 object O367
+51347.999999533284 t11 responding query Q22-314 for O314
+51348 Object retrieved for Q22-314 object O314
+51392.0query Q267-390 created object O390
+51456.0query Q229-270 created object O270
+51473.599999531456 m14 responding query Q86-212 for O212
+51474 Object retrieved for Q86-212 object O212
+51485.399999531284 m22 received replica for O85 from m16
+51485.89999953128 m22 received replica for O246 from m16
+51486.39999953127 m22 received replica for O3 from m16
+51486.89999953126 m22 received replica for O91 from m16
+51520.0query Q376-118 created object O118
+51552.0query Q172-15 created object O15
+51752.89999952739 m24 responding query Q295-161 for O161
+51753 Object retrieved for Q295-161 object O161
+51944.29999952461 m23 responding query Q376-118 for O118
+51944 Object retrieved for Q376-118 object O118
+51953.49999952447 m14 responding query Q172-15 for O15
+51953 Object retrieved for Q172-15 object O15
+51968.0query Q70-230 created object O230
+52018.599999523525 q5 responding query Q316-388 for O388
+52019 Object retrieved for Q316-388 object O388
+52160.0query Q307-131 created object O131
+52187.49999952107 p0 responding query Q99-187 for O187
+52187 Object retrieved for Q99-187 object O187
+52224.0query Q119-332 created object O332
+52256.0query Q39-111 created object O111
+52288.0query Q270-332 created object O332
+52288.0query Q306-20 created object O20
+52296.299999519484 q4 responding query Q65-223 for O223
+52296 Object retrieved for Q65-223 object O223
+52412.299999517796 m19 responding query Q70-230 for O230
+52412 Object retrieved for Q70-230 object O230
+52416.0query Q194-98 created object O98
+52450.99999951723 m24 responding query Q270-332 for O332
+52450.99999951723 m24 responding query Q119-332 for O332
+52451 Object retrieved for Q270-332 object O332
+52451 Object retrieved for Q119-332 object O332
+52480.0query Q42-41 created object O41
+52480.0query Q249-280 created object O280
+52544.69999951587 m23 responding query Q39-111 for O111
+52544.69999951587 q3 responding query Q307-131 for O131
+52545 Object retrieved for Q307-131 object O131
+52545 Object retrieved for Q39-111 object O111
+52551.59999951577 m18 responding query Q194-98 for O98
+52552 Object retrieved for Q194-98 object O98
+52608.0query Q355-152 created object O152
+52616.99999951482 m22 responding query Q306-20 for O20
+52617 Object retrieved for Q306-20 object O20
+52691.999999513726 q5 responding query Q355-152 for O152
+52692 Object retrieved for Q355-152 object O152
+52757.299999512776 m18 responding query Q42-41 for O41
+52757 Object retrieved for Q42-41 object O41
+52824.89999951179 m12 responding query Q320-14 for O14
+52824.89999951179 m12 responding query Q229-270 for O270
+52824.89999951179 m18 responding query Q224-327 for O327
+52825 Object retrieved for Q224-327 object O327
+52825 Object retrieved for Q229-270 object O270
+52826 Object retrieved for Q320-14 object O14
+52864.0query Q1-285 created object O285
+52886.599999510894 p0 responding query Q3-286 for O286
+52887 Object retrieved for Q3-286 object O286
+52936.0query Q225-97 created object O97
+53033.69999950875 m21 responding query Q267-390 for O390
+53034 Object retrieved for Q267-390 object O390
+53056.0query Q110-148 created object O148
+53184.0query Q154-122 created object O122
+53215.39999950611 m12 responding query Q225-97 for O97
+53215 Object retrieved for Q225-97 object O97
+53248.0query Q153-257 created object O257
+53334.499999504376 p1 received replica for O10 from m12
+53334.99999950437 p1 received replica for O126 from m12
+53335.49999950436 p1 received replica for O233 from m12
+53335.999999504354 p1 received replica for O118 from m12
+53336.49999950435 p1 received replica for O363 from m12
+53336.99999950434 p1 received replica for O124 from m12
+53337.49999950433 p1 received replica for O236 from m12
+53337.999999504325 p1 received replica for O37 from m12
+53368.999999503874 m20 responding query Q300-351 for O351
+53369 Object retrieved for Q300-351 object O351
+53376.0query Q313-59 created object O59
+53432.799999502946 p0 responding query Q313-59 for O59
+53433 Object retrieved for Q313-59 object O59
+53504.0query Q104-318 created object O318
+53535.999999501444 p0 received replica for O376 from m14
+53536.49999950144 p0 received replica for O338 from m14
+53536.99999950143 p0 received replica for O248 from m14
+53537.49999950142 p0 received replica for O19 from m14
+53537.999999501415 p0 received replica for O298 from m14
+53538.49999950141 p0 received replica for O226 from m14
+53538.9999995014 p0 received replica for O7 from m14
+53539.49999950139 p0 received replica for O216 from m14
+53604.99999950044 m22 responding query Q1-285 for O285
+53604.99999950044 m17 responding query Q249-280 for O280
+53605 Object retrieved for Q249-280 object O280
+53605 Object retrieved for Q1-285 object O285
+53696.0query Q396-298 created object O298
+53760.0query Q175-342 created object O342
+53824.0query Q116-57 created object O57
+53824.0query Q296-66 created object O66
+53891.39999949627 p0 responding query Q396-298 for O298
+53891 Object retrieved for Q396-298 object O298
+53897.09999949619 m15 responding query Q104-318 for O318
+53897 Object retrieved for Q104-318 object O318
+53952.0query Q40-49 created object O49
+53952.0query Q210-25 created object O25
+54023.29999949435 m24 responding query Q116-57 for O57
+54023 Object retrieved for Q116-57 object O57
+54080.0query Q231-258 created object O258
+54080.0query Q332-233 created object O233
+54144.0query Q162-376 created object O376
+54144.0query Q330-13 created object O13
+54172.79999949218 m12 responding query Q186-138 for O138
+54172.79999949218 m12 responding query Q259-278 for O278
+54173 Object retrieved for Q186-138 object O138
+54173 Object retrieved for Q259-278 object O278
+54208.0query Q349-154 created object O154
+54231.999999491316 m23 responding query Q40-49 for O49
+54231.999999491316 t9 responding query Q175-342 for O342
+54232 Object retrieved for Q175-342 object O342
+54232 Object retrieved for Q40-49 object O49
+54360.599999489445 p1 responding query Q231-258 for O258
+54360.599999489445 p1 responding query Q332-233 for O233
+54361 Object retrieved for Q231-258 object O258
+54361 Object retrieved for Q332-233 object O233
+54394.09999948896 t9 responding query Q154-122 for O122
+54394 Object retrieved for Q154-122 object O122
+54434.19999948837 m18 responding query Q349-154 for O154
+54434 Object retrieved for Q349-154 object O154
+54464.0query Q212-365 created object O365
+54528.0query Q163-371 created object O371
+54528.0query Q182-27 created object O27
+54656.0query Q13-393 created object O393
+54663.19999948504 m14 responding query Q110-148 for O148
+54663.19999948504 m14 responding query Q153-257 for O257
+54663.19999948504 p1 responding query Q162-376 for O376
+54663 Object retrieved for Q162-376 object O376
+54664 Object retrieved for Q153-257 object O257
+54664 Object retrieved for Q110-148 object O148
+54697.79999948454 p0 responding query Q212-365 for O365
+54698 Object retrieved for Q212-365 object O365
+54784.0query Q205-81 created object O81
+54816.0query Q371-360 created object O360
+54827.199999482655 s7 responding query Q371-360 for O360
+54827 Object retrieved for Q371-360 object O360
+54833.19999948257 m18 responding query Q163-371 for O371
+54833.19999948257 m18 responding query Q182-27 for O27
+54833 Object retrieved for Q182-27 object O27
+54834 Object retrieved for Q163-371 object O371
+54848.0query Q211-272 created object O272
+54993.69999948023 q3 responding query Q205-81 for O81
+54994 Object retrieved for Q205-81 object O81
+55104.0query Q53-177 created object O177
+55232.0query Q82-305 created object O305
+55232.0query Q392-39 created object O39
+55252.29999947647 m16 responding query Q392-39 for O39
+55252 Object retrieved for Q392-39 object O39
+55488.0query Q380-277 created object O277
+55552.0query Q328-121 created object O121
+55584.09999947164 m15 responding query Q82-305 for O305
+55584 Object retrieved for Q82-305 object O305
+55589.999999471554 m21 received replica for O39 from p1
+55590.49999947155 m21 received replica for O123 from p1
+55590.99999947154 m21 received replica for O330 from p1
+55591.49999947153 m21 received replica for O93 from p1
+55591.999999471525 p1 received replica for O9 from m21
+55592.49999947152 p1 received replica for O274 from m21
+55592.99999947151 p1 received replica for O339 from m21
+55639.399999470836 p1 responding query Q328-121 for O121
+55639 Object retrieved for Q328-121 object O121
+55680.0query Q303-45 created object O45
+55680.0query Q325-339 created object O339
+55705.09999946988 s7 responding query Q53-177 for O177
+55705 Object retrieved for Q53-177 object O177
+55712.0query Q273-309 created object O309
+55826.49999946811 s8 responding query Q330-13 for O13
+55826 Object retrieved for Q330-13 object O13
+55826.69999946811 m16 responding query Q273-309 for O309
+55827 Object retrieved for Q273-309 object O309
+55936.0query Q125-313 created object O313
+56000.0query Q333-377 created object O377
+56008.19999946547 m15 responding query Q333-377 for O377
+56008.19999946547 m15 responding query Q325-339 for O339
+56008 Object retrieved for Q325-339 object O339
+56009 Object retrieved for Q333-377 object O377
+56064.0query Q49-306 created object O306
+56139.19999946356 s7 responding query Q380-277 for O277
+56139.19999946356 s7 responding query Q211-272 for O272
+56139 Object retrieved for Q211-272 object O272
+56140 Object retrieved for Q380-277 object O277
+56139.89999946355 m13 responding query Q49-306 for O306
+56139.89999946355 m13 received replica for O285 from m17
+56140.399999463545 m13 received replica for O42 from m17
+56140.89999946354 m13 received replica for O345 from m17
+56141.39999946353 m13 received replica for O209 from m17
+56141.49999946353 p1 responding query Q49-306 for O306
+56141.89999946352 m13 received replica for O324 from m17
+56142 Object retrieved for Q49-306 object O306
+56218.8999994624 s8 responding query Q13-393 for O393
+56218.8999994624 s8 responding query Q125-313 for O313
+56219 Object retrieved for Q13-393 object O393
+56219 Object retrieved for Q125-313 object O313
+56320.0query Q128-85 created object O85
+56320.0query Q280-58 created object O58
+56384.0query Q59-110 created object O110
+56520.09999945802 m23 responding query Q280-58 for O58
+56520 Object retrieved for Q280-58 object O58
+56567.799999457326 q3 responding query Q128-85 for O85
+56568 Object retrieved for Q128-85 object O85
+56576.0query Q17-357 created object O357
+56659.49999945599 m22 responding query Q303-45 for O45
+56659 Object retrieved for Q303-45 object O45
+56704.0query Q239-366 created object O366
+56743.099999454775 m18 responding query Q239-366 for O366
+56743 Object retrieved for Q239-366 object O366
+56960.0query Q369-63 created object O63
+57071.599999449994 m12 responding query Q17-357 for O357
+57072 Object retrieved for Q17-357 object O357
+57120.49999944928 p1 received replica for O392 from m18
+57120.999999449275 p1 received replica for O16 from m18
+57121.49999944927 p1 received replica for O340 from m18
+57121.99999944926 p1 received replica for O24 from m18
+57122.499999449254 p1 received replica for O348 from m18
+57122.99999944925 p1 received replica for O208 from m18
+57123.49999944924 p1 received replica for O122 from m18
+57123.99999944923 p1 received replica for O21 from m18
+57152.0query Q157-316 created object O316
+57200.59999944812 q5 responding query Q59-110 for O110
+57201 Object retrieved for Q59-110 object O110
+57216.0query Q105-397 created object O397
+57280.0query Q298-381 created object O381
+57280.0query Q399-386 created object O386
+57408.0query Q339-182 created object O182
+57424.89999944485 m13 responding query Q105-397 for O397
+57425 Object retrieved for Q105-397 object O397
+57472.0query Q73-220 created object O220
+57517.29999944351 m16 responding query Q339-182 for O182
+57517 Object retrieved for Q339-182 object O182
+57536.0query Q388-184 created object O184
+57573.299999442694 m15 responding query Q157-316 for O316
+57573 Object retrieved for Q157-316 object O316
+57664.0query Q324-234 created object O234
+57719.599999440565 m21 responding query Q388-184 for O184
+57719.599999440565 m21 responding query Q399-386 for O386
+57720 Object retrieved for Q388-184 object O184
+57720 Object retrieved for Q399-386 object O386
+57728.0query Q198-345 created object O345
+57912.09999943776 p0 responding query Q298-381 for O381
+57912 Object retrieved for Q298-381 object O381
+57920.0query Q137-317 created object O317
+57979.79999943678 m17 responding query Q369-63 for O63
+57979.79999943678 m17 responding query Q73-220 for O220
+57980 Object retrieved for Q73-220 object O220
+57980 Object retrieved for Q369-63 object O63
+57984.0query Q9-180 created object O180
+58112.0query Q400-183 created object O183
+58208.0query Q8-92 created object O92
+58208.0query Q197-171 created object O171
+58241.799999432966 p0 responding query Q324-234 for O234
+58242 Object retrieved for Q324-234 object O234
+58304.0query Q321-345 created object O345
+58368.0query Q120-215 created object O215
+58368.0query Q322-301 created object O301
+58475.19999942957 m18 responding query Q322-301 for O301
+58475 Object retrieved for Q322-301 object O301
+58491.09999942934 q5 responding query Q8-92 for O92
+58491 Object retrieved for Q8-92 object O92
+58496.0query Q109-389 created object O389
+58513.299999429015 m24 responding query Q197-171 for O171
+58513 Object retrieved for Q197-171 object O171
+58560.0query Q113-305 created object O305
+58560.0query Q311-232 created object O232
+58651.399999427005 m19 responding query Q109-389 for O389
+58651 Object retrieved for Q109-389 object O389
+58671.19999942672 m17 responding query Q9-180 for O180
+58671.19999942672 m17 responding query Q400-183 for O183
+58671 Object retrieved for Q400-183 object O183
+58672 Object retrieved for Q9-180 object O180
+58688.0query Q43-143 created object O143
+58752.0query Q180-280 created object O280
+58937.899999422836 q5 responding query Q43-143 for O143
+58938 Object retrieved for Q43-143 object O143
+59051.49999942118 m18 responding query Q311-232 for O232
+59051 Object retrieved for Q311-232 object O232
+59072.0query Q222-30 created object O30
+59072.0query Q256-88 created object O88
+59089.39999942063 m14 responding query Q137-317 for O317
+59089 Object retrieved for Q137-317 object O317
+59146.4999994198 m13 responding query Q198-345 for O345
+59146.4999994198 m13 responding query Q321-345 for O345
+59146 Object retrieved for Q321-345 object O345
+59147 Object retrieved for Q198-345 object O345
+59162.79999941956 s7 responding query Q180-280 for O280
+59163 Object retrieved for Q180-280 object O280
+59200.0query Q377-203 created object O203
+59283.49999941781 m15 responding query Q120-215 for O215
+59283 Object retrieved for Q120-215 object O215
+59520.0query Q284-236 created object O236
+59625.39999941283 q5 responding query Q222-30 for O30
+59625 Object retrieved for Q222-30 object O30
+59633.399999412715 s8 responding query Q113-305 for O305
+59633 Object retrieved for Q113-305 object O305
+59640.49999941261 m18 responding query Q284-236 for O236
+59640.49999941261 m12 responding query Q377-203 for O203
+59640 Object retrieved for Q377-203 object O203
+59641 Object retrieved for Q284-236 object O236
+59648.0query Q398-224 created object O224
+59776.0query Q170-165 created object O165
+59776.0query Q277-84 created object O84
+59840.0query Q202-189 created object O189
+59943.399999408204 p0 responding query Q170-165 for O165
+59943 Object retrieved for Q170-165 object O165
+59968.0query Q90-84 created object O84
+59968.0query Q242-91 created object O91
+59969.19999940783 m12 responding query Q398-224 for O224
+59969 Object retrieved for Q398-224 object O224
+60018.79999940711 m12 responding query Q202-189 for O189
+60018.79999940711 m18 responding query Q277-84 for O84
+60018.79999940711 m18 responding query Q90-84 for O84
+60019 Object retrieved for Q90-84 object O84
+60019 Object retrieved for Q277-84 object O84
+60020 Object retrieved for Q202-189 object O189
+60023.19999940704 t10 responding query Q242-91 for O91
+60023 Object retrieved for Q242-91 object O91
+60224.0query Q217-200 created object O200
+60224.0query Q342-271 created object O271
+60288.0query Q4-154 created object O154
+60288.0query Q301-248 created object O248
+60306.199999402925 m20 responding query Q301-248 for O248
+60306 Object retrieved for Q301-248 object O248
+60352.0query Q76-322 created object O322
+60352.0query Q207-46 created object O46
+60352.0query Q318-195 created object O195
+60468.59999940056 s8 received replica for O35 from m20
+60469.099999400554 s8 received replica for O387 from m20
+60544.0query Q374-307 created object O307
+60598.49999939867 m16 responding query Q217-200 for O200
+60598 Object retrieved for Q217-200 object O200
+60608.0query Q319-113 created object O113
+60666.49999939768 m19 responding query Q4-154 for O154
+60666 Object retrieved for Q4-154 object O154
+60672.0query Q71-335 created object O335
+60672.0query Q247-19 created object O19
+60682.89999939744 m16 responding query Q207-46 for O46
+60683 Object retrieved for Q207-46 object O46
+60720.69999939689 m12 responding query Q71-335 for O335
+60721 Object retrieved for Q71-335 object O335
+60723.19999939686 m16 responding query Q318-195 for O195
+60723 Object retrieved for Q318-195 object O195
+60736.0query Q335-162 created object O162
+60751.79999939644 t9 responding query Q374-307 for O307
+60752 Object retrieved for Q374-307 object O307
+60777.69999939606 m19 responding query Q247-19 for O19
+60778 Object retrieved for Q247-19 object O19
+60825.79999939536 p0 responding query Q76-322 for O322
+60826 Object retrieved for Q76-322 object O322
+60825.99999939536 m12 responding query Q342-271 for O271
+60826 Object retrieved for Q342-271 object O271
+60928.0query Q309-304 created object O304
+60992.0query Q66-351 created object O351
+61087.39999939156 s8 responding query Q309-304 for O304
+61087 Object retrieved for Q309-304 object O304
+61088.0query Q62-24 created object O24
+61248.0query Q151-188 created object O188
+61248.09999938922 m20 responding query Q66-351 for O351
+61248 Object retrieved for Q66-351 object O351
+61298.29999938849 s7 responding query Q319-113 for O113
+61298 Object retrieved for Q319-113 object O113
+61312.0query Q183-201 created object O201
+61376.0query Q356-269 created object O269
+61482.7999993858 m12 responding query Q151-188 for O188
+61483 Object retrieved for Q151-188 object O188
+61580.199999384386 m12 responding query Q62-24 for O24
+61580 Object retrieved for Q62-24 object O24
+61621.29999938379 p0 responding query Q356-269 for O269
+61621 Object retrieved for Q356-269 object O269
+61696.0query Q353-264 created object O264
+61747.999999381944 m17 responding query Q353-264 for O264
+61748 Object retrieved for Q353-264 object O264
+61809.89999938104 p0 responding query Q335-162 for O162
+61810 Object retrieved for Q335-162 object O162
+61824.0query Q63-255 created object O255
+62034.499999377775 m18 responding query Q63-255 for O255
+62034 Object retrieved for Q63-255 object O255
+62080.0query Q33-60 created object O60
+62336.0query Q397-207 created object O207
+62432.0query Q216-133 created object O133
+62528.0query Q118-223 created object O223
+62528.0query Q362-41 created object O41
+62556.49999937018 q4 responding query Q397-207 for O207
+62556 Object retrieved for Q397-207 object O207
+62556.49999937018 m18 responding query Q362-41 for O41
+62556 Object retrieved for Q362-41 object O41
+62720.0query Q2-224 created object O224
+62720.0query Q85-62 created object O62
+62720.0query Q213-119 created object O119
+62784.0query Q41-208 created object O208
+62848.0query Q196-4 created object O4
+62856.399999365814 s8 responding query Q41-208 for O208
+62856 Object retrieved for Q41-208 object O208
+62863.79999936571 m13 responding query Q213-119 for O119
+62864 Object retrieved for Q213-119 object O119
+62908.19999936506 m14 responding query Q196-4 for O4
+62908 Object retrieved for Q196-4 object O4
+63168.0query Q147-112 created object O112
+63261.799999359915 q5 responding query Q85-62 for O62
+63261.799999359915 q4 responding query Q118-223 for O223
+63262 Object retrieved for Q118-223 object O223
+63262 Object retrieved for Q85-62 object O62
+63424.0query Q75-157 created object O157
+63428.59999935749 t9 responding query Q2-224 for O224
+63429 Object retrieved for Q2-224 object O224
+63489.3999993566 m21 responding query Q147-112 for O112
+63489 Object retrieved for Q147-112 object O112
+63581.399999355264 m24 responding query Q75-157 for O157
+63581 Object retrieved for Q75-157 object O157
+63616.0query Q140-67 created object O67
+63680.0query Q55-244 created object O244
+63680.0query Q67-158 created object O158
+63742.29999935292 q5 responding query Q140-67 for O67
+63742 Object retrieved for Q140-67 object O67
+63760.0query Q143-35 created object O35
+63872.0query Q297-101 created object O101
+63872.0query Q378-48 created object O48
+63872.0query Q389-130 created object O130
+63986.799999349365 m20 responding query Q389-130 for O130
+63987 Object retrieved for Q389-130 object O130
+63991.1999993493 m12 responding query Q67-158 for O158
+63991 Object retrieved for Q67-158 object O158
+64064.0query Q302-81 created object O81
+60.0 64183: 1069.70 1/s
+64320.0query Q293-198 created object O198
+64384.0query Q155-209 created object O209
+64512.0query Q14-343 created object O343
+64576.0query Q79-107 created object O107
+64599.29999934045 q5 responding query Q297-101 for O101
+64599 Object retrieved for Q297-101 object O101
+64622.59999934011 p1 responding query Q155-209 for O209
+64623 Object retrieved for Q155-209 object O209
+64656.799999339615 s8 responding query Q55-244 for O244
+64657 Object retrieved for Q55-244 object O244
+64729.29999933856 m23 responding query Q79-107 for O107
+64729.29999933856 t9 responding query Q293-198 for O198
+64729 Object retrieved for Q293-198 object O198
+64730 Object retrieved for Q79-107 object O107
+64768.0query Q68-383 created object O383
+64826.599999337144 t9 responding query Q14-343 for O343
+64827 Object retrieved for Q14-343 object O343
+65088.0query Q141-187 created object O187
+65103.399999333116 m17 responding query Q141-187 for O187
+65103 Object retrieved for Q141-187 object O187
+65113.49999933297 q4 responding query Q68-383 for O383
+65113 Object retrieved for Q68-383 object O383
+65216.0query Q38-370 created object O370
+65216.0query Q135-340 created object O340
+65344.0query Q232-285 created object O285
+65367.59999932927 t11 responding query Q135-340 for O340
+65368 Object retrieved for Q135-340 object O340
+65600.0query Q228-187 created object O187
+65644.99999933316 m13 responding query Q232-285 for O285
+65645 Object retrieved for Q232-285 object O285
+65728.0query Q334-72 created object O72
+65782.79999934118 q3 responding query Q334-72 for O72
+65783 Object retrieved for Q334-72 object O72
+65792.0query Q114-202 created object O202
+65792.0query Q340-329 created object O329
+65920.0query Q279-261 created object O261
+65945.79999935067 p0 responding query Q228-187 for O187
+65946 Object retrieved for Q228-187 object O187
+65984.0query Q241-202 created object O202
+66048.0query Q250-395 created object O395
+66117.29999936065 m24 responding query Q340-329 for O329
+66117 Object retrieved for Q340-329 object O329
+66136.19999936175 m22 responding query Q114-202 for O202
+66136.19999936175 m22 responding query Q241-202 for O202
+66136 Object retrieved for Q241-202 object O202
+66137 Object retrieved for Q114-202 object O202
+66240.0query Q220-283 created object O283
+66240.0query Q310-176 created object O176
+66240.0query Q363-65 created object O65
+66253.59999936858 m18 responding query Q310-176 for O176
+66254 Object retrieved for Q310-176 object O176
+66368.0query Q360-70 created object O70
+66496.0query Q112-294 created object O294
+66842.69999940287 m16 responding query Q360-70 for O70
+66843 Object retrieved for Q360-70 object O70
+66880.0query Q35-90 created object O90
+66939.59999940851 s6 responding query Q220-283 for O283
+66940 Object retrieved for Q220-283 object O283
+66944.0query Q102-7 created object O7
+66944.0query Q317-10 created object O10
+66984.99999941116 t10 responding query Q302-81 for O81
+66985 Object retrieved for Q302-81 object O81
+67007.9999994125 p0 responding query Q35-90 for O90
+67007.9999994125 p0 responding query Q250-395 for O395
+67008 Object retrieved for Q35-90 object O90
+67008 Object retrieved for Q250-395 object O395
+67072.0query Q46-347 created object O347
+67200.0query Q373-312 created object O312
+67264.0query Q226-131 created object O131
+67328.0query Q6-232 created object O232
+67364.89999943327 q5 responding query Q102-7 for O7
+67365 Object retrieved for Q102-7 object O7
+67417.69999943634 s7 responding query Q279-261 for O261
+67418 Object retrieved for Q279-261 object O261
+67520.0query Q252-146 created object O146
+67520.0query Q361-194 created object O194
+67571.4999994453 m15 responding query Q38-370 for O370
+67571 Object retrieved for Q38-370 object O370
+67584.0query Q195-21 created object O21
+67648.0query Q158-318 created object O318
+67683.99999945184 p1 responding query Q195-21 for O21
+67683.99999945184 p1 responding query Q361-194 for O194
+67683.99999945184 p1 responding query Q252-146 for O146
+67684 Object retrieved for Q195-21 object O21
+67684 Object retrieved for Q361-194 object O194
+67685 Object retrieved for Q252-146 object O146
+67776.0query Q203-13 created object O13
+67840.0query Q237-221 created object O221
+67851.39999946159 m12 responding query Q6-232 for O232
+67851 Object retrieved for Q6-232 object O232
+67968.0query Q394-240 created object O240
+67970.1999994685 s7 responding query Q373-312 for O312
+67970 Object retrieved for Q373-312 object O312
+67982.1999994692 p1 responding query Q237-221 for O221
+67982.1999994692 p1 responding query Q394-240 for O240
+67982.1999994692 t9 responding query Q378-48 for O48
+67982 Object retrieved for Q378-48 object O48
+67983 Object retrieved for Q237-221 object O221
+67983 Object retrieved for Q394-240 object O240
+67988.9999994696 s6 responding query Q203-13 for O13
+67989 Object retrieved for Q203-13 object O13
+68032.0query Q15-369 created object O369
+68032.0query Q89-338 created object O338
+68096.0query Q115-346 created object O346
+68134.79999947808 m19 responding query Q89-338 for O338
+68135 Object retrieved for Q89-338 object O338
+68160.0query Q136-113 created object O113
+68200.49999948191 m18 responding query Q317-10 for O10
+68200 Object retrieved for Q317-10 object O10
+68224.0query Q169-126 created object O126
+68224.0query Q181-176 created object O176
+68352.0query Q221-134 created object O134
+68416.0query Q382-204 created object O204
+68420.59999949472 m16 responding query Q221-134 for O134
+68421 Object retrieved for Q221-134 object O134
+68544.0query Q101-358 created object O358
+68545.49999950199 m23 responding query Q15-369 for O369
+68545 Object retrieved for Q15-369 object O369
+68577.49999950385 m15 responding query Q115-346 for O346
+68577.49999950385 m15 responding query Q181-176 for O176
+68577 Object retrieved for Q115-346 object O346
+68578 Object retrieved for Q181-176 object O176
+68635.59999950723 m14 responding query Q143-35 for O35
+68635.59999950723 m14 responding query Q363-65 for O65
+68636 Object retrieved for Q143-35 object O35
+68636 Object retrieved for Q363-65 object O65
+68695.69999951073 s7 responding query Q136-113 for O113
+68696 Object retrieved for Q136-113 object O113
+68697.09999951081 q4 responding query Q158-318 for O318
+68697 Object retrieved for Q158-318 object O318
+68800.0query Q344-264 created object O264
+68906.19999952299 m18 responding query Q226-131 for O131
+68906.19999952299 m18 responding query Q46-347 for O347
+68906 Object retrieved for Q226-131 object O131
+68907 Object retrieved for Q46-347 object O347
+69056.0query Q257-209 created object O209
+69120.0query Q30-159 created object O159
+69120.0query Q50-133 created object O133
+69120.0query Q117-361 created object O361
+69151.9999995373 m22 responding query Q257-209 for O209
+69152 Object retrieved for Q257-209 object O209
+69189.49999953948 m24 responding query Q117-361 for O361
+69189 Object retrieved for Q117-361 object O361
+69239.7999995424 m16 responding query Q344-264 for O264
+69240 Object retrieved for Q344-264 object O264
+69248.0query Q179-137 created object O137
+69248.0query Q254-356 created object O356
+69288.79999954526 m18 responding query Q169-126 for O126
+69289 Object retrieved for Q169-126 object O126
+69392.5999995513 m24 responding query Q382-204 for O204
+69393 Object retrieved for Q382-204 object O204
+69440.0query Q16-358 created object O358
+69540.4999995599 m15 responding query Q254-356 for O356
+69540 Object retrieved for Q254-356 object O356
+69553.29999956065 m23 responding query Q179-137 for O137
+69553 Object retrieved for Q179-137 object O137
+69632.0query Q152-1 created object O1
+69677.7999995679 p0 responding query Q101-358 for O358
+69677.7999995679 p0 responding query Q16-358 for O358
+69678 Object retrieved for Q101-358 object O358
+69678 Object retrieved for Q16-358 object O358
+69824.0query Q240-88 created object O88
+69904.0query Q352-128 created object O128
+70031.49999958849 s7 responding query Q352-128 for O128
+70031 Object retrieved for Q352-128 object O128
+70080.0query Q21-134 created object O134
+70080.0query Q129-8 created object O8
+70144.0query Q288-75 created object O75
+70144.0query Q304-225 created object O225
+70144.0query Q347-34 created object O34
+70208.0query Q100-190 created object O190
+70223.79999959968 m16 responding query Q21-134 for O134
+70223.79999959968 m16 responding query Q100-190 for O190
+70224 Object retrieved for Q100-190 object O190
+70224 Object retrieved for Q21-134 object O134
+70272.0query Q291-289 created object O289
+70311.19999960477 p0 responding query Q129-8 for O8
+70311 Object retrieved for Q129-8 object O8
+70332.299999606 m17 responding query Q304-225 for O225
+70332 Object retrieved for Q304-225 object O225
+70343.79999960666 m19 responding query Q288-75 for O75
+70344 Object retrieved for Q288-75 object O75
+70368.0query Q275-92 created object O92
+70432.0query Q201-161 created object O161
+70590.29999962101 m19 responding query Q275-92 for O92
+70590 Object retrieved for Q275-92 object O92
+70592.0query Q18-177 created object O177
+70635.39999962364 q4 responding query Q18-177 for O177
+70635.39999962364 q5 responding query Q152-1 for O1
+70635.39999962364 q5 responding query Q30-159 for O159
+70635 Object retrieved for Q152-1 object O1
+70636 Object retrieved for Q30-159 object O159
+70636 Object retrieved for Q18-177 object O177
+70720.0query Q348-285 created object O285
+70912.0query Q64-87 created object O87
+70912.0query Q159-40 created object O40
+70939.89999964136 m12 responding query Q201-161 for O161
+70940 Object retrieved for Q201-161 object O161
+71067.89999964881 m21 responding query Q347-34 for O34
+71068 Object retrieved for Q347-34 object O34
+71104.0query Q160-74 created object O74
+71104.0query Q167-351 created object O351
+71168.0query Q176-74 created object O74
+71287.6999996616 s6 responding query Q167-351 for O351
+71288 Object retrieved for Q167-351 object O351
+71294.19999966199 p1 responding query Q348-285 for O285
+71294.19999966199 p1 responding query Q291-289 for O289
+71294 Object retrieved for Q348-285 object O285
+71295 Object retrieved for Q291-289 object O289
+71296.0query Q94-84 created object O84
+71488.0query Q148-383 created object O383
+71552.0query Q121-274 created object O274
+71552.0query Q379-127 created object O127
+71604.69999968006 m15 responding query Q148-383 for O383
+71605 Object retrieved for Q148-383 object O383
+71653.19999968288 p1 responding query Q94-84 for O84
+71653 Object retrieved for Q94-84 object O84
+71660.2999996833 p0 responding query Q121-274 for O274
+71660 Object retrieved for Q121-274 object O274
+71680.0query Q34-118 created object O118
+71680.0query Q329-321 created object O321
+71743.69999968815 t10 responding query Q379-127 for O127
+71744 Object retrieved for Q379-127 object O127
+71808.0query Q331-58 created object O58
+71943.19999969976 p1 responding query Q34-118 for O118
+71943 Object retrieved for Q34-118 object O118
+71978.89999970184 t11 responding query Q160-74 for O74
+71978.89999970184 t11 responding query Q176-74 for O74
+71979 Object retrieved for Q176-74 object O74
+71979 Object retrieved for Q160-74 object O74
+72000.0query Q26-376 created object O376
+72000.0query Q108-184 created object O184
+72052.0999997061 m19 responding query Q26-376 for O376
+72052 Object retrieved for Q26-376 object O376
+72080.59999970776 s7 responding query Q159-40 for O40
+72081 Object retrieved for Q159-40 object O40
+72148.2999997117 m23 responding query Q329-321 for O321
+72148 Object retrieved for Q329-321 object O321
+72307.29999972096 m14 responding query Q108-184 for O184
+72307 Object retrieved for Q108-184 object O184
+72363.19999972421 m18 responding query Q331-58 for O58
+72363 Object retrieved for Q331-58 object O58
+72448.0query Q168-365 created object O365
+72512.0query Q69-309 created object O309
+72512.0query Q336-251 created object O251
+72550.89999973513 p0 responding query Q69-309 for O309
+72551 Object retrieved for Q69-309 object O309
+72637.29999974016 m17 responding query Q64-87 for O87
+72637 Object retrieved for Q64-87 object O87
+72637.49999974018 m12 responding query Q336-251 for O251
+72637 Object retrieved for Q336-251 object O251
+72799.89999974963 s8 responding query Q168-365 for O365
+72800 Object retrieved for Q168-365 object O365
+72896.0query Q72-366 created object O366
+72960.0query Q262-72 created object O72
+72984.69999976039 p0 responding query Q262-72 for O72
+72985 Object retrieved for Q262-72 object O72
+73088.0query Q24-328 created object O328
+73088.0query Q272-6 created object O6
+73088.0query Q283-53 created object O53
+73120.0query Q164-183 created object O183
+73152.0query Q166-144 created object O144
+73184.09999977199 t10 responding query Q166-144 for O144
+73184 Object retrieved for Q166-144 object O144
+73280.0query Q88-195 created object O195
+73280.0query Q122-307 created object O307
+73344.0query Q12-133 created object O133
+73408.0query Q299-79 created object O79
+73425.39999978604 s8 responding query Q299-79 for O79
+73425 Object retrieved for Q299-79 object O79
+73458.09999978794 m17 responding query Q164-183 for O183
+73458 Object retrieved for Q164-183 object O183
+73472.0query Q236-233 created object O233
+73600.0query Q165-45 created object O45
+73728.0query Q83-231 created object O231
+73738.49999980426 m18 responding query Q165-45 for O45
+73738 Object retrieved for Q165-45 object O45
+73792.0query Q20-380 created object O380
+73792.0query Q315-27 created object O27
+73827.59999980945 m12 responding query Q315-27 for O27
+73828 Object retrieved for Q315-27 object O27
+74333.29999983888 q5 responding query Q88-195 for O195
+74333.29999983888 q5 responding query Q283-53 for O53
+74333 Object retrieved for Q283-53 object O53
+74334 Object retrieved for Q88-195 object O195
+74391.59999984228 t11 responding query Q20-380 for O380
+74392 Object retrieved for Q20-380 object O380
+74581.19999985331 m15 responding query Q272-6 for O6
+74581.19999985331 m15 responding query Q72-366 for O366
+74581 Object retrieved for Q272-6 object O6
+74582 Object retrieved for Q72-366 object O366
+74624.0query Q91-388 created object O388
+74688.0query Q312-226 created object O226
+74697.99999986011 t9 responding query Q83-231 for O231
+74698 Object retrieved for Q83-231 object O231
+74752.0query Q314-313 created object O313
+74944.0query Q375-17 created object O17
+75027.39999987929 m22 responding query Q375-17 for O17
+75027 Object retrieved for Q375-17 object O17
+75072.0query Q96-139 created object O139
+75136.0query Q51-270 created object O270
+75324.99999989661 s6 responding query Q91-388 for O388
+75325 Object retrieved for Q91-388 object O388
+75328.0query Q52-16 created object O16
+75395.3999999007 m23 responding query Q236-233 for O233
+75395 Object retrieved for Q236-233 object O233
+75411.69999990166 p0 responding query Q312-226 for O226
+75412 Object retrieved for Q312-226 object O226
+75421.0999999022 m21 responding query Q314-313 for O313
+75421 Object retrieved for Q314-313 object O313
+75456.0query Q285-195 created object O195
+75511.29999990745 s6 responding query Q285-195 for O195
+75511 Object retrieved for Q285-195 object O195
+75563.49999991049 p0 responding query Q52-16 for O16
+75563 Object retrieved for Q52-16 object O16
+75846.39999992696 t9 responding query Q24-328 for O328
+75846.39999992696 t9 responding query Q122-307 for O307
+75846 Object retrieved for Q122-307 object O307
+75847 Object retrieved for Q24-328 object O328
+75968.0query Q54-325 created object O325
+76160.0query Q173-198 created object O198
+76160.0query Q337-106 created object O106
+76224.0query Q97-152 created object O152
+76235.79999994962 s6 responding query Q173-198 for O198
+76236 Object retrieved for Q173-198 object O198
+76288.0query Q156-124 created object O124
+76416.0query Q192-46 created object O46
+76480.0query Q130-329 created object O329
+76522.2999999663 q4 responding query Q54-325 for O325
+76522 Object retrieved for Q54-325 object O325
+76534.89999996703 m23 responding query Q156-124 for O124
+76535 Object retrieved for Q156-124 object O124
+76608.0query Q367-86 created object O86
+76667.79999997477 m16 responding query Q192-46 for O46
+76668 Object retrieved for Q192-46 object O46
+76672.0query Q25-115 created object O115
+76672.0query Q177-221 created object O221
+76682.69999997564 p1 responding query Q177-221 for O221
+76683 Object retrieved for Q177-221 object O221
+76758.99999998008 m14 responding query Q367-86 for O86
+76759 Object retrieved for Q367-86 object O86
+76800.0query Q248-62 created object O62
+76967.89999999224 m12 responding query Q130-329 for O329
+76968 Object retrieved for Q130-329 object O329
+77056.0query Q74-382 created object O382
+77184.0query Q218-242 created object O242
+77320.00000001273 m12 responding query Q25-115 for O115
+77320 Object retrieved for Q25-115 object O115
+77385.50000001655 m12 responding query Q51-270 for O270
+77385.50000001655 m18 responding query Q337-106 for O106
+77386 Object retrieved for Q337-106 object O106
+77386 Object retrieved for Q51-270 object O270
+77440.0query Q308-10 created object O10
+77447.50000002015 q3 responding query Q218-242 for O242
+77448 Object retrieved for Q218-242 object O242
+77760.0query Q32-104 created object O104
+77886.20000004569 q3 responding query Q74-382 for O382
+77886 Object retrieved for Q74-382 object O382
+77951.10000004947 q5 responding query Q248-62 for O62
+77951 Object retrieved for Q248-62 object O62
+78080.0query Q326-365 created object O365
+78131.40000005996 p0 responding query Q326-365 for O365
+78131 Object retrieved for Q326-365 object O365
+78138.20000006036 q5 responding query Q32-104 for O104
+78138 Object retrieved for Q32-104 object O104
+78208.0query Q383-63 created object O63
+78232.80000006586 q5 responding query Q383-63 for O63
+78233 Object retrieved for Q383-63 object O63
+78272.0query Q37-209 created object O209
+78272.0query Q338-311 created object O311
+78304.0query Q48-19 created object O19
+78312.20000007049 q5 responding query Q97-152 for O152
+78312 Object retrieved for Q97-152 object O152
+78336.0query Q391-198 created object O198
+78390.10000007502 q5 responding query Q48-19 for O19
+78390 Object retrieved for Q48-19 object O19
+78464.50000007935 q3 responding query Q391-198 for O198
+78465 Object retrieved for Q391-198 object O198
+78592.0query Q269-271 created object O271
+78656.0query Q372-333 created object O333
+78666.80000009113 m22 responding query Q37-209 for O209
+78667 Object retrieved for Q37-209 object O209
+78694.20000009272 m23 responding query Q308-10 for O10
+78694 Object retrieved for Q308-10 object O10
+78720.0query Q187-274 created object O274
+78720.0query Q243-296 created object O296
+78784.0query Q323-73 created object O73
+78911.10000010535 q5 responding query Q269-271 for O271
+78911 Object retrieved for Q269-271 object O271
+79104.0query Q178-320 created object O320
+79116.90000011733 s8 responding query Q338-311 for O311
+79116.90000011733 s8 responding query Q187-274 for O274
+79117 Object retrieved for Q338-311 object O311
+79117 Object retrieved for Q187-274 object O274
+79168.0query Q255-122 created object O122
+79209.3000001227 m15 responding query Q323-73 for O73
+79209 Object retrieved for Q323-73 object O73
+79232.0query Q253-144 created object O144
+79296.0query Q345-149 created object O149
+79320.10000012915 q3 responding query Q345-149 for O149
+79320 Object retrieved for Q345-149 object O149
+79424.0query Q384-44 created object O44
+79617.40000014646 t11 responding query Q178-320 for O320
+79617 Object retrieved for Q178-320 object O320
+79711.10000015191 s8 responding query Q384-44 for O44
+79711 Object retrieved for Q384-44 object O44
+79872.0query Q359-327 created object O327
+79981.20000016764 t10 responding query Q253-144 for O144
+79981 Object retrieved for Q253-144 object O144
+80068.90000017274 t11 responding query Q255-122 for O122
+80069 Object retrieved for Q255-122 object O122
+80144.0query Q209-35 created object O35
+80192.0query Q31-126 created object O126
+80320.0query Q233-21 created object O21
+80742.40000021194 q3 responding query Q31-126 for O126
+80742 Object retrieved for Q31-126 object O126
+80797.10000021513 t9 responding query Q233-21 for O21
+80797 Object retrieved for Q233-21 object O21
+80827.20000021688 m12 responding query Q243-296 for O296
+80827.20000021688 m12 responding query Q209-35 for O35
+80827 Object retrieved for Q243-296 object O296
+80828 Object retrieved for Q209-35 object O35
+81280.0query Q199-5 created object O5
+81523.00000025738 m14 responding query Q199-5 for O5
+81523 Object retrieved for Q199-5 object O5
+81600.0query Q238-374 created object O374
+81664.0query Q92-53 created object O53
+81760.80000027122 p0 responding query Q238-374 for O374
+81761 Object retrieved for Q238-374 object O374
+81913.80000028013 m15 responding query Q359-327 for O327
+81914 Object retrieved for Q359-327 object O327
+82944.0query Q393-383 created object O383
+83049.50000034623 m20 responding query Q92-53 for O53
+83050 Object retrieved for Q92-53 object O53
+83136.0query Q132-342 created object O342
+83157.60000035253 m19 responding query Q132-342 for O342
+83158 Object retrieved for Q132-342 object O342
+83328.0query Q341-319 created object O319
+83358.2000003642 m12 responding query Q341-319 for O319
+83358 Object retrieved for Q341-319 object O319
+83392.0query Q219-137 created object O137
+83617.00000037927 t11 responding query Q393-383 for O383
+83617 Object retrieved for Q393-383 object O383
+84992.0query Q111-330 created object O330
+85098.20000046548 m16 responding query Q111-330 for O330
+85098 Object retrieved for Q111-330 object O330
+85510.10000048946 t9 responding query Q219-137 for O137
+85510 Object retrieved for Q219-137 object O137
+103567.80000154056 q3 received replica for O265 from q4
+103568.30000154059 q3 received replica for O398 from q4
+120.0 106061: 697.95 1/s
+180.0 150727: 744.42 1/s
+210.2 172800: 731.44 1/s
+Simulation done in 210.18s
+---
+All done in 210.61s

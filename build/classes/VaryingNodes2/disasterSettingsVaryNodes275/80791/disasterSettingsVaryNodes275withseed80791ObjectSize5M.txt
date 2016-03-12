@@ -1,0 +1,467 @@
+#
+# Template settings for the simulation
+#
+
+## Scenario settings
+Scenario.name = %%Group.router%%_%%AvavibilityRouter.replicaNo%%
+
+##Scenario.name = %%Group.router%% Targets %%ContactRouter.nrOfTargets%%
+#Scenario.nrofHostGroups = 5
+
+# "Bluetooth" interface for all nodes
+btInterface.type = SimpleBroadcastInterface
+# Transmit speed of 2 Mbps = 250kBps
+btInterface.transmitSpeed = 250k
+btInterface.transmitRange = 150
+
+Scenario.simulateConnections = true
+
+
+Scenario.updateInterval = 1.0
+
+#Simulation time 4 day: 4 * 12 hours = 4 * 24 * 60 * 60 = 345600
+
+Scenario.endTime = 84600
+
+Group.bufferSize = 100M
+
+Group.router = AvavibilityRouter
+
+Group.nrofInterfaces = 1
+Group.interface1 = btInterface
+AvavibilityRouter.replicaNo = [2;3;4;5;]
+AvavibilityRouter.maxFreeSize = 5M
+#Group.router = MaxPropRouter
+#Group.router = SprayAndWaitRouter
+#Group.router = SprayAndFocusRouter
+
+#ContactRouter.messageCopies = [5; 8; 10; 12; 15; 20; 25; 30;]
+
+ContactRouter.messageCopies = 30
+ContactRouter.Deadline = [8]
+
+#SprayAndWaitRouter.nrofCopies = [5; 8; 10; 12; 15; 20; 25; 30; 50]
+SprayAndFocusRouter.nrofCopies = [5; 8; 10; 12; 15; 20; 25; 30; 50]
+
+#ContactRouter.messageCopies = 20
+#SprayAndWaitRouter.nrofCopies = 20
+SprayAndFocusRouter.nrofCopies = 8
+
+#ExternalEvents.filePath = ./experiments/exp-copies/events_5min.txt
+#ExternalEvents.filePath = ee/events_1.txt
+
+#Group.router = [AnotherContactRouter; HopContactRouter; MaxPropRouter; SprayAndWaitRouter]
+
+Group.waitTime = 0, 120
+
+ContactRouter.nrofHosts = 200
+ContactRouter.debug = false
+
+# walking speeds
+#Group.speed = 0.5, 1.5
+# 10-50 km/h
+
+Group.speed = 5.0, 10.0
+Group.transmitRange = 20
+
+#Group.speed = 
+# 12 + 16 x 2 + 5 x 4 + 2 x 4 + 8 = 100
+
+
+#Fixed node = corner nodes (12) + no of incenter nodes
+
+##Speed: Vehicle: 50-70 km/hr (13.89-19.44m/sec),  Walking: 4-5km/sec (1.11- 1.389 m/sec)
+##Wait: Vehicle: 10-30min (600-1800sec), Human: 10-20min (600-1200sec)
+
+Scenario.nrofHostGroups = 30
+
+#Group1.groupID = rwp
+#Group1.nrofHosts = 307
+#Group1.movementModel = RandomWaypoint
+#Group1.centerType = neighborhood
+#Group1.okMaps = 1
+#Group1.router = PassiveRouter
+#Group1.speed = 10.0, 15.0
+#Group1.waitTime = 600, 1800
+
+Group.speedDist = uniform
+Group.waitTimeDist = uniform
+
+Group1.groupID = neighborhood 
+Group1.nrofHosts = 10
+Group1.movementModel = CenterMovement
+Group1.centerType = neighborhood
+Group1.okMaps = 1
+Group1.speed = 0.0, 0.0
+Group1.waitTime = 0.0, 0.0
+
+Group2.groupID = house 
+Group2.nrofHosts = 100
+Group2.movementModel = CenterMovement
+Group2.centerType = house
+Group2.okMaps = 1
+Group2.speed = 0.0, 0.0
+
+Group3.groupID = reliefcenter 
+Group3.nrofHosts = 9
+Group3.movementModel = ReliefCenterMovement
+Group3.centerType = reliefcenter
+Group3.okMaps = 1
+Group3.speed = 0.0, 0.0
+
+Group4.groupID = mainreliefcenter 
+Group4.nrofHosts = 2
+Group4.movementModel = CenterMovement
+Group4.centerType = mainreliefcenter
+Group4.okMaps = 1
+Group4.speed = 0.0, 0.0
+
+Group5.groupID = neighborhood 
+Group5.nrofHosts = 0
+Group5.movementModel = CenterMovement
+Group5.centerType = neighborhood5
+Group5.okMaps = 1
+Group5.speed = 0.0, 0.0
+
+Group6.groupID = policestation 
+Group6.nrofHosts = 1
+Group6.centerType = policestation
+Group6.movementModel = CenterMovement
+Group6.okMaps=1
+Group6.speed = 0, 0
+
+Group7.groupID = publicworks
+Group7.nrofHosts = 1
+Group7.centerType = publicworks
+Group7.movementModel = CenterMovement
+Group7.okMaps=1
+Group7.speed = 0, 0
+
+Group8.groupID = relief
+Group8.nrofHosts = 0
+Group8.centerType = relief2
+Group8.movementModel = CenterMovement
+Group8.okMaps=1
+Group8.speed = 0, 0
+
+Group9.groupID = relief
+Group9.nrofHosts = 0
+Group9.centerType = relief3
+Group9.movementModel = CenterMovement
+Group9.okMaps=1
+Group9.speed = 0, 0
+
+Group10.groupID = relief
+Group10.nrofHosts =0
+Group10.centerType = relief4
+Group10.movementModel = CenterMovement
+Group10.okMaps=1
+Group10.speed = 0, 0
+
+Group11.groupID = relief
+Group11.nrofHosts =0
+Group11.centerType = relief5
+Group11.movementModel = CenterMovement
+Group11.okMaps=1
+Group11.speed = 0, 0
+
+Group12.groupID = evacuation
+Group12.nrofHosts = 5
+Group12.centerType = evacuationcenter
+Group12.movementModel = CenterMovement
+Group12.okMaps=1
+Group12.speed = 0, 0
+
+Group13.groupID = medical
+Group13.nrofHosts = 2
+Group13.centerType = medicalcenter
+Group13.movementModel = CenterMovement
+Group13.okMaps=1
+Group13.speed = 0, 0
+
+Group14.groupID = supply 
+Group14.nrofHosts = 10
+Group14.movementModel = InCenterVehicleMovement
+Group14.homeCenterType = mainreliefcenter
+Group14.targetCenters=reliefcenter
+Group14.okMaps=1
+Group14.speed = 13.89, 19.44
+Group14.waitTime = 1200, 2400
+
+
+Group15.groupID = supply
+Group15.nrofHosts = 10
+Group15.movementModel= InCenterVehicleMovement
+Group15.homeCenterType = mainreliefcenter
+Group15.targetCenters=evacuationcenter
+Group15.okMaps=1
+Group15.speed = 13.89, 19.44
+Group15.waitTime = 1200, 2400
+
+Group16.groupID = emergency
+Group16.nrofHosts = 4
+Group16.movementModel = InCenterVehicleMovement
+Group16.homeCenterType = medicalcenter
+Group16.targetCenters= house, evacuationcenter 
+Group16.okMaps=1
+Group16.speed = 5.56, 13.89
+Group16.waitTime = 1800, 2100
+
+Group17.groupID = repairer 
+Group17.nrofHosts = 1
+Group17.movementModel = InCenterVehicleMovement
+Group17.homeCenterType = publicworks
+Group17.targetCenters=house, evacuationcenter
+Group17.okMaps=1
+Group17.speed = 5.56, 13.89
+Group17.waitTime = 1200, 2400
+
+Group18.groupID = supply 
+Group18.nrofHosts = 0
+Group18.movementModel = InCenterVehicleMovement
+Group18.homeCenterType = relief1
+Group18.targetCenters=relief5
+Group18.okMaps=1
+Group18.speed = 5.56, 13.89
+Group18.waitTime = 1200, 2400
+
+Group19.groupID = rescue 
+Group19.nrofHosts = 40
+Group19.movementModel = RescueWorkerMovement
+Group19.reportingCenter = reliefcenter
+Group19.servicingCenter = house
+Group19.okMaps = 1
+Group19.speed = 1.111, 1.389
+Group19.waitTime = 1200, 2400
+
+
+Group20.groupID = rescue 
+Group20.nrofHosts = 0
+Group20.movementModel = RescueWorkerMovement
+Group20.reportingCenter = relief3
+Group20.servicingCenter = house
+Group20.okMaps = 1
+Group20.speed = 1.111, 1.389
+Group20.waitTime = 1200, 2400
+
+Group21.groupID = rescue 
+Group21.nrofHosts = 0
+Group21.movementModel = RescueWorkerMovement
+Group21.reportingCenter = relief4
+Group21.servicingCenter = house
+Group21.okMaps = 1
+Group21.speed = 1.111, 1.389
+Group21.waitTime = 1200, 2400
+
+Group22.groupID = rescue 
+Group22.nrofHosts = 0
+Group22.movementModel = RescueWorkerMovement
+Group22.reportingCenter = relief5
+Group22.servicingCenter = house
+Group22.okMaps = 1
+Group22.speed = 1.111, 1.389
+Group22.waitTime = 1200, 2400
+
+Group23.groupID = policepatrol
+Group23.nrofHosts = 5
+Group23.movementModel = PolicePatrolMovement
+Group23.okMaps = 1
+Group23.waitTime = 120, 500
+Group23.speed = 2.78, 10.0
+
+Group24.groupID = patrol2
+Group24.nrofHosts = 0
+Group24.movementModel = MapBasedMovement
+Group24.okMaps = 1
+Group24.waitTime = 0, 0
+Group24.speed = 2.78, 10.0
+
+Group25.groupID = patrol3
+Group25.nrofHosts = 0
+Group25.movementModel = MapBasedMovement
+Group25.okMaps = 1
+Group25.waitTime = 0, 0
+Group25.speed = 2.78, 10.0
+
+Group26.groupID = patrol4
+Group26.nrofHosts = 0
+Group26.movementModel = MapBasedMovement
+Group26.okMaps = 1
+Group26.waitTime = 0, 0
+Group26.speed = 2.78, 10.0
+
+Group27.groupID = people
+Group27.nrofHosts = 75
+Group27.movementModel = HumanMovement
+Group27.homeCenter = house
+Group27.radius = 100
+Group27.stayProb = 0.4
+Group27.okMaps = 1
+Group27.waitTimeDist = uniform
+Group27.waitTime = 100, 3600
+Group27.speed = 0.8, 1.2
+
+Group28.groupID = people
+Group28.nrofHosts = 0
+Group28.movementModel = MapBasedMovement
+Group28.homeCenter = house
+Group28.radius = 20
+Group28.stayProb = 0.1
+Group28.okMaps = 1
+Group28.waitTimeDist = uniform
+Group28.waitTime = 100, 3600
+Group28.speed = 0.8, 1.2
+
+Group29.groupID = people
+Group29.nrofHosts = 0
+Group29.movementModel = MapBasedMovement
+Group29.homeCenter = house
+Group29.stayProb = 0.0
+Group29.radius = 20
+Group29.okMaps = 1
+Group29.waitTimeDist = uniform
+Group29.waitTime = 100, 3600
+Group29.speed = 0.8, 1.2
+
+Group30.groupID = disaster
+Group30.nrofHosts = 0
+Group30.movementModel = DisasterMovement
+Group30.criticalRadius = 500
+Group30.repairRate = 3600
+
+#Group5.groupID = m 
+# cars can drive only on roads
+Group.okMaps = 1
+
+#Group.pois = 1,1 
+
+# The Tram group
+#Group.groupID = t
+#Group.bufferSize = 50M
+#Group.movementModel = MapRouteMovement
+#Group.routeFile = /home/samsung/Downloads/OneSimulator/src/data/tram3.wkt
+#Group.routeFile = /home/samsung/Downloads/OneSimulator/src/data/tram4.wkt
+#Group.routeFile = /home/samsung/Downloads/OneSimulator/src/data/tram10.wkt
+#Group.routeType = 1
+#Group.routeType = 2
+#Group.waitTime = 10, 30
+#Group.speed = 7, 10
+#Group.nrofHosts = 2
+
+
+#ExternalEvents.filePath = ee/333c_37n_500m.txt
+
+## Message creation parameters 
+# How many event generators
+Events.nrof = 1
+# Class of the first event generator
+Events1.class = ExternalEventsQueue
+Events1.filePath = /home/samsung/Downloads/OneSimulator/src/ee/A_ObjectSize5.txt
+# (following settings are specific for the MessageEventGenerator class)
+# Creation interval in seconds (one new message every 25 to 35 seconds)
+#Events1.interval = 25,35
+# Message sizes (500kB - 1MB)
+#Events1.size = 500k,1M
+# range of message source/destination addresses
+#Events1.hosts = 0,9
+# Message ID prefix
+#Events1.prefix = Ms
+
+
+#Report.nrofReports = 0
+Report.reportDir = reports/
+
+## Map based movement -movement model specific settings
+#MapBasedMovement.nrofMapFiles = 4
+
+MapBasedMovement.nrofMapFiles = 1
+
+#MapBasedMovement.mapFile1 = C:/Users/Yusuf\ Sarwar/Documents/courses/fall2008/cs541/project/champaigncounty/Export_Output.wkt
+
+#MapBasedMovement.mapFile1 = C:/Users/Yusuf\ Sarwar/Documents/courses/fall2008/cs541/project/champaigncounty/champaign_roads_61820.wkt
+
+MapBasedMovement.mapFile1 = /home/samsung/Downloads/OneSimulator/src/data/citymap.wkt
+
+#MapBasedMovement.mapFile1 = /home/samsung/Downloads/OneSimulator/src/data/disaster/backgroundmap.wkt
+
+#MapBasedMovement.mapFile1 = /home/samsung/Downloads/OneSimulator/src/data/disaster/coremap.wkt
+#MapBasedMovement.mapFile2 = /home/samsung/Downloads/OneSimulator/src/data/disaster/map1.wkt
+#MapBasedMovement.mapFile3 = /home/samsung/Downloads/OneSimulator/src/data/disaster/map2.wkt
+#MapBasedMovement.mapFile4 = /home/samsung/Downloads/OneSimulator/src/data/disaster/map3.wkt
+#MapBasedMovement.mapFile5 = /home/samsung/Downloads/OneSimulator/src/data/disaster/map4.wkt
+
+#MapBasedMovement.mapFile6 = /home/samsung/Downloads/OneSimulator/src/data/disaster/patrolmap1.wkt
+#MapBasedMovement.mapFile7 = /home/samsung/Downloads/OneSimulator/src/data/disaster/patrolmap2.wkt
+#MapBasedMovement.mapFile8 = /home/samsung/Downloads/OneSimulator/src/data/disaster/patrolmap3.wkt
+#MapBasedMovement.mapFile9 = /home/samsung/Downloads/OneSimulator/src/data/disaster/patrolmap4.wkt
+
+#MapBasedMovement.mapFile10 = /home/samsung/Downloads/OneSimulator/src/data/disaster/connect.wkt
+#MapBasedMovement.mapFile11 = /home/samsung/Downloads/OneSimulator/src/data/disaster/totalborder.wkt
+
+#MapBasedMovement.mapFile10 = /home/samsung/Downloads/OneSimulator/src/data/disaster/backgroundmap.wkt
+
+#MapBasedMovement.mapFile2 = /home/samsung/Downloads/OneSimulator/src/data/main_roads.wkt
+#MapBasedMovement.mapFile3 = /home/samsung/Downloads/OneSimulator/src/data/pedestrian_paths.wkt
+#MapBasedMovement.mapFile4 = /home/samsung/Downloads/OneSimulator/src/data/shops.wkt
+#
+
+### Points Of Interest -specific settings
+PointsOfInterest.poiFile1 = /home/samsung/Downloads/OneSimulator/src/data/centers.txt
+#PointsOfInterest.poiFile2 = /home/samsung/Downloads/OneSimulator/src/data/camp.txt
+PointsOfInterest.pois = 1, 1.0
+
+#PointsOfInterest.poiFile3 = /home/samsung/Downloads/OneSimulator/src/data/WestPOIs.wkt
+#PointsOfInterest.poiFile4 = /home/samsung/Downloads/OneSimulator/src/data/shops.wkt
+
+# World's size for Movement Models without implicit size (width, height; meters)
+MovementModel.worldSize = 4500, 4000
+
+# seed for movement models' pseudo random number generator (default = 0)
+MovementModel.rngSeed = 80791
+
+#RegularRouteMovement
+RegularRouteMovement.noOfRoutes = 5
+RegularRouteMovement.gridOffset = 1000, 1000
+RegularRouteMovement.gridScaleX = 200
+RegularRouteMovement.gridScaleY = 100
+
+RegularRouteMovement.route0 = (3-5 3), (5 3-3), (5-7 3), (7 3-0), (7-3 0), (3 0-3)
+RegularRouteMovement.route1 = (3 5-3), (3-0 3), (0 3-7), (0-3 7), (3 7-5), (3-3 5)
+RegularRouteMovement.route2 = (3-5 7), (5 7-7), (5-7 7), (7 7-9), (7-3 9), (3 9-7)
+RegularRouteMovement.route3 = (7 5-3), (7-9 3), (9 3-7), (9-7 7), (7 7-5), (7-7 5)
+RegularRouteMovement.route4 = (3-7 3), (7 3-7), (7-3 7), (3 7-3)
+
+## Reports - all report names have to be valid report classes
+
+# how many reports to load
+Report.nrofReports = 1
+# length of the warm up period (simulated seconds)
+Report.warmup = 0
+# default directory of reports (can be overridden per Report with output setting)
+Report.reportDir = reports/ReportForNode275/80791_5/
+# Report classes to load
+#Report.report1 = MessageStatsReport
+#Report.report2 = ContactsPerHourReport
+#Report.report3 = ConnectivityONEReport
+Report.report1 = SuccsessOfAvailibility
+SuccsessOfAvailibility.router = AvavibilityRouter
+## Optimization settings -- these affect the speed of the simulation
+## see World class for details.
+Optimization.cellSizeMult = 5
+Optimization.randomizeUpdateOrder = true
+
+## GUI settings
+
+# GUI underlay image settings
+GUI.UnderlayImage.fileName = /home/samsung/Downloads/OneSimulator/src/data/helsinki_underlay.png
+# Image offset in pixels (x, y)
+GUI.UnderlayImage.offset = 64, 20
+# Scaling factor for the image
+GUI.UnderlayImage.scale = 4.75
+# Image rotation (radians)
+GUI.UnderlayImage.rotate = -0.015
+
+# how many events to show in the log panel (default = 30)
+GUI.EventLogPanel.nrofEvents = 100
+# Regular Expression log filter (see Pattern-class from the Java API for RE-matching details)
+#GUI.EventLogPanel.REfilter = .*p[1-9]<->p[1-9]$

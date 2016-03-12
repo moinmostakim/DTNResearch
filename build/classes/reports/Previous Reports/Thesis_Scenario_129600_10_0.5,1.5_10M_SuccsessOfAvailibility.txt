@@ -1,0 +1,13 @@
+Host 	 Total Query 	 Success
+mv5 	 2 	 1
+st20 	 4 	 2
+mv9 	 1 	 1
+mv10 	 0 	 0
+mv7 	 2 	 2
+mv1 	 1 	 1
+mv8 	 1 	 1
+mv6 	 3 	 1
+mv2 	 2 	 2
+mv3 	 2 	 2
+mv4 	 0 	 0
+11 	 18 	 13

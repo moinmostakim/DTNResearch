@@ -1,0 +1,86 @@
+#
+# Default settings for the simulation
+#
+
+## Scenario settings
+Scenario.name = Test-15-nodes
+Scenario.simulateConnections = true
+Scenario.updateInterval = .8
+# 43200s == 12h
+Scenario.endTime = 5000
+Scenario.nrofHostGroups = 1
+
+# "Bluetooth" interface for all nodes
+btInterface.type = SimpleBroadcastInterface
+# Transmit speed of 2 Mbps = 250kBps
+btInterface.transmitSpeed = 250k
+btInterface.transmitRange = 10  
+
+# Common settings for all groups
+Group.movementModel = RandomWaypoint
+Group.router = EpidemicRouter
+Group.bufferSize = 15M
+# All nodes have the bluetooth interface
+Group.nrofInterfaces = 1
+Group.interface1 = btInterface
+# Walking speeds
+Group.speed = 0.5, 1.5
+# Message TTL of 300 minutes (5 hours)
+Group.msgTtl = 300
+Group.nrofHosts = 15
+Group.groupID = n
+
+## Movement model settings
+# seed for movement models' pseudo random number generator (default = 0)
+MovementModel.rngSeed = 1
+# World's size for Movement Models without implicit size (width, height; meters)
+MovementModel.worldSize = 450, 340
+# How long time to move hosts in the world before real simulation
+ 
+
+## Message creation parameters
+# How many event generators
+Events.nrof = 1
+# Class of the first event generator
+Events1.class = MessageEventGenerator
+# (following settings are specific for the MessageEventGenerator class)
+# Creation interval in seconds (one new message every 25 to 35 seconds)
+Events1.interval = 25,35
+# Message sizes (500kB - 1MB)
+Events1.size = 500k,1M
+# range of message source/destination addresses
+Events1.hosts = 0,4
+# Message ID prefix
+Events1.prefix = M
+
+
+## Reports - all report names have to be valid report classes
+# how many reports to load
+Report.nrofReports = 2
+Report.reportDir = reports/Test-5-nodes
+# Report classes to load
+Report.report1 = MessageStatsReport
+Report.report2 = AdjacencyGraphvizReport
+
+
+## Optimization settings -- these affect the speed of the simulation
+## see World class for details.
+Optimization.cellSizeMult = 5
+Optimization.randomizeUpdateOrder = true
+
+## GUI settings
+
+# GUI underlay image settings
+GUI.UnderlayImage.fileName = data/helsinki_underlay.png
+# Image offset in pixels (x, y)
+GUI.UnderlayImage.offset = 64, 20
+# Scaling factor for the image
+GUI.UnderlayImage.scale = 4.75
+# Image rotation (radians)
+GUI.UnderlayImage.rotate = -0.015
+
+# how many events to show in the log panel (default = 30)
+GUI.EventLogPanel.nrofEvents = 100
+# Regular Expression log filter (see Pattern-class from the Java API for RE-matching details)
+#GUI.EventLogPanel.REfilter = .*p[1-9]<->p[1-9]$
+       

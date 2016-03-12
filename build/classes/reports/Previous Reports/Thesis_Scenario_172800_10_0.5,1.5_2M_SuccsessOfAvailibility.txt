@@ -1,0 +1,13 @@
+Host 	 Total Query 	 Success
+mv9 	 1 	 1
+mv3 	 2 	 2
+mv4 	 0 	 0
+mv2 	 2 	 2
+mv10 	 0 	 0
+mv6 	 3 	 2
+mv5 	 2 	 2
+mv8 	 1 	 1
+mv7 	 2 	 2
+st20 	 4 	 3
+mv1 	 1 	 1
+11 	 18 	 16 	 172800.0000055704 	 2000000 	 4
