@@ -74,9 +74,8 @@ public class AvailibilityRouter extends ActiveRouter {
     int totalOcuurance = 0;
 
     String LogFileName;
-    
-    static
-    {
+
+    static {
         DTNSim.registerForReset(AvailibilityRouter.class.getCanonicalName());
         reset();
     }
@@ -111,45 +110,42 @@ public class AvailibilityRouter extends ActiveRouter {
         this.freeSize = r.freeSize;
         init();
     }
-    
-    public void init()
-    {
-    lastSeen = new HashMap<>();
-    connectedTimesPerOccurance = new HashMap<>();
-     seenofNode = new HashMap<>();
-    lastDown = 0.0;
-    disconnectedTime = new HashMap<>();
-    stateProbability = new HashMap<>();
-    contentAvailable = new HashMap<>();
-    mappedMessages = new HashMap<>();
-    createByOwn = new ArrayList<>();
-    replicationFromOthers = new ArrayList<>();
-    stateTableOfObjects = new ArrayList<>();
-    neighbourDetailList = new ArrayList<>();
-    retrivalTimeOfQuery = new HashMap<>();
-    logger = new Logger();
-    succesfullyRetrived = 0;
-    unsuccessful = 0;
-    totalQueryObject = 0;
-    freeSize = 0;
-    removeQueires = new ArrayList<>();
-    listOfObjects = new HashMap<>();
-    mappedReplicas = new HashMap<>();
-    queryObject = new HashMap<>();
-    countMsgs = new HashMap<>();
-    listofDTNHostForLambdaSort = new HashMap<>();
-    t_obserb = 20000;
-    totalOcuurance = 0;
-    //LogFileName="";
-    neighbourDetailList= new ArrayList<>();
+
+    public void init() {
+        lastSeen = new HashMap<>();
+        connectedTimesPerOccurance = new HashMap<>();
+        seenofNode = new HashMap<>();
+        lastDown = 0.0;
+        disconnectedTime = new HashMap<>();
+        stateProbability = new HashMap<>();
+        contentAvailable = new HashMap<>();
+        mappedMessages = new HashMap<>();
+        createByOwn = new ArrayList<>();
+        replicationFromOthers = new ArrayList<>();
+        stateTableOfObjects = new ArrayList<>();
+        neighbourDetailList = new ArrayList<>();
+        retrivalTimeOfQuery = new HashMap<>();
+        logger = new Logger();
+        succesfullyRetrived = 0;
+        unsuccessful = 0;
+        totalQueryObject = 0;
+        freeSize = 0;
+        removeQueires = new ArrayList<>();
+        listOfObjects = new HashMap<>();
+        mappedReplicas = new HashMap<>();
+        queryObject = new HashMap<>();
+        countMsgs = new HashMap<>();
+        listofDTNHostForLambdaSort = new HashMap<>();
+        t_obserb = 20000;
+        totalOcuurance = 0;
+        //LogFileName="";
+        neighbourDetailList = new ArrayList<>();
     }
-    
-    public static void reset()
-    {
-    
+
+    public static void reset() {
+
     //public Logger logger = Logger.getLogger("AvailablityLog");
-    //public FileHandler fh;
-       
+        //public FileHandler fh;
     }
 
     @Override
@@ -165,18 +161,24 @@ public class AvailibilityRouter extends ActiveRouter {
         DTNHost connectedNode = con.getOtherNode(host);
 
         if (con.isUp()) {
-             int neighbourIndex = findNeighbourFromList(connectedNode);
-             if (neighbourIndex == -1) {
+            int neighbourIndex = findNeighbourFromList(connectedNode);
+            if (neighbourIndex == -1) {
                 NeighbourDetails neighbourDetails = new NeighbourDetails();
                 neighbourDetails.neighbour = connectedNode;
                 neighbourDetails.meetingTime.add(SimClock.getTime());
                 neighbourDetails.meetOccurance = 1;
+                neighbourDetails.lastdisconnectTimeWithNeighbour = 0.0;
+                neighbourDetails.getDisconnectingTimeList().add(neighbourDetails.lastdisconnectTimeWithNeighbour);
+                neighbourDetails.getPerDisconnectionDuration().put(neighbourDetails.meetOccurance, neighbourDetails.meetingTime.get(0) - neighbourDetails.lastdisconnectTimeWithNeighbour);
                 neighbourDetailList.add(neighbourDetails);
-            } else {              
-                
-                    NeighbourDetails details = neighbourDetailList.get(neighbourIndex);
-                    details.meetingTime.add(SimClock.getTime());
-                    details.meetOccurance = details.meetOccurance + 1;            
+            } else {
+
+                NeighbourDetails details = neighbourDetailList.get(neighbourIndex);
+                details.meetingTime.add(SimClock.getTime());
+                details.meetOccurance = details.meetOccurance + 1;
+                details.getPerDisconnectionDuration().put(details.meetOccurance,
+                        details.meetingTime.get(details.meetOccurance - 1) - details.lastdisconnectTimeWithNeighbour);
+                        
             }
             connectionRemained(connectedNode);
             if (SimClock.getTime() > t_obserb) {
@@ -190,24 +192,24 @@ public class AvailibilityRouter extends ActiveRouter {
                 if (neighbourIndex != -1) {
                     NeighbourDetails details = neighbourDetailList.get(neighbourIndex);
                     details.perMeetingDuration.put(details.meetOccurance, disconnectedtime - details.meetingTime.get(details.meetOccurance - 1));
+                    details.lastdisconnectTimeWithNeighbour = disconnectedtime;
+                   details.getDisconnectingTimeList().add(details.lastdisconnectTimeWithNeighbour);
                     
                 }
             }
             connectionLost(connectedNode);
         }
-        Collections.sort(neighbourDetailList,new Comparator<NeighbourDetails>() {
+        Collections.sort(neighbourDetailList, new Comparator<NeighbourDetails>() {
 
             @Override
             public int compare(NeighbourDetails o1, NeighbourDetails o2) {
-           
-                return o2.meetOccurance - o1.meetOccurance; 
+
+                return o2.meetOccurance - o1.meetOccurance;
             }
 
-          
         });
 
         //System.out.println("time: " + SimClock.getTime() + " : " + getHost() + "-> NeighbourInfoList " + neighbourDetailList);
-
     }
 
     public int findNeighbourFromList(DTNHost neighbourToSearch) {
@@ -1112,7 +1114,12 @@ public class AvailibilityRouter extends ActiveRouter {
         private List<Double> meetingTime = new ArrayList<>();
         private Map<Integer, Double> perMeetingDuration = new HashMap<>();
         private int meetOccurance;
-
+        private double lastdisconnectTimeWithNeighbour;
+        private Map<Integer, Double> perDisconnectionDuration = new HashMap<>();
+        private List<Double> disconnectingTimeList = new ArrayList<>();
+        
+        
+        
         /**
          * @return the neighbour
          */
@@ -1171,7 +1178,53 @@ public class AvailibilityRouter extends ActiveRouter {
 
         @Override
         public String toString() {
-            return "NeighbourDetails{" + "neighbour=" + neighbour + ", meetingTime=" + meetingTime + ", perMeetingDuration=" + perMeetingDuration + ", meetOccurance=" + meetOccurance + '}'+"\n";
+            return "NeighbourDetails{" + "neighbour=" + neighbour + ", meetingTime=" + meetingTime + ", perMeetingDuration=" + perMeetingDuration + ", meetOccurance=" + meetOccurance + ", lastdisconnectTimeWithNeighbour=" + lastdisconnectTimeWithNeighbour + ", perDisconnectionDuration=" + perDisconnectionDuration + ", disconnectingTimeList=" + disconnectingTimeList + '}' + "\n";
+        }
+
+        
+        
+      
+        /**
+         * @return the lastdisconnectTimeWithNeighbour
+         */
+        public double getLastdisconnectTimeWithNeighbour() {
+            return lastdisconnectTimeWithNeighbour;
+        }
+
+        /**
+         * @param lastdisconnectTimeWithNeighbour the
+         * lastdisconnectTimeWithNeighbour to set
+         */
+        public void setLastdisconnectTimeWithNeighbour(double lastdisconnectTimeWithNeighbour) {
+            this.lastdisconnectTimeWithNeighbour = lastdisconnectTimeWithNeighbour;
+        }
+
+        /**
+         * @return the perDisconnectionDuration
+         */
+        public Map<Integer, Double> getPerDisconnectionDuration() {
+            return perDisconnectionDuration;
+        }
+
+        /**
+         * @param perDisconnectionDuration the perDisconnectionDuration to set
+         */
+        public void setPerDisconnectionDuration(Map<Integer, Double> perDisconnectionDuration) {
+            this.perDisconnectionDuration = perDisconnectionDuration;
+        }
+
+        /**
+         * @return the disconnectingTimeList
+         */
+        public List<Double> getDisconnectingTimeList() {
+            return disconnectingTimeList;
+        }
+
+        /**
+         * @param disconnectingTimeList the disconnectingTimeList to set
+         */
+        public void setDisconnectingTimeList(List<Double> disconnectingTimeList) {
+            this.disconnectingTimeList = disconnectingTimeList;
         }
 
     }
