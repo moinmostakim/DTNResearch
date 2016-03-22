@@ -5,6 +5,7 @@
 package movement;
 
 import core.Coord;
+import core.DTNSim;
 import java.util.List;
 
 import core.Settings;
@@ -27,6 +28,16 @@ public class DirectCenterToSupplyMovement extends MapBasedMovement{
     private boolean isReturn;
     
     private static int nextTarget = 0;
+    
+    static
+    {
+        DTNSim.registerForReset(DirectCenterToSupplyMovement.class.getCanonicalName());
+        reset();
+    }
+    public static void reset()
+    {
+        nextTarget = 0;
+    }
     
     private MapNode targetCenter;
 	/**

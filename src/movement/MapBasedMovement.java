@@ -20,6 +20,7 @@ import java.util.Vector;
 import movement.map.MapNode;
 import movement.map.SimMap;
 import core.Coord;
+import core.DTNSim;
 import core.Settings;
 import core.SettingsError;
 import core.SimError;
@@ -69,7 +70,20 @@ public class MapBasedMovement extends MovementModel implements SwitchableMovemen
 	 * Creates a new MapBasedMovement based on a Settings object's settings.
 	 * @param settings The Settings object where the settings are read from
 	 */
-	public MapBasedMovement(Settings settings) {
+	
+        static
+        {
+            DTNSim.registerForReset(MapBasedMovement.class.getCanonicalName());
+            reset();
+        }
+        
+        public static void reset()
+        {
+            cachedMap = null;
+            cachedMapFiles = null;
+        }
+        
+        public MapBasedMovement(Settings settings) {
 		super(settings);
 		map = readMap();
 		readOkMapNodeTypes(settings);

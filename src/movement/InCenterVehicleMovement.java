@@ -5,6 +5,7 @@
 package movement;
 
 import core.Coord;
+import core.DTNSim;
 import java.util.List;
 
 import core.Settings;
@@ -33,6 +34,17 @@ public class InCenterVehicleMovement extends MapBasedMovement{
 	 * Creates a new movement model based on a Settings object's settings.
 	 * @param settings The Settings object where the settings are read from
 	 */
+    
+    static
+    {
+        DTNSim.registerForReset(InCenterVehicleMovement.class.getCanonicalName());
+        reset();
+    }
+    
+    public static void reset()
+    {
+        nextTarget = 0;
+    }
 	public InCenterVehicleMovement(Settings settings) {
             super(settings);
             
@@ -41,7 +53,8 @@ public class InCenterVehicleMovement extends MapBasedMovement{
             
             this.map = getMap();
             this.pathFinder = new DijkstraPathFinder(getOkMapNodeTypes());
-            this.isReturn = false;     
+            this.isReturn = false;
+            
 	}
 	
 	/**

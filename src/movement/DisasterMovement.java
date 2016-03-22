@@ -6,6 +6,7 @@
 package movement;
 
 import core.Coord;
+import core.DTNSim;
 import core.Settings;
 import java.util.HashMap;
 import java.util.List;
@@ -25,6 +26,13 @@ public class DisasterMovement extends MovementModel{
     public static double startTime;
     public static double intensity;
     public static double constant;
+    
+    
+    static
+    {
+        DTNSim.registerForReset(DisasterMovement.class.getCanonicalName());
+        reset();
+    }
     
     public DisasterMovement(Settings settings)
     {        

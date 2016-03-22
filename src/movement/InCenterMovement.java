@@ -6,6 +6,7 @@ package movement;
 
 import core.Coord;
 import core.DTNHost;
+import core.DTNSim;
 import java.util.List;
 
 import core.Settings;
@@ -19,6 +20,7 @@ import movement.map.SimMap;
  * Map based movement model that uses Dijkstra's algorithm to find shortest
  * paths between two random map nodes and Points Of Interest
  */
+
 public class InCenterMovement extends MapBasedMovement {
     
     public static final String POI_NS = "PointsOfInterest";
@@ -83,6 +85,16 @@ public class InCenterMovement extends MapBasedMovement {
             this.scaleX = rem.scaleX;
             this.scaleY = rem.scaleY;
 	}
+        
+        static
+        {
+            DTNSim.registerForReset(InCenterMovement.class.getCanonicalName());
+            reset();
+        }
+        public static void reset()
+        {
+            noOfCenters = 0;
+        } 
 	
         /*
     private  void getCenters()

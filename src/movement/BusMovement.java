@@ -9,6 +9,7 @@ import java.util.List;
 
 import movement.map.MapNode;
 import core.Coord;
+import core.DTNSim;
 import core.Settings;
 
 /**
@@ -29,6 +30,14 @@ public class BusMovement extends MapRouteMovement {
 	 * Creates a new instance of BusMovement
 	 * @param settings
 	 */
+        static {
+            DTNSim.registerForReset(BusMovement.class.getCanonicalName());
+            reset();
+        }
+        public static void reset()
+        {
+            nextID = 0 ;
+        }
 	public BusMovement(Settings settings) {
 		super(settings);
 		int bcs = settings.getInt(BusControlSystem.BUS_CONTROL_SYSTEM_NR);

@@ -11,6 +11,7 @@ import movement.map.DijkstraPathFinder;
 import movement.map.MapNode;
 import movement.map.SimMap;
 import core.Coord;
+import core.DTNSim;
 import core.Settings;
 
 /**
@@ -58,6 +59,13 @@ public class BusTravellerMovement extends MapBasedMovement implements
 	 * Creates a BusTravellerModel 
 	 * @param settings
 	 */
+        
+        static
+        {
+            DTNSim.registerForReset(BusTravellerMovement.class.getCanonicalName());
+            reset();
+        }
+                
 	public BusTravellerMovement(Settings settings) {
 		super(settings);
 		int bcs = settings.getInt(BusControlSystem.BUS_CONTROL_SYSTEM_NR);

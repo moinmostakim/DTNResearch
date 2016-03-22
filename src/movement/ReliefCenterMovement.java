@@ -6,6 +6,7 @@
 package movement;
 
 import core.Coord;
+import core.DTNSim;
 import core.Settings;
 import java.util.ArrayList;
 import java.util.List;
@@ -23,6 +24,16 @@ public class ReliefCenterMovement extends MapBasedMovement{
     private MapNode center;
     private String centerType;
     private static int neighborhoodIndex = 0;
+    
+    static
+    {
+        DTNSim.registerForReset(ReliefCenterMovement.class.getCanonicalName());
+        reset();
+    }
+    public static void reset()
+    {
+        neighborhoodIndex= 0;
+    }
             
     public ReliefCenterMovement(ReliefCenterMovement rep)
     {
