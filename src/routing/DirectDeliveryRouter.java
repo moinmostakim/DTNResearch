@@ -5,17 +5,52 @@
 package routing;
 
 import core.*;
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.PrintStream;
 import java.util.*;
+import java.util.logging.FileHandler;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+import java.util.logging.SimpleFormatter;
 import routing.*;
+
 /**
  * Router that will deliver messages only to the final recipient.
  */
 public class DirectDeliveryRouter extends ActiveRouter {
 
+    public ArrayList<ContentObject> createByOwn = new ArrayList<>();
+    public ArrayList<ContentObject> replicationFromOthers = new ArrayList<>();
+    //Logger logger = Logger.getLogger("AvailablityLog");
+    FileHandler fh;
+    String LogFileName;
+    int freeSize = 0;
+    Logger logger = new Logger();
+    public static final String maxFreeSize = "maxFreeSize";
+
     public DirectDeliveryRouter(Settings s) {
         super(s);
         Settings prophetSettings = new Settings(AVAVIBILITY_NS);
         noOfReplicas = prophetSettings.getInt(REPLICAS);
+        freeSize = prophetSettings.getInt(maxFreeSize);
+        LogFileName = prophetSettings.getSetting("LogFile");
+
+        try {
+                   File g = new File("/home/moin/MyLogs/DirectDeliveryRouter/" + LogFileName);
+            g.mkdirs();
+            File f = new File(g.getAbsolutePath() + "/" + LogFileName + "replica" + noOfReplicas + ".log");
+            FileOutputStream fos = new FileOutputStream(f);
+            PrintStream ps = new PrintStream(fos);
+            System.setOut(ps);
+         } catch (IOException ex) {
+         }
+//        logger.addHandler(fh);
+//        SimpleFormatter formatter = new SimpleFormatter();
+//        fh.setFormatter(formatter);
+//        logger.setUseParentHandlers(false);
+//        
 
     }
 
@@ -23,6 +58,7 @@ public class DirectDeliveryRouter extends ActiveRouter {
 
         super(r);
         this.noOfReplicas = r.noOfReplicas;
+        this.freeSize = r.freeSize;
     }
 
     @Override
@@ -49,113 +85,121 @@ public class DirectDeliveryRouter extends ActiveRouter {
         super.transferDone(con);
         Message message = con.getMessage();
     }
+    
+      public boolean canTakeObject(ContentObject co) {
+        int totalObjectSizeInListOfObjects = totalObjectSizeInListOfObjects();
+        if (co.size + totalObjectSizeInListOfObjects < freeSize) {
+            return true;
+        } else {
+            return false;
+        }
+    }
 
+    public int totalObjectSizeInListOfObjects() {
+        int size = 0;
+        Iterator<Map.Entry<String, ContentObject>> iteratorOfList = listOfObjects.entrySet().iterator();
+        while (iteratorOfList.hasNext()) {
+            Map.Entry<String, ContentObject> iteratorObject = iteratorOfList.next();
+            ContentObject iteratedContentObject = iteratorObject.getValue();
+            size += iteratedContentObject.size;
+        }
+        return size;
+    }
+    
+     
     @Override
     public int receiveMessage(Message m, DTNHost from) {
-        int ret_val = super.receiveMessage(m, from); //To change body of generated methods, choose Tools | Templates.
-
-        if (ret_val == MessageRouter.RCV_OK) {
+        int ret_val = super.receiveMessage(m, from);
+        if (ret_val == MessageRouter.RCV_OK && m.getTo().getAddress() == getHost().getAddress()) {
             String type = (String) m.getProperty("msgType");
             if (type != null && !type.isEmpty()) {
-                if (type.equalsIgnoreCase("Request")) {
-                    Message request = (Message) m.getProperty("innermessage");
-                    if (request != null) {
-                        if (request.getId().contains("R_O_")) {
-                            super.createNewMessage(request);
-                        }
-                    }
-                } else if (type.equalsIgnoreCase("Reply")) {
-                    String object = (String) m.getProperty("Object");
-                    String query = (String) m.getProperty("query");
-                    String creationTime = (String) m.getProperty("creationTime");
-                    boolean containsObj = this.getListOfObjects().containsKey(object);
-                    if (containsObj) {
-                        double receiveTimeofObject = SimClock.getTime();
-                        double queryTime = Double.parseDouble(creationTime);
-                        double difference = receiveTimeofObject - queryTime;
-                        retrivalTimeOfQuery.put(query, difference);
-                        this.succesfullyRetrived++;
-                        System.out.println("Request received in "
-                                + SimClock.getTime() + " of " + object
-                                + " requested at " + creationTime + " to "
-                                + m.getTo() + " from node "
-                                + m.getFrom() + " "
-                                + containsObj);
+                if (type.equalsIgnoreCase("replica")) {
+                    String objectId = (String) m.getProperty("Object");
+                    ContentObject contentObject
+                            = new ContentObject(objectId, m.getSize(), m.getFrom(), m.getCreationTime(),
+                                    SimClock.getTime());
 
-                        removeQueires.add(query);
+                    if (canTakeObject(contentObject)) {
+                        logger.info(SimClock.getTime() + " "
+                                + getHost() + " received replica for "
+                                + objectId + " from "
+                                + m.getFrom());
+                        
+                        listOfObjects.put(objectId, contentObject);
+                        replicationFromOthers.add(contentObject);
+                    }
+
+                }
+                if (type.equalsIgnoreCase("reply")) {
+                    double queryTime = m.getCreationTime();
+                    String objectId = (String) m.getProperty("objectId");
+                    if (queryObject.containsKey(m.getId())) {
+                        succesfullyRetrived++;
+                        double receivetime = SimClock.getTime();
+                        double creationTimeDouble = (double) m.getProperty("objectqueryTime");
+                        //= Double.parseDouble(creationTime);
+                        double difference = receivetime - creationTimeDouble;
+                        logger.info(SimClock.getTime() + " "
+                                + getHost() + " retrived object "
+                                + objectId
+                                + " for query "
+                                + m.getId() + "from " + m.getFrom() + " querying time "
+                                + creationTimeDouble + " retrieved time "
+                                + receivetime + " difference " + difference);
+                        
+                        retrivalTimeOfQuery.put(m.getId(), difference);
+                        queryObject.remove(m.getId());
+                    } else {
+
                     }
                 }
             }
         }
 
         return ret_val;
+
     }
 
-    public void checkRequestResponse(DTNHost connectedNode, Map<String, String> queryObject) {
-
-        if (!removeQueires.isEmpty()) {
-            for (String query : removeQueires) {
-                queryObject.remove(query);
-
-                System.out.println("" + this.getHost() + " removed " + query);
-            }
-            removeQueires.clear();
-        }
+    public void checkRequestResponse(DTNHost connectedNode, Map<String, QueryContent> queryObject) {
+        
         if (!queryObject.isEmpty()) {
-            Set<Map.Entry<String, String>> entrySet = queryObject.entrySet();
-            Iterator<Map.Entry<String, String>> iterator = entrySet.iterator();
+            Set<Map.Entry<String, QueryContent>> entrySet = queryObject.entrySet();
+            Iterator<Map.Entry<String, QueryContent>> iterator = entrySet.iterator();
 
             while (iterator.hasNext()) {
-                Map.Entry<String, String> next = iterator.next();
+                Map.Entry<String, QueryContent> next = iterator.next();
                 String query = next.getKey();
-                String objectmaterialwithtime = next.getValue();
-                String[] split = objectmaterialwithtime.split("time:");
-                String objectmaterial = split[0];
-                String[] split1 = split[1].split("ttl:");
-                String creationTime = split1[0];
-                String[] split2 = split1[1].split("size:");
-                String ttlOfMessage = split2[0];
-                int msgSize = Integer.parseInt(split2[1]);
+                QueryContent queryObjectMaterial = next.getValue();
+                String objectmaterial = queryObjectMaterial.objectToQuery;//split[0];
+                double creationTime = queryObjectMaterial.queryCreationTime; //split1[0];
+                int msgSize = queryObjectMaterial.objectSize;
                 DirectDeliveryRouter otherRouter = (DirectDeliveryRouter) connectedNode.getRouter();
                 boolean containsObject = otherRouter.getListOfObjects().containsKey(objectmaterial);
                 if (containsObject) {
-                    double diffence = SimClock.getTime() - Double.parseDouble(creationTime);
-                    if (diffence <= Double.parseDouble(ttlOfMessage)) {
-                        //System.out.println("ttl: " + ttlOfMessage);
-                        Message m = new Message(connectedNode, this.getHost(), "R_O_" + objectmaterial, msgSize);
-                        m.addProperty("Object", objectmaterial);
-                        m.addProperty("Object_Size", msgSize);
-                        m.addProperty("query", query);
-                        m.addProperty("creationTime", creationTime);
-                        m.addProperty("msgType", "Reply");
-                        Message requestMessage = new Message(this.getHost(), connectedNode, "Request_From_" + m.getId(), msgSize);
-                        requestMessage.addProperty("innermessage", m);
-                        requestMessage.addProperty("msgType", "Request");
-                        super.createNewMessage(requestMessage);
-                    } else {
-                        System.out.println("Request not received in correct time. Time to receive at "
-                                + SimClock.getTime() + " of " + objectmaterial
-                                + " requested at " + creationTime + " to "
-                                + this.getHost() + " from node "
-                                + otherRouter.getHost() + " "
-                                + containsObject);
-                        removeQueires.add(query);
-
-                    }
-
+                    otherRouter.initiateObjectTransfer(query, objectmaterial, getHost(), creationTime);
                 }
-
-                //System.out.println("Request "+objectmaterial +" to "+this.getHost() +" form node " + otherRouter.getHost() + " " + containsObject);
-            }
-            if (!removeQueires.isEmpty()) {
-                for (String query : removeQueires) {
-                    queryObject.remove(query);
-                    System.out.println("" + this.getHost() + " removed " + query);
-                }
-                removeQueires.clear();
             }
 
         }
+
+    }
+    
+    protected boolean initiateObjectTransfer(String queryId, String objectId, DTNHost to, double queryCreationTime) {
+
+        if (!listOfObjects.containsKey(objectId)) {
+            return false;
+        }
+        //System.out.println(SimClock.getTime() + " " + getHost() + " responding query " + queryId + " for " + objectId);
+        ContentObject contentObject = listOfObjects.get(objectId);
+        if (contentObject != null) {
+            Message m = new Message(getHost(), to, queryId, contentObject.size);
+            m.addProperty("msgType", "reply");
+            m.addProperty("objectId", contentObject.objectId);
+            m.addProperty("objectqueryTime", queryCreationTime);
+            return super.createNewMessage(m);
+            //return true;
+        }
+        return false;
 
     }
 
@@ -226,14 +270,18 @@ public class DirectDeliveryRouter extends ActiveRouter {
                         mappedReplicas1.put(i, dtnArrayList.get(i));
                     }
                 }
-                spreadMessageToAvailableNodesBasedOnSort(mappedReplicas1, m);
+                
+                ContentObject contentObject = new ContentObject(m.getId(), m.getSize(), getHost(), m.getCreationTime(), 0);
+                createByOwn.add(contentObject);
+                logger.info(SimClock.getTime() +" "+getHost() + " No of Replicas " + this.getNoOfReplicas()
+                        + " replicacandidate " + mappedReplicas1.values());
+                spreadMessageToAvailableNodesBasedOnShuffle(mappedReplicas1, m);
             } else {
 
-                String query = m.getId();
-                String object = "O" + query.substring(1) + "time:" + m.getCreationTime() + "ttl:" + 300000.0 + "size:" + m.getSize();
-                getQueryObject().put(query, object);
+                QueryContent queryObject = new QueryContent(m);                
+                getQueryObject().put(queryObject.queryID, queryObject);
                 setTotalQueryObject(getTotalQueryObject() + 1);
-                //super.createNewMessage(m);
+
 
             }
             return true;
@@ -242,6 +290,60 @@ public class DirectDeliveryRouter extends ActiveRouter {
         }
 
         //To change body of generated methods, choose Tools | Templates.
+    }
+
+    public class ContentObject {
+
+        String objectId;
+        int size;
+        DTNHost from;
+        double creationTime, replicationTime;
+
+        public ContentObject(String objectId, int size, DTNHost from, double creationTime, double replicationTime) {
+            this.objectId = objectId;
+            this.size = size;
+            this.from = from;
+            this.creationTime = creationTime;
+            this.replicationTime = replicationTime;
+        }
+
+        public String toString() {
+            return this.objectId + " rep " + this.replicationTime + " cre " + this.creationTime + " from " + this.from.toString();
+        }
+
+    }
+
+    public class QueryContent {
+
+        String queryID;
+        String objectToQuery;
+        int objectSize;
+        DTNHost queryFrom;
+        double queryCreationTime;
+
+        public QueryContent(String queryID, String objectToQuery, DTNHost queryFrom, double queryCreationTime, int objectSize) {
+            this.queryID = queryID;
+            this.objectToQuery = objectToQuery;
+            this.queryFrom = queryFrom;
+            this.queryCreationTime = queryCreationTime;
+            this.objectSize = objectSize;
+        }
+
+        public QueryContent(Message m) {
+            String query = m.getId();
+            String[] split = query.split("-");
+            String queryN0 = split[0];
+            String objectID = split[1];
+//                String object = "O" + objectID + "time:" + m.getCreationTime() + "ttl:" + 4320.0 + "size:" + m.getSize();
+
+            this.queryID = m.getId();
+            this.objectToQuery = "O" + objectID;
+            queryCreationTime = m.getCreationTime();
+            queryFrom = m.getFrom();
+            this.objectSize = m.getSize();
+
+        }
+
     }
 
     public int getSuccesfullyRetrived() {
@@ -272,28 +374,28 @@ public class DirectDeliveryRouter extends ActiveRouter {
     /**
      * @return the listOfObjects
      */
-    public Map<String, DTNHost> getListOfObjects() {
+    public Map<String, ContentObject> getListOfObjects() {
         return listOfObjects;
     }
 
     /**
      * @param listOfObjects the listOfObjects to set
      */
-    public void setListOfObjects(Map<String, DTNHost> listOfObjects) {
+    public void setListOfObjects(Map<String, ContentObject> listOfObjects) {
         this.listOfObjects = listOfObjects;
     }
 
     /**
      * @return the queryObject
      */
-    public Map<String, String> getQueryObject() {
+    public Map<String, QueryContent> getQueryObject() {
         return queryObject;
     }
 
     /**
      * @param queryObject the queryObject to set
      */
-    public void setQueryObject(Map<String, String> queryObject) {
+    public void setQueryObject(Map<String, QueryContent> queryObject) {
         this.queryObject = queryObject;
     }
 
@@ -311,7 +413,7 @@ public class DirectDeliveryRouter extends ActiveRouter {
         this.noOfReplicas = noOfReplicas;
     }
 
-    public void spreadMessageToAvailableNodesBasedOnSort(Map<Integer, DTNHost> mappedReplicas1, Message nextEvent) {
+    public void spreadMessageToAvailableNodesBasedOnShuffle(Map<Integer, DTNHost> mappedReplicas1, Message objectToSend) {
         //this.getHost().getRouter().deleteMessage(nextEvent.getId(), true);
         ArrayList<DTNHost> availableNodes = new ArrayList<>();
         for (int i = 0; i < mappedReplicas1.size(); i++) {
@@ -321,9 +423,10 @@ public class DirectDeliveryRouter extends ActiveRouter {
                 continue;
             } else {
                 DTNHost peer = mappedReplicas1.get(i);
-                Message m = new Message(this.getHost(), peer, "M_" + i + nextEvent.getId(), nextEvent.getSize());
-                //System.out.println("m: " + peer + " i" + i);
-                m.addProperty("Object", nextEvent.getId());
+                Message m = new Message(this.getHost(), peer, "M_" + i + objectToSend.getId(), objectToSend.getSize());
+                m.addProperty("msgType", "replica");
+                m.addProperty("Object", objectToSend.getId());
+                m.addProperty("Replica", m);
                 super.createNewMessage(m);
                 mappedMessages.put(m.getId(), m);
                 availableNodes.add(peer);
@@ -337,8 +440,10 @@ public class DirectDeliveryRouter extends ActiveRouter {
 
             }
         }
-        contentAvailable.put(nextEvent.getId(), availableNodes);
-        //System.out.println(nextEvent.getId() + " " + contentAvailable.get(nextEvent.getId()));
+        contentAvailable.put(objectToSend.getId(), availableNodes);
+       logger.info(SimClock.getTime()+" "+getHost() + " ObjectToSend " + objectToSend.getId()
+                + " " + contentAvailable.get(objectToSend.getId()));
+       //System.out.println(nextEvent.getId() + " " + contentAvailable.get(nextEvent.getId()));
     }
 
     public void printContentAvailable() {
@@ -353,26 +458,7 @@ public class DirectDeliveryRouter extends ActiveRouter {
     public void update() {
         super.update();
 
-        double time = SimClock.getTime();
-        if (time > t_obserb) {
-
-            HashMap<String, Message> deliveredMessages = this.getHost().getRouter().getDeliveredMessages();
-            if (!deliveredMessages.isEmpty()) {
-                Set<Map.Entry<String, Message>> entrySet = deliveredMessages.entrySet();
-                Iterator<Map.Entry<String, Message>> iterator = entrySet.iterator();
-                while (iterator.hasNext()) {
-                    Message get = iterator.next().getValue();
-                    String property = (String) get.getProperty("Object");
-                    getListOfObjects().put(property, getHost());
-                    getHost().getRouter().addToMessages(get, false);
-
-                }
-                deliveredMessages.clear();
-
-            }
-
-        }
-
+        
         if (isTransferring() || !canStartTransfer()) {
             return; // can't start a new transfer
         }
@@ -387,8 +473,16 @@ public class DirectDeliveryRouter extends ActiveRouter {
     public DirectDeliveryRouter replicate() {
         return new DirectDeliveryRouter(this);
     }
+    
+    class Logger
+    {
+        public void info(String x )
+        {
+            System.out.println(x);
+        }
+    }
 
-    public static final String AVAVIBILITY_NS = "AvavibilityRouter";
+    public static final String AVAVIBILITY_NS = "DirectDeliveryRouter";
     public static final String REPLICAS = "replicaNo";
 
     private int noOfReplicas;
@@ -407,15 +501,15 @@ public class DirectDeliveryRouter extends ActiveRouter {
 
     ArrayList<String> removeQueires = new ArrayList<>();
 
-    private Map<String, DTNHost> listOfObjects = new HashMap<>();
+    private Map<String, ContentObject> listOfObjects = new HashMap<>();
 
     Map<DTNHost, Map<Integer, DTNHost>> mappedReplicas = new HashMap<>();
 
-    private Map<String, String> queryObject = new HashMap<>();
+    private Map<String, QueryContent> queryObject = new HashMap<>();
 
     Map<DTNHost, Integer> countMsgs = new HashMap<>();
 
-    double t_obserb = 30000;
+    double t_obserb = 20000;
 
     int totalOcuurance = 0;
     public Map<String, Double> retrivalTimeOfQuery = new HashMap<>();
